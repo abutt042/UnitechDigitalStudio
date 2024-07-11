@@ -9,21 +9,6 @@ function Navbar() {
           <Link className="logo icon-img-100" to="/">
             <img src="/light/assets/imgs/logo.png" alt="logo" />
           </Link>
-
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="icon-bar">
-              <i className="fas fa-bars"></i>
-            </span>
-          </button>
-
           <div
             className="collapse navbar-collapse justify-content-center"
             id="navbarSupportedContent"

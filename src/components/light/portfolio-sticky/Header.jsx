@@ -18,8 +18,13 @@ function Header() {
   return (
     <div
       className="header page-header bg-img section-padding"
-      data-background="/light/assets/imgs/header/bg1.jpg"
-      data-overlay-dark="9"
+   
+      style={{
+        backgroundImage: 'url(/light/assets/imgs/header/bg1.jpg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        color:'white'
+      }}
     >
       <div className="container pt-100">
         <div className="text-center">
