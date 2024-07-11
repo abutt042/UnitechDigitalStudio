@@ -21,18 +21,18 @@ function Contact() {
                 <div className="col-md-6">
                   <div className="morinfo mt-30">
                     <h6 className="mb-15">Address</h6>
-                    <p>Besòs 1, 08174 Sant Cugat del Vallès, Barcelona</p>
+                    <p>Hashim Plaza, Floor 2, Bahria Town,Lahore.</p>
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="morinfo mt-30">
                     <h6 className="mb-15">Email</h6>
-                    <p>Support@uithemez.com</p>
+                    <p>info@unitechdigitalstudio.com</p>
                   </div>
                 </div>
               </div>
               <div className="phone fz-30 fw-600 mt-30 underline main-color">
-                <a href="#0">+1 840 841 25 69</a>
+                <a href="#0">+44-7506-239325</a>
               </div>
               <ul className="rest social-text d-flex mt-60">
                 <li className="mr-30">
