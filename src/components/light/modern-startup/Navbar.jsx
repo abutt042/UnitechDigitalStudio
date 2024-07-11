@@ -64,7 +64,7 @@ function Navbar() {
 
           <div className="topnav">
             <div className="menu-icon cursor-pointer">
-              <span className="icon ti-align-right"></span>
+              <span  style={{color:'#fff'}} className="icon ti-align-right"></span>
             </div>
           </div>
         </div>
