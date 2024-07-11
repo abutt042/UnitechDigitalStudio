@@ -523,8 +523,9 @@ figure {
 }
 
 .butn.butn-bord:hover {
-  background: #1a1a1a;
+  background:  #1277fc;
   color: #fff;
+  border:#1277fc;
 }
 
 .butn.butn-bord:hover span {
@@ -5566,8 +5567,7 @@ body.loaded {
   height: 450px;
   width: 100%;
   position: relative;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+
 }
 
 .google-map iframe {
