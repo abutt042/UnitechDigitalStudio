@@ -5,32 +5,32 @@ function Footer() {
     <footer className="modern-footer pt-80">
       <div className="footer-container">
         <div className="container ontop">
-          <div className="row pb-30 bord-thin-bottom">
+          <div className="row pb-30 bord-thin-bottom" style={{alignItems:"center"}}>
             <div className="col-lg-5">
               <div className="logo icon-img-120">
-                <img src="/light/assets/imgs/logo-light.png" alt="" />
+                <img src="/light/assets/imgs/logo.png" alt="" />
               </div>
             </div>
             <div className="col-lg-7">
               <div className="social-media d-flex justify-content-end">
                 <ul className="rest d-flex align-items-center fz-14">
-                  <li className="hover-this cursor-pointer">
-                    <a href="#0" className="hover-anim">
+                  <li className="cursor-pointer ml-50 social-icons">
+                    <a href="#">
                       <i className="fab fa-facebook-f mr-10"></i> Facebook
                     </a>
                   </li>
-                  <li className="hover-this cursor-pointer ml-50">
-                    <a href="#0" className="hover-anim">
+                  <li className="cursor-pointer  ml-50 social-icons">
+                    <a href="#">
                       <i className="fab fa-dribbble mr-10"></i> Dribbble
                     </a>
                   </li>
-                  <li className="hover-this cursor-pointer ml-50">
-                    <a href="#0" className="hover-anim">
+                  <li className="cursor-pointer ml-50 social-icons">
+                    <a href="https://www.linkedin.com/company/unitech-digital-studios/" >
                       <i className="fab fa-linkedin-in mr-10"></i> LinkedIn
                     </a>
                   </li>
-                  <li className="hover-this cursor-pointer ml-50">
-                    <a href="#0" className="hover-anim">
+                  <li className="cursor-pointer ml-50 social-icons">
+                    <a href="#" >
                       <i className="fab fa-instagram mr-10"></i> Instagram
                     </a>
                   </li>
@@ -59,7 +59,7 @@ function Footer() {
                       href="#0"
                       className="butn butn-md butn-bord-thin radius-30"
                     >
-                      <span className="text">Support@Website.com</span>
+                      <span className="text">info@unitechdigitalstudio.com</span>
                     </a>
                   </div>
                   <div>
@@ -67,7 +67,7 @@ function Footer() {
                       href="#0"
                       className="butn butn-md butn-bord-thin radius-30 ml-30"
                     >
-                      <span className="text">+2 456 (343) 24 45</span>
+                      <span className="text">+44-7506-239325</span>
                     </a>
                   </div>
                 </div>
@@ -80,7 +80,7 @@ function Footer() {
                   <div className="col-6">
                     <ul className="rest fz-14">
                       <li className="mb-15">
-                        <a href="/light/page-about3">About</a>
+                        <a href="/light/page-about">About</a>
                       </li>
                       <li className="mb-15">
                         <a href="/light/page-services">Services</a>
@@ -125,12 +125,7 @@ function Footer() {
           </div>
           <div className="text-center pt-30 pb-30 sub-bg mt-80">
             <p className="fz-14">
-              © 2024 InFolio is Proudly Powered by{' '}
-              <span className="underline main-color">
-                <a href="https://themeforest.net/user/UiCamp" target="_blank">
-                  UiCamp
-                </a>
-              </span>
+            © 2024 Unitech Digital Studio. All rights reserved.
             </p>
           </div>
         </div>

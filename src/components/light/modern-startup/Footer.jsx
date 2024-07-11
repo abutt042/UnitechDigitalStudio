@@ -13,12 +13,7 @@ function Footer() {
           <div className="col-lg-4 order-md-3">
             <div className="text-center">
               <p className="fz-14">
-                © 2024 InFolio is Proudly Powered by{' '}
-                <span className="underline main-color">
-                  <a href="https://themeforest.net/user/UiCamp" target="_blank">
-                    UiCamp
-                  </a>
-                </span>
+              © 2024 Unitech Digital Studio. All rights reserved.
               </p>
             </div>
           </div>

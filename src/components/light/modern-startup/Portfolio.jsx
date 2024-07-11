@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Portfolio() {
   return (
@@ -14,10 +15,10 @@ function Portfolio() {
               Featured <span className="fw-200">projects</span>
             </h2>
             <div className="ml-auto">
-              <a href="/light/outline" className="go-more">
+              <Link to="/light/portfolio-sticky" className="go-more">
                 <span className="text">View all Works</span>
                 <span className="icon ti-arrow-top-right"></span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -23,7 +23,7 @@
 }
 
 body {
-  color: #1277fc;
+  color: #2d67b5;
   background-color: #fff;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
@@ -239,7 +239,7 @@ figure {
 }
 
 .main-color {
-  color: #14cf93 !important;
+  color: #1b1adf  !important;
 }
 
 .main-colorbg {
@@ -482,6 +482,7 @@ figure {
     transform: translate(-10%, 10%);
   }
 }
+
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -2779,7 +2780,7 @@ img.left {
 }
 
 .pt-80 {
-  padding-top: 80px !important;
+  padding-top: 30px !important;
 }
 
 .pt-85 {
@@ -3230,7 +3231,7 @@ body.loaded {
 }
 
 .navbar.nav-crev.nav-scroll {
-  background: #fff;
+  background: linear-gradient(103deg, #5c96e5, #08182f);
   border-color: rgba(255, 255, 255, 0.05);
   padding: 0;
   position: fixed;
@@ -5708,8 +5709,8 @@ footer.clean-footer.crev:before {
 }
 
 .modern-footer {
-  background: #1a1a1a;
-  color: #fff;
+  background: linear-gradient(103deg, #5c96e5, #08182f);
+    color: #fff;
 }
 
 .modern-footer .sub-bg {
@@ -9264,6 +9265,15 @@ footer.clean-footer.crev:before {
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.7);
 }
 
+/* Zoom Out Effect On Hover
+-----------------------------------------------------------------*/
+.social-icons a {
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.3);
+}
 /* Videos
 -----------------------------------------------------------------*/
 .circle-button {
