@@ -28,35 +28,31 @@ function Portfolio() {
               <div
                 id="tab-1"
                 className="bg-img tab-img current"
-                data-background="/light/assets/imgs/works/1/1.jpg"
+                data-background="/light/assets/imgs/works/1/EmpowerCare.png"
               ></div>
               <div
                 id="tab-2"
                 className="bg-img tab-img"
-                data-background="/light/assets/imgs/works/1/2.jpg"
+                data-background="/light/assets/imgs/works/1/WeStack.png"
               ></div>
               <div
                 id="tab-3"
                 className="bg-img tab-img"
-                data-background="/light/assets/imgs/works/1/3.jpg"
+                data-background="/light/assets/imgs/works/1/UnitedEstates.png"
               ></div>
               <div
                 id="tab-4"
                 className="bg-img tab-img"
-                data-background="/light/assets/imgs/works/1/4.jpg"
+                data-background="/light/assets/imgs/works/1/BareBeauty.png"
               ></div>
-              <div
-                id="tab-5"
-                className="bg-img tab-img"
-                data-background="/light/assets/imgs/works/1/5.jpg"
-              ></div>
+            
             </div>
           </div>
           <div className="col-lg-6 offset-lg-1 content">
             <div className="cluom mb-30 current" data-tab="tab-1">
               <div className="info">
-                <h6 className="sub-title opacity-7">UI-UX Design</h6>
-                <h4>Iridescent Wallpapers</h4>
+                <h6 className="sub-title opacity-7">Development</h6>
+                <h4>Empower Care</h4>
               </div>
               <div className="img">
                 <img src="/light/assets/imgs/works/1/1.jpg" alt="" />
@@ -69,8 +65,8 @@ function Portfolio() {
             </div>
             <div className="cluom mb-30" data-tab="tab-2">
               <div className="info">
-                <h6 className="sub-title opacity-7">UI-UX Design</h6>
-                <h4>Proof Template</h4>
+                <h6 className="sub-title opacity-7">Design & Development</h6>
+                <h4>We Stack</h4>
               </div>
               <div className="img">
                 <img src="/light/assets/imgs/works/1/2.jpg" alt="" />
@@ -83,8 +79,8 @@ function Portfolio() {
             </div>
             <div className="cluom mb-30" data-tab="tab-3">
               <div className="info">
-                <h6 className="sub-title opacity-7">UI-UX Design</h6>
-                <h4>Ledge Phone</h4>
+                <h6 className="sub-title opacity-7">Development</h6>
+                <h4>United Estates</h4>
               </div>
               <div className="img">
                 <img src="/light/assets/imgs/works/1/3.jpg" alt="" />
@@ -97,8 +93,8 @@ function Portfolio() {
             </div>
             <div className="cluom mb-30" data-tab="tab-4">
               <div className="info">
-                <h6 className="sub-title opacity-7">UI-UX Design</h6>
-                <h4>Frame Sans</h4>
+                <h6 className="sub-title opacity-7">Development</h6>
+                <h4>Bare Beauty</h4>
               </div>
               <div className="img">
                 <img src="/light/assets/imgs/works/1/4.jpg" alt="" />
