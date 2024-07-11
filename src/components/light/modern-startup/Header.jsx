@@ -16,10 +16,9 @@ function Header() {
     return () => tl.kill();
   }, []);
   return (
-    <div className="header startup-header" data-scroll-index="0">
+    <div className="header startup-header">
       <div
         className="valign bg-img"
-    
         style={{
           backgroundImage: 'url(/light/assets/imgs/background/1.jpg)',
           backgroundSize: 'cover',

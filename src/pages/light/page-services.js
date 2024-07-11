@@ -61,9 +61,7 @@ export default function LPageServices() {
               <Services />
               <Marquee />
               <Price />
-              <Testimonials />
-              <Process />
-              <Blog />
+              {/* <Blog /> */}
             </main>
             <Footer />
           </div>
