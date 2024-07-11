@@ -6,9 +6,9 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg nav-crev">
         <div className="container">
-          <a className="logo icon-img-100" href="#">
-            <img src="/light/assets/imgs/logo-light.png" alt="logo" />
-          </a>
+          <Link className="logo icon-img-100" to="/">
+            <img src="/light/assets/imgs/logo.png" alt="logo" />
+          </Link>
 
           <button
             className="navbar-toggler"
@@ -30,39 +30,34 @@ function Navbar() {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="/" >
+                <Link className="nav-link" to="/">
                   <span className="rolling-text">Home</span>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/light/page-services">
+                <Link className="nav-link" to="/light/page-services">
                   <span className="rolling-text">Services</span>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/light/page-about">
+                <Link className="nav-link" to="/light/page-about">
                   <span className="rolling-text">About</span>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/light/portfolio-sticky" >
+                <Link className="nav-link" to="/light/portfolio-sticky">
                   <span className="rolling-text">Portfolio</span>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/light/page-team" >
+                <Link className="nav-link" to="/light/page-team">
                   <span className="rolling-text">Team</span>
-                </a>
+                </Link>
               </li>
-              {/* <li className="nav-item">
-                <a className="nav-link" href="#0" data-scroll-nav="5">
-                  <span className="rolling-text">Blog</span>
-                </a>
-              </li> */}
               <li className="nav-item">
-                <a className="nav-link" href="/light/page-contact3">
+                <Link className="nav-link" to="/light/page-contact3">
                   <span className="rolling-text">Contact</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -77,7 +72,7 @@ function Navbar() {
 
       <div className="hamenu one-scroll">
         <div className="logo icon-img-100">
-          <img src="/light/assets/imgs/logo-light.png" alt="" />
+          <img src="/light/assets/imgs/logo-light.png" alt="logo" />
         </div>
         <div className="close-menu cursor-pointer ti-close"></div>
         <div className="container">
@@ -92,80 +87,71 @@ function Navbar() {
             <div className="col-lg-7">
               <div className="menu-links">
                 <ul className="main-menu rest">
-                  <li >
-                    <a href='/'>
-                    <div className="o-hidden">
-                      <div className="link cursor-pointer dmenu">
-                        <span className="fill-text" data-text="Home">
-                          Home
-                        </span>
+                  <li>
+                    <Link to="/">
+                      <div className="o-hidden">
+                        <div className="link cursor-pointer dmenu">
+                          <span className="fill-text" data-text="Home">
+                            Home
+                          </span>
+                        </div>
                       </div>
-                    </div>
-                    </a>
-                  </li>
-                  <li >
-                <a className="nav-link" href="/light/page-services">
-                    <div className="o-hidden">
-                      <div className="link cursor-pointer dmenu">
-                        <span className="fill-text" data-text="Services">
-                        Services
-                        </span>
-                      </div>
-                    </div>
-                    </a>
-                  </li>
-                  <li >
-                    <a href="/light/page-about">
-                    <div className="o-hidden">
-                      <div className="link cursor-pointer dmenu">
-                        <span className="fill-text" data-text="About">
-                          About
-                        </span>
-                      </div>
-                    </div>
-                    </a>
-                  </li>
-                  <li >
-                    <a href="/light/portfolio-sticky">
-                    <div className="o-hidden">
-                      <div className="link cursor-pointer dmenu">
-                        <span className="fill-text" data-text="Portfolio">
-                          Portfolio
-                        </span>
-                      </div>
-                    </div>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/light/page-team">
-                    <div className="o-hidden">
-                      <div className="link cursor-pointer dmenu">
-                        <span className="fill-text" data-text="Team">
-                          Team
-                        </span>
+                    <Link to="/light/page-services">
+                      <div className="o-hidden">
+                        <div className="link cursor-pointer dmenu">
+                          <span className="fill-text" data-text="Services">
+                            Services
+                          </span>
+                        </div>
                       </div>
-                    </div>
-                    </a>
+                    </Link>
                   </li>
-                  {/* <li data-scroll-nav="5">
-                    <div className="o-hidden">
-                      <div className="link cursor-pointer dmenu">
-                        <span className="fill-text" data-text="Blogs">
-                          Blogs
-                        </span>
-                      </div>
-                    </div>
-                  </li> */}
                   <li>
-                    <a href="/light/page-contact3">
-                    <div className="o-hidden">
-                      <div className="link cursor-pointer dmenu">
-                        <span className="fill-text" data-text="Contact">
-                          Contact
-                        </span>
+                    <Link to="/light/page-about">
+                      <div className="o-hidden">
+                        <div className="link cursor-pointer dmenu">
+                          <span className="fill-text" data-text="About">
+                            About
+                          </span>
+                        </div>
                       </div>
-                    </div>
-                    </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/light/portfolio-sticky">
+                      <div className="o-hidden">
+                        <div className="link cursor-pointer dmenu">
+                          <span className="fill-text" data-text="Portfolio">
+                            Portfolio
+                          </span>
+                        </div>
+                      </div>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/light/page-team">
+                      <div className="o-hidden">
+                        <div className="link cursor-pointer dmenu">
+                          <span className="fill-text" data-text="Team">
+                            Team
+                          </span>
+                        </div>
+                      </div>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/light/page-contact3">
+                      <div className="o-hidden">
+                        <div className="link cursor-pointer dmenu">
+                          <span className="fill-text" data-text="Contact">
+                            Contact
+                          </span>
+                        </div>
+                      </div>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -182,34 +168,34 @@ function Navbar() {
                   <h6 className="sub-title mb-15 opacity-7">Social Media</h6>
                   <ul className="rest social-text">
                     <li className="mb-10">
-                      <a href="#0" className="hover-this">
+                      <Link to="#0" className="hover-this">
                         <span className="hover-anim">Facebook</span>
-                      </a>
+                      </Link>
                     </li>
                     <li className="mb-10">
-                      <a href="#0" className="hover-this">
+                      <Link to="#0" className="hover-this">
                         <span className="hover-anim">Twitter</span>
-                      </a>
+                      </Link>
                     </li>
                     <li className="mb-10">
-                      <a href="#0" className="hover-this">
+                      <Link to="#0" className="hover-this">
                         <span className="hover-anim">LinkedIn</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#0" className="hover-this">
+                      <Link to="#0" className="hover-this">
                         <span className="hover-anim">Instagram</span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
                 <div className="item mb-40">
                   <h6 className="sub-title mb-15 opacity-7">Contact Us</h6>
                   <h5>
-                    <a href="#0">Hello@email.com</a>
+                    <Link to="#0">Hello@email.com</Link>
                   </h5>
                   <h5 className="underline mt-10">
-                    <a href="#0">+1 840 841 25 69</a>
+                    <Link to="#0">+1 840 841 25 69</Link>
                   </h5>
                 </div>
               </div>

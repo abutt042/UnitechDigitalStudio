@@ -23,7 +23,7 @@
 }
 
 body {
-  color: #1a1a1a;
+  color: #1277fc;
   background-color: #fff;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
@@ -230,7 +230,7 @@ a:hover {
 }
 
 img {
-  width: 100%;
+  width: 70%;
   height: auto;
 }
 
@@ -3315,7 +3315,7 @@ body.loaded {
   letter-spacing: 1px;
   font-size: 13px;
   font-weight: 600;
-  color: #1a1a1a;
+  color: #1277fc;
   padding: 20px 10px 15px 10px;
   margin: 0 15px;
 }

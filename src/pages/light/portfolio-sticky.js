@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet';
-import Footer from '../../components/light/blog-details/Footer';
+// 
+import Footer from '../../components/light/blog-list/Footer';
 import Lines from '../../components/light/common/Lines';
 import ProgressScroll from '../../components/light/common/ProgressScroll';
 import Cursor from '../../components/light/common/cusor';

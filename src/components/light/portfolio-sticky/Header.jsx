@@ -4,12 +4,12 @@ import { gsap } from 'gsap';
 function Header() {
   useLayoutEffect(() => {
     const tl = gsap.timeline();
-    tl.fromTo('.header', { y: 200 }, { y: 0 }, '+=2.5');
+    tl.fromTo('.header', { y: 200 }, { y: 0 }, '+=1.2'); // Reduced delay for faster start
     tl.fromTo(
       '.header .container',
       { opacity: 0, translateY: 40 },
       { opacity: 1, translateY: 0 },
-      '-=0'
+      '-=1' // Synchronize with the first animation
     );
 
     // Cleanup function
