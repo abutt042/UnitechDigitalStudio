@@ -1,8 +1,10 @@
 import React from 'react';
 import data from '../../../l-data/services.json';
+import { Link } from 'react-router-dom';
 
 function Services() {
   return (
+
     <section className="services section-padding pb-0">
       <div className="container">
         <div className="sec-head mb-80">
@@ -12,10 +14,10 @@ function Services() {
               What We <span className="fw-200">Offer</span>
             </h2>
             <div className="ml-auto">
-              <a href="/light/page-services" className="go-more">
+              <Link to="/light/page-services" className="go-more">
                 <span className="text">View all services</span>
                 <span className="icon ti-arrow-top-right"></span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -28,7 +30,7 @@ function Services() {
                 </div>
                 <h5 className="mb-15">{item.title}</h5>
                 <p>{item.desc}</p>
-                <a href={item.link} className="rmore">
+                <Link to={item.link} className="rmore">
                   <div className="arrow">
                     <img
                       src="/light/assets/imgs/arrow-right.png"
@@ -62,7 +64,7 @@ function Services() {
                       ></path>
                     </svg>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           ))}

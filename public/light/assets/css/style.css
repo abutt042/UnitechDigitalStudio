@@ -2055,7 +2055,7 @@ img.left {
 }
 
 .fz-100 {
-  font-size: 100px !important;
+  font-size: 70px !important;
   line-height: 1.1;
 }
 
@@ -2174,9 +2174,7 @@ img.left {
 /*-------------------------------------------------------
           text-transform
 -------------------------------------------------------*/
-.text-u {
-  text-transform: uppercase !important;
-}
+
 
 .text-l {
   text-transform: lowercase !important;
@@ -7730,7 +7728,7 @@ footer.clean-footer.crev:before {
 }
 
 .services .item-box2 .rmore:hover .arrow {
-  background: #14cf93;
+  background: #5891dd;
 }
 
 .services .item-box2 .rmore .arrow {

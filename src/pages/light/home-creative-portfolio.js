@@ -13,14 +13,15 @@ import Portfolio from '../../components/light/creative-portfolio/Portfolio';
 import Services from '../../components/light/creative-portfolio/Services';
 import Team from '../../components/light/creative-portfolio/Team';
 import Testimonials from '../../components/light/creative-portfolio/Testimonials';
+import logo from '../../favicon.ico';
 
 export default function LHomeCreativePortfolio() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

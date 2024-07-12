@@ -5,14 +5,15 @@ import Cursor from '../../components/light/common/cusor';
 import LoadingScreen from '../../components/light/common/loader';
 import Navbar from '../../components/light/portfolio-caption/Navbar';
 import Interactive from '../../components/light/showcase-interactive-center/Interactive';
+import logo from '../../favicon.ico';
 
 export default function LShowcaseInteractiveCenter() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

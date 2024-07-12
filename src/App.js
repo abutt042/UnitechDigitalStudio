@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useHistory, useLocation  } from 'react-router-dom';
 
 
 import LPortfolioMetro from './pages/light/portfolio-metro';
@@ -48,10 +48,21 @@ import LShowcaseHalfSlider from './pages/light/showcase-half-slider';
 import LShowcaseInteractiveCenter from './pages/light/showcase-interactive-center';
 import LShowcaseInteractiveFull from './pages/light/showcase-interactive-full';
 import LShowcaseInteractiveVertical from './pages/light/showcase-interactive-vertical';
+import { useEffect } from 'react';
 
 function App() {
+  function ScrollToTop() {
+    const { pathname } = useLocation();
+  
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
+    return null;
+  }
   return (
     <Router>
+            <ScrollToTop />
       <Routes>
         <Route path="/" element={<LHomeStartupOnePage />} />
         <Route path="/light/blog-classic" element={<LBlogClassic />} />

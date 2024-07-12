@@ -7,13 +7,15 @@ import LoadingScreen from '../../components/light/common/loader';
 import Navbar from '../../components/light/creative-agency/Navbar';
 import Team from '../../components/light/team-single/Team';
 import Skills from '../../components/light/team-single/Skills';
+import logo from '../../favicon.ico';
+
 export default function LPageTeamSingle() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

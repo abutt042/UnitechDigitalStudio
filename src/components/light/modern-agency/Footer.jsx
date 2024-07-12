@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -15,24 +16,24 @@ function Footer() {
               <div className="social-media d-flex justify-content-end">
                 <ul className="rest d-flex align-items-center fz-14">
                   <li className="cursor-pointer ml-50 social-icons">
-                    <a href="#">
+                    <Link to="#">
                       <i className="fab fa-facebook-f mr-10"></i> Facebook
-                    </a>
+                    </Link>
                   </li>
                   <li className="cursor-pointer  ml-50 social-icons">
-                    <a href="#">
+                    <Link to="#">
                       <i className="fab fa-dribbble mr-10"></i> Dribbble
-                    </a>
+                    </Link>
                   </li>
                   <li className="cursor-pointer ml-50 social-icons">
-                    <a href="https://www.linkedin.com/company/unitech-digital-studios/" >
+                    <Link to="https://www.linkedin.com/company/unitech-digital-studios/" >
                       <i className="fab fa-linkedin-in mr-10"></i> LinkedIn
-                    </a>
+                    </Link>
                   </li>
                   <li className="cursor-pointer ml-50 social-icons">
-                    <a href="#" >
+                    <Link to="#" >
                       <i className="fab fa-instagram mr-10"></i> Instagram
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -47,28 +48,28 @@ function Footer() {
                   </span>
                   <span className="sideup-text">
                     <span className="up-text underline">
-                      <a href="/light/page-contact3" className="main-color">
+                      <Link to="/light/page-contact3" className="main-color">
                         Let’s get to work.
-                      </a>
+                      </Link>
                     </span>
                   </span>
                 </h2>
                 <div className="info mt-80 d-flex align-items-center">
                   <div>
-                    <a
-                      href="#0"
+                    <Link
+                      to="#0"
                       className="butn butn-md butn-bord-thin radius-30"
                     >
                       <span className="text">info@unitechdigitalstudio.com</span>
-                    </a>
+                    </Link>
                   </div>
                   <div>
-                    <a
-                      href="#0"
+                    <Link
+                      to="#0"
                       className="butn butn-md butn-bord-thin radius-30 ml-30"
                     >
                       <span className="text">+44-7506-239325</span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -80,32 +81,32 @@ function Footer() {
                   <div className="col-6">
                     <ul className="rest fz-14">
                       <li className="mb-15">
-                        <a href="/light/page-about">About</a>
+                        <Link to="/light/page-about">About</Link>
                       </li>
                       <li className="mb-15">
-                        <a href="/light/page-services">Services</a>
+                        <Link to="/light/page-services">Services</Link>
                       </li>
                       <li className="mb-15">
-                        <a href="/light/blog-list2">Blog</a>
+                        <Link to="/light/blog-list2">Blog</Link>
                       </li>
                       <li>
-                        <a href="/light/page-contact3">Contact</a>
+                        <Link to="/light/page-contact3">Contact</Link>
                       </li>
                     </ul>
                   </div>
                   <div className="col-6">
                     <ul className="rest fz-14">
                       <li className="mb-15">
-                        <a href="/light/page-FAQS">FAQS</a>
+                        <Link to="/light/page-FAQS">FAQS</Link>
                       </li>
                       <li className="mb-15">
-                        <a href="/light/page-about2">Term & Conditions</a>
+                        <Link to="/light/page-about2">Term & Conditions</Link>
                       </li>
                       <li className="mb-15">
-                        <a href="/light/page-about2">Privacy policy</a>
+                        <Link to="/light/page-about2">Privacy policy</Link>
                       </li>
                       <li>
-                        <a href="/light/page-about2">Help</a>
+                        <Link to="/light/page-about2">Help</Link>
                       </li>
                     </ul>
                   </div>

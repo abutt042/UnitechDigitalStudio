@@ -7,14 +7,15 @@ import Footer from '../../components/light/blog-classic/Footer';
 import Header from '../../components/light/blog-classic/Header';
 import Blogs from '../../components/light/blog-classic/Blogs';
 import Navbar from '../../components/light/creative-agency/Navbar';
+import logo from '../../favicon.ico';
 
 export default function LBlogClassic() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

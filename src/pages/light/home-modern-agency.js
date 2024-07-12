@@ -16,13 +16,13 @@ import Services from '../../components/light/modern-agency/Services';
 import ServicesTab from '../../components/light/modern-agency/ServicesTab';
 import Team from '../../components/light/modern-agency/Team';
 import Testimonials from '../../components/light/modern-agency/Testimonials';
-
+import logo from '../../../src/favicon.ico';
 export default function LHomeModernAgency() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
+        <link rel="icon" href={logo} />
         <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
         <link
           rel="stylesheet"

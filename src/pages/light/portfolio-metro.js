@@ -7,14 +7,16 @@ import Navbar from '../../components/light/portfolio-caption/Navbar';
 import Header from '../../components/light/portfolio-metro/Header';
 import Portfolio from '../../components/light/portfolio-metro/Portfolio';
 import Footer from '../../components/light/home-main/Footer';
+import logo from '../../favicon.ico';
+
 
 export default function LPortfolioMetro() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

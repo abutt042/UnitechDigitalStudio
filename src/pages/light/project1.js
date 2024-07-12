@@ -10,14 +10,15 @@ import Header from '../../components/light/project1/Header';
 import Next from '../../components/light/project1/Next';
 import Solution from '../../components/light/project1/Solution';
 import Wroks from '../../components/light/project1/Wroks';
+import logo from '../../favicon.ico';
 
 export default function LProject1() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

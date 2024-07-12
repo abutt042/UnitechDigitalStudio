@@ -476,62 +476,62 @@ $(function () {
     ------------------------------  Interactive work   -----------------------------
     ============================================================================= */
 
-  $('.inter-fixed-text .links-img .img').on('mouseenter', function () {
-    var tab_id = $(this).attr('data-tab');
-    $('.links-img .img').removeClass('current');
-    $(this).addClass('current');
+  // $('.inter-fixed-text .links-img .img').on('mouseenter', function () {
+  //   var tab_id = $(this).attr('data-tab');
+  //   $('.links-img .img').removeClass('current');
+  //   $(this).addClass('current');
 
-    $('.links-text li').removeClass('current');
-    $('#' + tab_id).addClass('current');
+  //   $('.links-text li').removeClass('current');
+  //   $('#' + tab_id).addClass('current');
 
-    if ($(this).hasClass('current')) {
-      return false;
-    }
-  });
+  //   if ($(this).hasClass('current')) {
+  //     return false;
+  //   }
+  // });
 
-  $('.inter-fixed-text .links-img .img').on('mouseleave', function () {
-    $('.links-text li').removeClass('current');
-    $('.links-img .img').removeClass('current');
-  });
+  // $('.inter-fixed-text .links-img .img').on('mouseleave', function () {
+  //   $('.links-text li').removeClass('current');
+  //   $('.links-img .img').removeClass('current');
+  // });
 
   /* =============================================================================
     -----------------------------------  Tabs  -------------------------------------
     ============================================================================= */
 
-  $('#tabs .tab-links').on('click', '.item-link', function () {
-    var tab_id = $(this).attr('data-tab');
+  // $('#tabs .tab-links').on('click', '.item-link', function () {
+  //   var tab_id = $(this).attr('data-tab');
 
-    $('#tabs .tab-links .item-link').removeClass('current');
-    $(this).addClass('current');
+  //   $('#tabs .tab-links .item-link').removeClass('current');
+  //   $(this).addClass('current');
 
-    $('.tab-content').hide();
-    $('#' + tab_id).show();
-  });
+  //   $('.tab-content').hide();
+  //   $('#' + tab_id).show();
+  // });
 
-  $('#tabs-fade .tab-links').on('click', '.item-link', function () {
-    var tab2_id = $(this).attr('data-tab');
+  // $('#tabs-fade .tab-links').on('click', '.item-link', function () {
+  //   var tab2_id = $(this).attr('data-tab');
 
-    $('#tabs-fade .tab-links .item-link').removeClass('current');
-    $(this).addClass('current');
+  //   $('#tabs-fade .tab-links .item-link').removeClass('current');
+  //   $(this).addClass('current');
 
-    $('.tab-content').fadeOut();
-    $('#' + tab2_id).fadeIn();
-  });
+  //   $('.tab-content').fadeOut();
+  //   $('#' + tab2_id).fadeIn();
+  // });
 
   /* ===============================  Work Tabs  =============================== */
 
-  $('.portfolio-tab .cluom').on('mouseenter', function () {
-    var tab_id = $(this).attr('data-tab');
-    $('.portfolio-tab .cluom').removeClass('current');
-    $(this).addClass('current');
+  // $('.portfolio-tab .cluom').on('mouseenter', function () {
+  //   var tab_id = $(this).attr('data-tab');
+  //   $('.portfolio-tab .cluom').removeClass('current');
+  //   $(this).addClass('current');
 
-    $('.portfolio-tab .glry-img .tab-img ').removeClass('current');
-    $('#' + tab_id).addClass('current');
+  //   $('.portfolio-tab .glry-img .tab-img ').removeClass('current');
+  //   $('#' + tab_id).addClass('current');
 
-    if ($(this).hasClass('current')) {
-      return false;
-    }
-  });
+  //   if ($(this).hasClass('current')) {
+  //     return false;
+  //   }
+  // });
 
   /* ===============================  Team Tabs  =============================== */
 

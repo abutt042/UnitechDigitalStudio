@@ -15,14 +15,15 @@ import Services from '../../components/light/home-main/Services';
 import Services2 from '../../components/light/home-main/Services2';
 import Team from '../../components/light/home-main/Team';
 import Testimonials from '../../components/light/home-main/Testimonials';
+import logo from '../../favicon.ico';
 
 export default function LHomeMain() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

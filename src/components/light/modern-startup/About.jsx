@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function About() {
   return (
@@ -14,13 +15,13 @@ function About() {
               </h3>
               <div className="d-flex align-items-end mt-100">
                 <div>
-                  <a
-                    href="/light/page-about"
+                  <Link
+                    to="/light/page-about"
                     className="d-flex align-items-end"
                   >
                     <span className="sub-title nowrap">About Us</span>
                     <span className="fz-70 line-height-45 ti-arrow-top-right"></span>
-                  </a>
+                  </Link>
                 </div>
                 <div className="ml-80">
                   <p>

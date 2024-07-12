@@ -15,14 +15,15 @@ import Numbers from '../../components/light/about2/Numbers';
 import About from '../../components/light/about2/About';
 import Brands from '../../components/light/about2/Brands';
 import Services from '../../components/light/about2/Services';
+import logo from '../../favicon.ico';
 
 export default function LPageAbout2() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

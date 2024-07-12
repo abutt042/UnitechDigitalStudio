@@ -15,14 +15,15 @@ import Portfolio from '../../components/light/creative-agency/Portfolio';
 import Services from '../../components/light/creative-agency/Services';
 import Skills from '../../components/light/creative-agency/Skills';
 import Testimonials from '../../components/light/creative-agency/Testimonials';
+import logo from '../../favicon.ico';
 
 export default function LHomeCreativeAgency() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

@@ -11,13 +11,15 @@ import Services from '../../components/light/services-details/Services';
 import Process from '../../components/light/services-details/Process';
 import Services2 from '../../components/light/services-details/Services2';
 import FAQS from '../../components/light/services-details/FAQS';
+import logo from '../../favicon.ico';
+
 export default function LPageServicesDetails() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

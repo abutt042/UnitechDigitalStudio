@@ -12,13 +12,15 @@ import Marquee from '../../components/light/services/Marquee';
 import Price from '../../components/light/services/Price';
 import Process from '../../components/light/services/Process';
 import Blog from '../../components/light/services/Blog';
+import logo from '../../favicon.ico';
+
 export default function LPageServices() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

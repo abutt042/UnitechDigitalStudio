@@ -12,14 +12,15 @@ import Intro2 from '../../components/light/about/Intro2';
 import Testimonials from '../../components/light/about/Testimonials';
 import Team from '../../components/light/about/Team';
 import Blog from '../../components/light/about/Blog';
+import logo from '../../favicon.ico';
 
 export default function LPageAbout() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"
