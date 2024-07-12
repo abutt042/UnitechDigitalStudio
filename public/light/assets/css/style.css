@@ -6852,9 +6852,10 @@ footer.clean-footer.crev:before {
   -webkit-transition: all 0.7s;
   -o-transition: all 0.7s;
   transition: all 0.7s;
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   border-radius: 15px;
+  height: 350px;
 }
 
 .portfolio-tab.crev .glry-img .bg-img:before {
