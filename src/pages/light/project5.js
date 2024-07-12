@@ -11,14 +11,15 @@ import Header from '../../components/light/project5/Header';
 import Solution from '../../components/light/project5/Solution';
 import Works from '../../components/light/project5/Works';
 import Works2 from '../../components/light/project5/Works2';
+import logo from '../../favicon.ico';
 
 export default function LProject5() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

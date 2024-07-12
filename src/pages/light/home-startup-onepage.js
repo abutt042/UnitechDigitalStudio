@@ -16,13 +16,16 @@ import Clients from '../../components/light/modern-startup/Clients';
 import Blog from '../../components/light/modern-startup/Blog';
 import Contact from '../../components/light/contact/Contact';
 import Footer from '../../components/light/modern-agency/Footer';
+import logo from '../../favicon.ico';
 export default function LHomeStartupOnePage() {
   return (
     <>
+       <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

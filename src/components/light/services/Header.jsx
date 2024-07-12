@@ -1,6 +1,7 @@
 'use client';
 import React, { useLayoutEffect } from 'react';
 import { gsap } from 'gsap';
+import { Link } from 'react-router-dom';
 function Header() {
   useLayoutEffect(() => {
     const tl = gsap.timeline();
@@ -29,7 +30,7 @@ function Header() {
         <div className="text-center">
           <h1 className="fz-100 text-u">Services.</h1>
           <div className="mt-15">
-            <a href="/light/home-main">Home</a>
+            <Link to="/">Home</Link>
             <span className="padding-rl-20">|</span>
             <span className="main-color">Services</span>
           </div>

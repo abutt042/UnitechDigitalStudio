@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../../../l-data/services.json';
+import data from '../../../l-data/allservices.json';
 import { Link } from 'react-router-dom';
 
 function Services() {
@@ -16,7 +16,7 @@ function Services() {
         </div>
         <div className="row pt-30">
           {data.map((item, i) => (
-            <div key={i} className="col-lg-3 col-md-6 items">
+            <div key={i} className="col-lg-3 col-md-6 items" style={{marginTop:'1%'}}>
               <div className="item-box bg md-mb50">
                 <div className="icon mb-40 opacity-5">
                   <img src={item.img} alt="" />

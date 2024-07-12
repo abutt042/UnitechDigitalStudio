@@ -13,14 +13,15 @@ import Portfolio from '../../components/light/home-freelancer/Portfolio';
 import Services from '../../components/light/home-freelancer/Services';
 import Skills from '../../components/light/home-freelancer/Skills';
 import Testimonials from '../../components/light/home-freelancer/Testimonials';
+import logo from '../../favicon.ico';
 
 export default function LHomeFreelancer() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

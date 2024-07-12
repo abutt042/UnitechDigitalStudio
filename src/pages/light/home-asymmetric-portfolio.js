@@ -6,14 +6,15 @@ import Lines from '../../components/light/common/Lines';
 import ProgressScroll from '../../components/light/common/ProgressScroll';
 import Cursor from '../../components/light/common/cusor';
 import LoadingScreen from '../../components/light/common/loader';
+import logo from '../../favicon.ico';
 
 export default function LHomeAsymmetricPortfolio() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

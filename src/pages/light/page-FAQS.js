@@ -9,13 +9,15 @@ import Header from '../../components/light/FAQS/Header';
 import FAQS from '../../components/light/FAQS/FAQS';
 import Testimonials from '../../components/light/FAQS/Testimonials';
 import Blog from '../../components/light/FAQS/Blog';
+import logo from '../../favicon.ico';
+
 export default function LPageFAQS() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

@@ -11,14 +11,15 @@ import Header from '../../components/light/project4/Header';
 import Solution from '../../components/light/project4/Solution';
 import Works from '../../components/light/project4/Works';
 import Works2 from '../../components/light/project4/Works2';
+import logo from '../../favicon.ico';
 
 export default function LProject4() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

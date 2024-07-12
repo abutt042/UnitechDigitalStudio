@@ -9,14 +9,15 @@ import Challenge from '../../components/light/project2/Challenge';
 import Header from '../../components/light/project2/Header';
 import Next from '../../components/light/project2/Next';
 import Story from '../../components/light/project2/Story';
+import logo from '../../favicon.ico';
 
 export default function LProject2() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

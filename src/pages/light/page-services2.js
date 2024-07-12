@@ -11,13 +11,15 @@ import Header from '../../components/light/services2/Header';
 import Services from '../../components/light/services2/Services';
 import MainFeat from '../../components/light/services2/MainFeat';
 import Brands from '../../components/light/services2/Brands';
+import logo from '../../favicon.ico';
+
 export default function LPageServices2() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

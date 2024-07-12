@@ -8,14 +8,15 @@ import Navbar from '../../components/light/portfolio-caption/Navbar';
 import Next from '../../components/light/project2/Next';
 import Header from '../../components/light/project6/Header';
 import Works from '../../components/light/project6/Works';
+import logo from '../../favicon.ico';
 
 export default function LProject6() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

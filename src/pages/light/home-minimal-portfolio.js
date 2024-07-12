@@ -7,14 +7,15 @@ import Navbar from '../../components/light/creative-agency/Navbar';
 import Footer from '../../components/light/minimal-portfolio/Footer';
 import Testimonials from '../../components/light/minimal-portfolio/Testimonials';
 import Portfolio from '../../components/light/minimal-portfolio/portfolio';
+import logo from '../../favicon.ico';
 
 export default function LHomeMinimalPortfolio() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"

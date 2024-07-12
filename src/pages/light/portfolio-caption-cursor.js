@@ -7,13 +7,15 @@ import LoadingScreen from '../../components/light/common/loader';
 import Navbar from '../../components/light/portfolio-caption/Navbar';
 import Header from '../../components/light/portfolio-caption/Header';
 import Portfolio from '../../components/light/portfolio-caption/Portfolio';
+import logo from '../../favicon.ico';
+
 export default function LPortfolioCaptionCursor() {
   return (
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-        <link rel="icon" href="/light/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
+     <link rel="icon" href={logo} />
+       <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"
