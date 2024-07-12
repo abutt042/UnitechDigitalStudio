@@ -16,7 +16,6 @@ import Clients from '../../components/light/modern-startup/Clients';
 import Blog from '../../components/light/modern-startup/Blog';
 import Contact from '../../components/light/contact/Contact';
 import Footer from '../../components/light/modern-agency/Footer';
-
 export default function LHomeStartupOnePage() {
   return (
     <>

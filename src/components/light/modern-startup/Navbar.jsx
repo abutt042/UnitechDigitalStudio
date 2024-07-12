@@ -1,7 +1,48 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import $ from 'jquery';
 
 function Navbar() {
+  useEffect(() => {
+    $('.navbar .menu-icon').on('click', function () {
+      $('.hamenu').addClass('open');
+      $('.hamenu').animate({ left: 0 });
+    });
+
+    $('.hamenu .close-menu, .one-scroll .menu-links .main-menu > li').on('click', function () {
+      $('.hamenu').removeClass('open').delay(300).animate({ left: '-100%' });
+      $('.hamenu .menu-links .main-menu .dmenu, .hamenu .menu-links .main-menu .sub-dmenu').removeClass('dopen');
+      $('.hamenu .menu-links .main-menu .sub-menu, .hamenu .menu-links .main-menu .sub-menu2').slideUp();
+    });
+
+    $('.hamenu .menu-links .main-menu > li').on('mouseenter', function () {
+      $(this).removeClass('hoverd').siblings().addClass('hoverd');
+    });
+
+    $('.hamenu .menu-links .main-menu > li').on('mouseleave', function () {
+      $(this).removeClass('hoverd').siblings().removeClass('hoverd');
+    });
+
+    $('.main-menu > li .dmenu').on('click', function () {
+      $(this).parent().parent().find('.sub-menu').toggleClass('sub-open').slideToggle();
+      $(this).toggleClass('dopen');
+    });
+
+    $('.sub-menu > ul > li .sub-dmenu').on('click', function () {
+      $(this).parent().parent().find('.sub-menu2').toggleClass('sub-open').slideToggle();
+      $(this).toggleClass('dopen');
+    });
+
+    // Cleanup event listeners on component unmount
+    return () => {
+      $('.navbar .menu-icon').off('click');
+      $('.hamenu .close-menu, .one-scroll .menu-links .main-menu > li').off('click');
+      $('.hamenu .menu-links .main-menu > li').off('mouseenter mouseleave');
+      $('.main-menu > li .dmenu').off('click');
+      $('.sub-menu > ul > li .sub-dmenu').off('click');
+    };
+  }, []);
+
   return (
     <>
       <nav className="navbar navbar-expand-lg nav-crev">
