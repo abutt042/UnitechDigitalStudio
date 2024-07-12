@@ -11,7 +11,7 @@ export default function LPageTeamSingle() {
   return (
     <>
       <Helmet>
-        <title>infolio</title>
+        <title>Unitech Digital Studio</title>
         <link rel="icon" href="/light/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/light/imgs/favicon.ico" />
         <link

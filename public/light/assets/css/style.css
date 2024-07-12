@@ -5228,7 +5228,9 @@ body.loaded {
 .clients-carso .img {
   margin: auto;
 }
-
+section{
+  background-color: #eee;
+}
 .clients-carso2 {
   padding: 60px 0;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
