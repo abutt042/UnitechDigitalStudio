@@ -6,9 +6,10 @@ import Lines from '../../components/light/common/Lines';
 import ProgressScroll from '../../components/light/common/ProgressScroll';
 import Cursor from '../../components/light/common/cusor';
 import LoadingScreen from '../../components/light/common/loader';
-import Navbar from '../../components/light/creative-agency/Navbar';
-import Footer from '../../components/light/blog-details/Footer';
+import Navbar from '../../components/light/modern-startup/Navbar';
+import Footer from '../../components/light/modern-agency/Footer';
 import logo from '../../favicon.ico';
+import Header from '../../components/light/blog-details/Header';
 
 export default function LBlogDetails() {
   return (
@@ -47,7 +48,7 @@ export default function LBlogDetails() {
         <script src="/light/assets/js/smoother-script.js"></script>
       </Helmet>
       <body>
-         
+         <LoadingScreen/>
         <Cursor />
         <ProgressScroll />
         <Lines />
@@ -56,9 +57,10 @@ export default function LBlogDetails() {
           <Navbar />
           <div id="smooth-content">
             <main className="main-bg">
+           
               <Slider />
               <Blog />
-              <Recent />
+              {/* <Recent /> */}
             </main>
             <Footer />
           </div>

@@ -105,9 +105,7 @@ function Footer() {
                       <li className="mb-15">
                         <Link to="/light/page-about2">Privacy policy</Link>
                       </li>
-                      <li>
-                        <Link to="/light/page-about2">Help</Link>
-                      </li>
+                    
                     </ul>
                   </div>
                 </div>
@@ -125,7 +123,7 @@ function Footer() {
             </div>
           </div>
           <div className="text-center pt-30 pb-30 sub-bg mt-80">
-            <p className="fz-14">
+            <p style={{color:'white'}} className="fz-14">
             © 2024 Unitech Digital Studio. All rights reserved.
             </p>
           </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Blogs() {
   return (
@@ -32,12 +33,12 @@ function Blogs() {
                 <div className="col-lg-6 col-md-7 sub-bg cont valign">
                   <div className="full-width">
                     <div className="tags mb-15">
-                      <a href="/light/blog-details">Marketing</a>
+                      <Link to="/light/blog-details">Marketing</Link>
                     </div>
                     <h5>
-                      <a href="/light/blog-details">
+                      <Link to="/light/blog-details">
                         Free advertising for your online business.
-                      </a>
+                      </Link>
                     </h5>
                     <span className="date fz-12 ls1 text-u opacity-7 mt-80">
                       August 6, 2022
@@ -74,13 +75,13 @@ function Blogs() {
                 <div className="col-lg-6 col-md-7 sub-bg cont valign">
                   <div className="full-width">
                     <div className="tags mb-15">
-                      <a href="/light/blog-details">Marketing</a>
-                      <a href="/light/blog-details">Design</a>
+                      <Link to="/light/blog-details">Marketing</Link>
+                      <Link to="/light/blog-details">Design</Link>
                     </div>
                     <h5>
-                      <a href="/light/blog-details">
+                      <Link to="/light/blog-details">
                         Business meeting 2023 in San Francisco.
-                      </a>
+                      </Link>
                     </h5>
                     <span className="date fz-12 ls1 text-u opacity-7 mt-80">
                       August 6, 2022
@@ -117,13 +118,13 @@ function Blogs() {
                 <div className="col-lg-6 col-md-7 sub-bg cont valign">
                   <div className="full-width">
                     <div className="tags mb-15">
-                      <a href="/light/blog-details">Marketing</a>
-                      <a href="/light/blog-details">Design</a>
+                      <Link to="/light/blog-details">Marketing</Link>
+                      <Link to="/light/blog-details">Design</Link>
                     </div>
                     <h5>
-                      <a href="/light/blog-details">
+                      <Link to="/light/blog-details">
                         Free advertising for your online business.
-                      </a>
+                      </Link>
                     </h5>
                     <span className="date fz-12 ls1 text-u opacity-7 mt-80">
                       August 6, 2022
@@ -160,12 +161,12 @@ function Blogs() {
                 <div className="col-lg-6 col-md-7 sub-bg cont valign">
                   <div className="full-width">
                     <div className="tags mb-15">
-                      <a href="/light/blog-details">Design</a>
+                      <Link to="/light/blog-details">Design</Link>
                     </div>
                     <h5>
-                      <a href="/light/blog-details">
+                      <Link to="/light/blog-details">
                         Business meeting 2023 in San Francisco.
-                      </a>
+                      </Link>
                     </h5>
                     <span className="date fz-12 ls1 text-u opacity-7 mt-80">
                       August 6, 2022
@@ -202,13 +203,13 @@ function Blogs() {
                 <div className="col-lg-6 col-md-7 sub-bg cont valign">
                   <div className="full-width">
                     <div className="tags mb-15">
-                      <a href="/light/blog-details">Marketing</a>
-                      <a href="/light/blog-details">Design</a>
+                      <Link to="/light/blog-details">Marketing</Link>
+                      <Link to="/light/blog-details">Design</Link>
                     </div>
                     <h5>
-                      <a href="/light/blog-details">
+                      <Link to="/light/blog-details">
                         Free advertising for your online business.
-                      </a>
+                      </Link>
                     </h5>
                     <span className="date fz-12 ls1 text-u opacity-7 mt-80">
                       August 6, 2022
@@ -245,13 +246,13 @@ function Blogs() {
                 <div className="col-lg-6 col-md-7 sub-bg cont valign">
                   <div className="full-width">
                     <div className="tags mb-15">
-                      <a href="/light/blog-details">Marketing</a>
-                      <a href="/light/blog-details">Design</a>
+                      <Link to="/light/blog-details">Marketing</Link>
+                      <Link to="/light/blog-details">Design</Link>
                     </div>
                     <h5>
-                      <a href="/light/blog-details">
+                      <Link to="/light/blog-details">
                         Business meeting 2023 in San Francisco.
-                      </a>
+                      </Link>
                     </h5>
                     <span className="date fz-12 ls1 text-u opacity-7 mt-80">
                       August 6, 2022

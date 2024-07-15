@@ -230,7 +230,7 @@ a:hover {
 }
 
 img {
-  width: 70%;
+  width: 55%;
   height: auto;
 }
 
@@ -258,13 +258,9 @@ figure {
   background: #fff !important;
 }
 
-.sub-bg {
-  background: #f5f7f9 !important;
-}
 
-.sub-bg2 {
-  background: #eee !important;
-}
+
+
 
 .btn:hover,
 .btn:focus,
@@ -3217,8 +3213,8 @@ body.loaded {
   width: calc(100% - 80px);
   left: 40px;
   top: 30px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: white;
+  /* border: 1px solid rgba(255, 255, 255, 0.1); */
   border-radius: 40px;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
@@ -3229,7 +3225,7 @@ body.loaded {
 }
 
 .navbar.nav-crev.nav-scroll {
-  background: linear-gradient(103deg, #5c96e5, #08182f);
+  background: #fff;
   border-color: rgba(255, 255, 255, 0.05);
   padding: 0;
   position: fixed;
@@ -3315,7 +3311,7 @@ body.loaded {
   letter-spacing: 1px;
   font-size: 13px;
   font-weight: 600;
-  color: #fff;
+  color: #000000;
   padding: 20px 10px 15px 10px;
   margin: 0 15px;
 }
@@ -5226,9 +5222,7 @@ body.loaded {
 .clients-carso .img {
   margin: auto;
 }
-section{
-  background-color: #eee;
-}
+
 .clients-carso2 {
   padding: 60px 0;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
@@ -5709,12 +5703,13 @@ footer.clean-footer.crev:before {
 }
 
 .modern-footer {
-  background: linear-gradient(103deg, #5c96e5, #08182f);
+  background:  linear-gradient(125deg, #2175bd, #4299f0);
     color: #fff;
 }
 
 .modern-footer .sub-bg {
-  background: #1d1d1d !important;
+  background: linear-gradient(125deg, #4299f0, #2175bd) !important;
+  color: #fff;
 }
 
 .modern-footer.sub-bg {

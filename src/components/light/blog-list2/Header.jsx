@@ -1,15 +1,16 @@
 'use client';
 import React, { useLayoutEffect } from 'react';
 import { gsap } from 'gsap';
+import { Link } from 'react-router-dom';
 function Header() {
   useLayoutEffect(() => {
     const tl = gsap.timeline();
-    tl.fromTo('.header', { y: 200 }, { y: 0 }, '+=2.5');
+    tl.fromTo('.header', { y: 200 }, { y: 0 }, '+=0.2'); // Reduced delay for faster start
     tl.fromTo(
       '.header .container',
       { opacity: 0, translateY: 40 },
       { opacity: 1, translateY: 0 },
-      '-=0'
+      '-=1' // Synchronize with the first animation
     );
 
     // Cleanup function
@@ -18,16 +19,20 @@ function Header() {
   return (
     <div
       className="header page-header bg-img section-padding"
-      data-background="/light/assets/imgs/header/bg1.jpg"
-      data-overlay-dark="9"
+    
+      style={{ 
+        backgroundImage:'url(/light/assets/imgs/header/bg1.jpg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        color:'white'}}
     >
       <div className="container pt-100">
         <div className="text-center">
-          <h1>Blog List 2.</h1>
+          <h1>Blogs</h1>
           <div className="mt-15">
-            <a href="/light/home-main">Home</a>
+            <Link to="/">Home</Link>
             <span className="padding-rl-20">|</span>
-            <span className="main-color">Blog List</span>
+            <span className="main-color">Blogs</span>
           </div>
         </div>
       </div>

@@ -1,12 +1,12 @@
 import { Helmet } from 'react-helmet';
 import Blogs from '../../components/light/blog-list2/Blogs';
-import Footer from '../../components/light/blog-list2/Footer';
+import Footer from '../../components/light/modern-agency/Footer';
 import Header from '../../components/light/blog-list2/Header';
 import Lines from '../../components/light/common/Lines';
 import ProgressScroll from '../../components/light/common/ProgressScroll';
 import Cursor from '../../components/light/common/cusor';
 import LoadingScreen from '../../components/light/common/loader';
-import Navbar from '../../components/light/creative-agency/Navbar';
+import Navbar from '../../components/light/modern-startup/Navbar';
 import logo from '../../favicon.ico';
 
 export default function LBlogList2() {
@@ -46,7 +46,7 @@ export default function LBlogList2() {
         <script src="/light/assets/js/smoother-script.js"></script>
       </Helmet>
       <body>
-         
+         <LoadingScreen/>
         <Cursor />
         <ProgressScroll />
         <Lines />
