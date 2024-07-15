@@ -35,10 +35,7 @@ function Header() {
               <div className="text">impactful</div>
               <div className="text">digital experiences</div>
             </div>
-            <p>
-              We combine forward-thinking design with modern technology to tell
-              stories that transform and grow our partners brands.
-            </p>
+            
           </div>
         </div>
       </div>

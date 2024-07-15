@@ -81,6 +81,11 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
+                <Link className="nav-link" to="/light/blog-list2">
+                  <span className="rolling-text">Blog</span>
+                </Link>
+              </li>
+              <li className="nav-item">
                 <Link className="nav-link" to="/light/page-contact3">
                   <span className="rolling-text">Contact</span>
                 </Link>
@@ -90,7 +95,7 @@ function Navbar() {
 
           <div className="topnav">
             <div className="menu-icon cursor-pointer">
-              <span  style={{color:'#fff'}} className="icon ti-align-right"></span>
+              <span  style={{color:'#000'}} className="icon ti-align-right"></span>
             </div>
           </div>
         </div>
@@ -163,6 +168,17 @@ function Navbar() {
                         <div className="link cursor-pointer dmenu">
                           <span className="fill-text" data-text="Team">
                             Team
+                          </span>
+                        </div>
+                      </div>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/light/blog-list2">
+                      <div className="o-hidden">
+                        <div className="link cursor-pointer dmenu">
+                          <span className="fill-text" data-text="Team">
+                            Blog
                           </span>
                         </div>
                       </div>

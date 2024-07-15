@@ -19,16 +19,22 @@ function Header() {
   return (
     <div
       className="header page-header bg-img section-padding"
-      data-background="/light/assets/imgs/header/bg1.jpg"
-      data-overlay-dark="9"
+      style={{ 
+        backgroundImage:'url(/light/assets/imgs/header/bg1.jpg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        color:'white'}}
+   
     >
-      <div className="container pt-100">
+      <div className="container pt-100 pb-100">
         <div className="text-center">
-          <h1>Blog List.</h1>
+          <h1 className="fz-100 text-u">Blog detail</h1>
           <div className="mt-15">
-            <Link to="/">Home</Link>
-            <span className="padding-rl-20">|</span>
-            <span className="main-color">Blog List</span>
+          <Link to="/">Home</Link>
+          <span className="padding-rl-20">|</span>
+          <Link to="/light/blog-list2">Blogs</Link>
+    
+          
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@ function Header() {
     <div
       className="header page-header bg-img section-padding"
   style={{
-        backgroundImage: 'url(/light/assets/imgs/header/b5.jpg)',
+        backgroundImage: 'url(/light/assets/imgs/header/bg1.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         color:'white'

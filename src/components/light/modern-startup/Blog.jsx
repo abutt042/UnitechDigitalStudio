@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Blog() {
   return (
@@ -14,10 +15,10 @@ function Blog() {
               Read Latest <span className="fw-200">News</span>
             </h2>
             <div className="ml-auto">
-              <a href="/light/blog-list2" className="go-more">
+              <Link to="/light/blog-list2" className="go-more">
                 <span className="text">View all posts</span>
                 <span className="icon ti-arrow-top-right"></span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -49,12 +50,12 @@ function Blog() {
                 <div className="col-lg-6 col-md-7 cont valign">
                   <div className="full-width">
                     <div className="tags mb-15">
-                      <a href="/light/blog-list">Marketing</a>
+                      <Link to="/light/blog-list">Marketing</Link>
                     </div>
                     <h5>
-                      <a href="/light/blog-details">
+                      <Link to="/light/blog-details">
                         Free advertising for your online business.
-                      </a>
+                      </Link>
                     </h5>
                     <span className="date fz-12 ls1 text-u opacity-7 mt-80">
                       August 6, 2022
@@ -91,13 +92,13 @@ function Blog() {
                 <div className="col-lg-6 col-md-7 cont valign">
                   <div className="full-width">
                     <div className="tags mb-15">
-                      <a href="/light/blog-list">Marketing</a>
-                      <a href="/light/blog-list">Design</a>
+                      <Link to="/light/blog-list">Marketing</Link>
+                      <Link to="/light/blog-list">Design</Link>
                     </div>
                     <h5>
-                      <a href="/light/blog-details">
+                      <Link to="/light/blog-details">
                         Business meeting 2023 in San Francisco.
-                      </a>
+                      </Link>
                     </h5>
                     <span className="date fz-12 ls1 text-u opacity-7 mt-80">
                       August 6, 2022

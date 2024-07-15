@@ -66,10 +66,16 @@ function Skills() {
                           <div className="progres" data-value="90%"></div>
                         </div>
                       </div>
-                      <div className="skill-item">
+                      <div className="skill-item mb-40">
                         <h5 className="sub-title mb-15">Apps Development</h5>
                         <div className="skill-progress">
                           <div className="progres" data-value="80%"></div>
+                        </div>
+                      </div>
+                      <div className="skill-item">
+                        <h5 className="sub-title mb-15">Web Development</h5>
+                        <div className="skill-progress">
+                          <div className="progres" data-value="100%"></div>
                         </div>
                       </div>
                     </div>
