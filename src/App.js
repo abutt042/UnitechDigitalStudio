@@ -31,6 +31,11 @@ import LShowcaseInteractiveCenter from './pages/light/showcase-interactive-cente
 import LShowcaseInteractiveFull from './pages/light/showcase-interactive-full';
 import LShowcaseInteractiveVertical from './pages/light/showcase-interactive-vertical';
 import { useEffect } from 'react';
+import EmpowerCare from './pages/light/empowercare';
+import WeStack from './pages/light/westack';
+import UnitedEstates from './pages/light/unitedestates';
+import BareBeauty from './pages/light/BareBeauty';
+
 
 function App() {
   function ScrollToTop() {
@@ -74,11 +79,11 @@ function App() {
        
        
         <Route path="/light/portfolio-sticky" element={<LPortfolioSticky />} />
-        <Route path="/light/project1" element={<LProject1 />} />
-        <Route path="/light/project2" element={<LProject2 />} />
+        <Route path="/light/portfolio-sticky/empowercare" element={<EmpowerCare/>} />
+        <Route path="/light/portfolio-sticky/westack" element={<WeStack />} />
+        <Route path="/light/portfolio-sticky/unitedestates" element={<UnitedEstates />} />
+        <Route path="/light/portfolio-sticky/barebeauty" element={<BareBeauty />} />
         <Route path="/light/project3" element={<LProject3 />} />
-        <Route path="/light/project4" element={<LProject4 />} />
-        <Route path="/light/project5" element={<LProject5 />} />
         <Route path="/light/project6" element={<LProject6 />} />
         <Route
           path="/light/showcase-carousel"
