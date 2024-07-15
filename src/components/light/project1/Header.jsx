@@ -1,7 +1,7 @@
 'use client';
 import React, { useLayoutEffect } from 'react';
 import { gsap } from 'gsap';
-function Header() {
+function Header(props) {
   useLayoutEffect(() => {
     const tl = gsap.timeline();
     tl.fromTo('.header', { y: 200 }, { y: 0 }, '+=2.5');
@@ -17,12 +17,21 @@ function Header() {
   }, []);
   return (
     <div className="header header-project1">
+     <div
+        className="valign bg-img"
+        style={{
+          backgroundImage: 'url(/light/assets/imgs/header/bg1.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          color:'white'
+        }}
+      >
       <div className="container pt-100">
         <div className="row align-items-end">
           <div className="col-lg-8 md-mb50">
             <div>
               <h1 className="fz-100">
-                Fleck <br /> Product Design
+               {props.name}
               </h1>
             </div>
           </div>
@@ -32,25 +41,25 @@ function Header() {
                 <div className="col-md-6">
                   <div className="item mb-30">
                     <span className="opacity-8 mb-5">Category :</span>
-                    <h6>Development</h6>
+                    <h6>{props.category}</h6>
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="item mb-30">
                     <span className="opacity-8 mb-5">Client :</span>
-                    <h6>Envato</h6>
+                    <h6>{props.client}</h6>
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="item mb-30">
                     <span className="opacity-8 mb-5">Start Date :</span>
-                    <h6>7 August 2021</h6>
+                    <h6>{props.date}</h6>
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="item">
                     <span className="opacity-8 mb-5">Designer :</span>
-                    <h6>UiCamp</h6>
+                    <h6>{props.designer}</h6>
                   </div>
                 </div>
               </div>
@@ -61,7 +70,9 @@ function Header() {
       <div
         className="bg-img mt-100"
         data-background="/light/assets/imgs/works/projects/0/1.jpg"
-      ></div>
+      >
+        </div>
+      </div>
     </div>
   );
 }
