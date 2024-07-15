@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import $ from 'jquery';
 
 function Portfolio() {
-  const [selectedTab, setSelectedTab] = useState('tab-1');
-
   useEffect(() => {
     const handleTabHover = (event) => {
       const tabId = $(event.target).attr('data-tab');
@@ -17,9 +15,6 @@ function Portfolio() {
 
       $('.portfolio-tab .glry-img .tab-img').removeClass('current');
       $('#' + tabId).addClass('current');
-
-      // Set selected tab for mobile view
-      setSelectedTab(tabId);
     };
 
     $('.portfolio-tab .cluom').on('mouseenter', handleTabHover);
@@ -29,13 +24,15 @@ function Portfolio() {
       $('.portfolio-tab .cluom').off('mouseenter', handleTabHover);
     };
   }, []);
-
-  const handleTabClick = (tabId) => {
-    setSelectedTab(tabId);
-  };
-
+  useEffect(() => {
+    // Set the background images after component mounts
+    $('.portfolio-tab .tab-img').each(function () {
+      const bg = $(this).attr('data-background');
+      $(this).css('background-image', `url(${bg})`);
+    });
+  }, []);
   return (
-    <section className="portfolio-tab crev section-padding">
+    <section className="portfolio-tab crev section-padding" data-scroll-index="3">
       <div className="container">
         <div className="sec-head mb-80">
           <h6 className="sub-title main-color mb-25">Our Portfolio</h6>
@@ -56,34 +53,34 @@ function Portfolio() {
             <div className="glry-img">
               <div
                 id="tab-1"
-                className={`bg-img tab-img ${selectedTab === 'tab-1' ? 'current' : ''}`}
-                style={{ backgroundImage: `url(/light/assets/imgs/works/1/EmpowerCare.png)` }}
+                className="bg-img tab-img current"
+                data-background="/light/assets/imgs/works/1/EmpowerCare.png"
               ></div>
               <div
                 id="tab-2"
-                className={`bg-img tab-img ${selectedTab === 'tab-2' ? 'current' : ''}`}
-                style={{ backgroundImage: `url(/light/assets/imgs/works/1/WeStack.png)` }}
+                className="bg-img tab-img"
+                data-background="/light/assets/imgs/works/1/WeStack.png"
               ></div>
               <div
                 id="tab-3"
-                className={`bg-img tab-img ${selectedTab === 'tab-3' ? 'current' : ''}`}
-                style={{ backgroundImage: `url(/light/assets/imgs/works/1/UnitedEstates.png)` }}
+                className="bg-img tab-img"
+                data-background="/light/assets/imgs/works/1/UnitedEstates.png"
               ></div>
               <div
                 id="tab-4"
-                className={`bg-img tab-img ${selectedTab === 'tab-4' ? 'current' : ''}`}
-                style={{ backgroundImage: `url(/light/assets/imgs/works/1/BareBeauty.png)` }}
+                className="bg-img tab-img"
+                data-background="/light/assets/imgs/works/1/BareBeauty.png"
               ></div>
             </div>
           </div>
           <div className="col-lg-6 offset-lg-1 content">
-            <div className={`cluom mb-30 ${selectedTab === 'tab-1' ? 'current' : ''}`} data-tab="tab-1" onClick={() => handleTabClick('tab-1')}>
+            <div className="cluom mb-30 current" data-tab="tab-1">
               <div className="info">
                 <h6 className="sub-title opacity-7">Development</h6>
                 <h4>Empower Care</h4>
               </div>
               <div className="img">
-                <img src="/light/assets/imgs/works/1/1.jpg" alt="" />
+                <img src="/light/assets/imgs/works/1/EmpowerCare.png" alt="" />
               </div>
               <div className="more text-u ls1 fz-12">
                 <a href="/light/project6">
@@ -91,13 +88,13 @@ function Portfolio() {
                 </a>
               </div>
             </div>
-            <div className={`cluom mb-30 ${selectedTab === 'tab-2' ? 'current' : ''}`} data-tab="tab-2" onClick={() => handleTabClick('tab-2')}>
+            <div className="cluom mb-30" data-tab="tab-2">
               <div className="info">
                 <h6 className="sub-title opacity-7">Design & Development</h6>
                 <h4>We Stack</h4>
               </div>
               <div className="img">
-                <img src="/light/assets/imgs/works/1/2.jpg" alt="" />
+                <img src="/light/assets/imgs/works/1/WeStack.png" alt="" />
               </div>
               <div className="more text-u ls1 fz-12">
                 <a href="/light/project5">
@@ -105,13 +102,13 @@ function Portfolio() {
                 </a>
               </div>
             </div>
-            <div className={`cluom mb-30 ${selectedTab === 'tab-3' ? 'current' : ''}`} data-tab="tab-3" onClick={() => handleTabClick('tab-3')}>
+            <div className="cluom mb-30" data-tab="tab-3">
               <div className="info">
                 <h6 className="sub-title opacity-7">Development</h6>
                 <h4>United Estates</h4>
               </div>
               <div className="img">
-                <img src="/light/assets/imgs/works/1/3.jpg" alt="" />
+                <img src="/light/assets/imgs/works/1/UnitedEstates.png" alt="" />
               </div>
               <div className="more text-u ls1 fz-12">
                 <a href="/light/project4">
@@ -119,13 +116,13 @@ function Portfolio() {
                 </a>
               </div>
             </div>
-            <div className={`cluom mb-30 ${selectedTab === 'tab-4' ? 'current' : ''}`} data-tab="tab-4" onClick={() => handleTabClick('tab-4')}>
+            <div className="cluom mb-30" data-tab="tab-4">
               <div className="info">
                 <h6 className="sub-title opacity-7">Development</h6>
                 <h4>Bare Beauty</h4>
               </div>
               <div className="img">
-                <img src="/light/assets/imgs/works/1/4.jpg" alt="" />
+                <img src="/light/assets/imgs/works/1/BareBeauty.png" alt="" />
               </div>
               <div className="more text-u ls1 fz-12">
                 <a href="/light/project3">
@@ -133,7 +130,7 @@ function Portfolio() {
                 </a>
               </div>
             </div>
-           
+         
           </div>
         </div>
       </div>
