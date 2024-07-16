@@ -65,7 +65,7 @@ export default function LPageAbout() {
               <Intro2 />
               <Testimonials />
               <Team />
-              <Blog />
+              {/* <Blog /> */}
             </main>
             <Footer />
           </div>

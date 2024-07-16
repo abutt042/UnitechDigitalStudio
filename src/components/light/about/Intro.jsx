@@ -4,7 +4,7 @@ function Intro() {
   return (
     <section className="page-intro position-re">
       <div className="container-fluid rest">
-        <div className="row justify-content-end">
+        <div className="row justify-content-center">
           <div className="col-sm-9">
             <div className="img to-up fit-img">
               <img src="/light/assets/imgs/background/4.jpg" alt="" />
@@ -19,13 +19,8 @@ function Intro() {
           </div>
           <div className="col-lg-7">
             <div className="text">
-              <h4>
-                Whether you are a development agency looking to outsource design
-                work, a company in search of a Product Designer or Product Team,
-                a marketing agency that needs a landing page, a startup that
-                wants to launch an app, or an enterprise that plans to rebrand
-                or redesign its website, we welcome any challenge with our arms
-                wide open.
+              <h4 style={{fontSize:'20px'}}>
+              Welcome to Unitech Digital Studio, your partner in navigating the dynamic digital landscape. We are a team of dedicated professionals driven by a passion for creativity, innovation, and delivering exceptional digital solutions. With a finger on the pulse of the latest trends and technologies, we empower businesses to thrive in the online realm. Unitech Digital Studio, based in the vibrant heart of London, UK, is a trailblazer in digital solutions. With a passion for creativity and an unwavering commitment to excellence, we are the driving force behind brands that dare to innovate, evolve, and thrive in the ever-changing digital landscape.
               </h4>
             </div>
           </div>
