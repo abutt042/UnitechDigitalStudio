@@ -32,7 +32,7 @@ function Team() {
               </div>
             </div>
           ))}
-          {data.map((item, i) => (
+          {/* {data.map((item, i) => (
             <div key={i} className="col-lg-4">
               <div className="item mb-80">
                 <div className="img">
@@ -57,7 +57,7 @@ function Team() {
                 </div>
               </div>
             </div>
-          ))}
+          ))} */}
         </div>
       </div>
     </section>

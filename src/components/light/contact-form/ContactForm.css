@@ -1,0 +1,62 @@
+.wpb_wrapper {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .tm-contact-form-7-box {
+    width: 100%;
+  }
+  
+  .form-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .form-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .form-item {
+    margin-bottom: 20px;
+  }
+  
+  .wpcf7-form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .wpcf7-form-control::placeholder {
+    color: #aaa;
+  }
+  
+  .wpcf7-submit {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .wpcf7-submit:hover {
+    background-color: #4cae4c;
+  }
+  
+  .wpcf7-spinner {
+    display: none;
+  }
+  
+  .form-submit {
+    text-align: center;
+  }
+  
