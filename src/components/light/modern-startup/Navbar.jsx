@@ -203,9 +203,13 @@ function Navbar() {
                 <div className="item mb-50">
                   <h6 className="sub-title mb-15 opacity-7">Address</h6>
                   <h5>
-                    541 Melville Geek, <br /> Palo Alto, CA 94301
+                    Hashim Center, Aa Block <br /> Sector D Bahria Town, Lahore, Punjab
                   </h5>
+                  <br/>
+                  <h5>
+                  9 Thorold Road, Ilford London IG1 4HG - Sandra Davidson United Kingdom                  </h5>
                 </div>
+                
                 <div className="item mb-50">
                   <h6 className="sub-title mb-15 opacity-7">Social Media</h6>
                   <ul className="rest social-text">
@@ -214,11 +218,7 @@ function Navbar() {
                         <span className="hover-anim">Facebook</span>
                       </Link>
                     </li>
-                    <li className="mb-10">
-                      <Link to="#0" className="hover-this">
-                        <span className="hover-anim">Twitter</span>
-                      </Link>
-                    </li>
+                   
                     <li className="mb-10">
                       <Link to="#0" className="hover-this">
                         <span className="hover-anim">LinkedIn</span>

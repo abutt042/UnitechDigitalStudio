@@ -3881,7 +3881,7 @@ body.loaded {
 }
 
 .hamenu .cont-info {
-  padding-top: 140px;
+  padding-top: 90px;
   padding-left: 15px;
   position: relative;
   z-index: 3;
@@ -5583,7 +5583,7 @@ body.loaded {
 }
 
 .social-icon-circle a:hover {
-  color: #14cf93;
+  color: rgb(19 120 254);
 }
 
 .google-map {
@@ -5982,7 +5982,7 @@ footer.clean-footer.crev:before {
   padding-left: 30vw;
 }
 
-.startup-header .caption p {
+/* .startup-header .caption p {
   position: absolute;
   left: 0;
   top: 50%;
@@ -5990,7 +5990,7 @@ footer.clean-footer.crev:before {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   width: 20vw;
-}
+} */
 
 .freelancer {
   position: relative;
@@ -7714,16 +7714,22 @@ footer.clean-footer.crev:before {
 
 .services .item-box2 {
   padding: 40px;
-  border-radius: 20px;
-  background: #f5f7f9;
+  border-radius: 7px;
   position: relative;
   overflow: hidden;
 }
+.services .item-box2:hover{
+  transform: translateY(-5px);
+  background: #fff;
+  box-shadow: 0 0 40px rgba(51,51,51,.1);
+
+} 
 
 .services .item-box2:hover .rmore {
   opacity: 1;
   top: 0px;
   right: 0px;
+  
 }
 
 .services .item-box2:hover .rmore .arrow img {
@@ -8710,7 +8716,7 @@ footer.clean-footer.crev:before {
   bottom: -15px;
   padding: 15px;
   text-align: center;
-  color: #fff;
+  color: #000;
   background: rgba(255, 255, 255, 0.1);
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);

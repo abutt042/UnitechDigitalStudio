@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Contact() {
   return (
@@ -9,10 +10,14 @@ function Contact() {
             <div className="sec-head info-box full-width md-mb80">
               <div className="phone fz-30 fw-600 underline main-color">
                 <a href="#0">+44-7506-239325</a>
+                <a href="#0">+92-317-4572453</a>
+
               </div>
               <div className="morinfo mt-50 pb-30 bord-thin-bottom">
                 <h6 className="mb-15">Address</h6>
-                <p>Besòs 1, 08174 Sant Cugat del Vallès, Barcelona</p>
+                <p>Hashim Center,Aa Block Sector D Bahria Town, Lahore, Punjab</p>
+                <br/>
+                <p>9 Thorold Road, Ilford London IG1 4HG - Sandra Davidson United Kingdom</p>
               </div>
               <div className="morinfo mt-30 pb-30 bord-thin-bottom">
                 <h6 className="mb-15">Email</h6>
@@ -20,18 +25,16 @@ function Contact() {
               </div>
 
               <div className="social-icon-circle mt-50">
-                <a href="#0">
+                <Link to="#0">
                   <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-dribbble"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-behance"></i>
-                </a>
-                <a href="#0">
+                </Link>
+                <Link to="https://www.linkedin.com/company/unitech-digital-studios" target="_blank">
+                  <i className="fab fa-linkedin"></i>
+                </Link>
+                
+                <Link to="https://www.instagram.com/unitechdigitalstudio" target="_blank">
                   <i className="fab fa-instagram"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
