@@ -1,17 +1,33 @@
 [
   {
     "img": "/light/assets/imgs/team/1.jpg",
-    "name": "Robert De Niro",
-    "subName": "Web Designer"
+    "name": "Ameer Mavia",
+    "subName": "CTO"
   },
   {
     "img": "/light/assets/imgs/team/2.jpg",
-    "name": "Brendan Fraser",
-    "subName": "Web Designer"
+    "name": "Abdullab Bin Tariq",
+    "subName": "Front-end Developer"
   },
   {
     "img": "/light/assets/imgs/team/3.jpg",
-    "name": "Ahmed Khaled",
-    "subName": "Web Designer"
+    "name": "Haris Waseem",
+    "subName": "Front-end Developer"
+  }
+  ,
+  {
+    "img": "/light/assets/imgs/team/3.jpg",
+    "name": "Fahad",
+    "subName": "Business Developer"
+  },
+  {
+    "img": "/light/assets/imgs/team/3.jpg",
+    "name": "Fahad",
+    "subName": "Business Developer"
+  },
+  {
+    "img": "/light/assets/imgs/team/3.jpg",
+    "name": "Fahad",
+    "subName": "Business Developer"
   }
 ]

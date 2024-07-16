@@ -7,19 +7,21 @@ function Services() {
 
     <section className="services section-padding pb-0">
       <div className="container">
-        <div className="sec-head mb-80">
+        <div className="sec-head mb-50">
           <h6 className="sub-title main-color mb-25">Our Specialize</h6>
           <div className="bord pt-25 bord-thin-top d-flex align-items-center">
-            <h2 className="fw-600 text-u ls1">
-              What We <span className="fw-200">Offer</span>
+            <h2 className="fw-600 text-u ls1" style={{color:'black',textAlign:"center"}}>
+            Preparing for your success,<span className="fw-600" style={{color:'#2d67b5'}}>we provide truly prominent IT solutions.</span>
             </h2>
-            <div className="ml-auto">
+           
+          
+          </div>
+          <div className="ml-auto" style={{textAlign:'end',marginTop:'4%'}}>
               <Link to="/light/page-services" className="go-more">
                 <span className="text">View all services</span>
                 <span className="icon ti-arrow-top-right"></span>
               </Link>
             </div>
-          </div>
         </div>
         <div className="row">
           {data.map((item, i) => (
@@ -69,6 +71,18 @@ function Services() {
             </div>
           ))}
         </div>
+        <div style={{display:'flex',justifyContent:'space-evenly'}}>
+                <input
+                  style={{ width: '20%', padding: '10px', border: 'none', borderRadius: '4px', fontSize: '16px', color: '#fff', backgroundColor: '#007aff', cursor: 'pointer' }}
+                  type="submit"
+                  value="Submit"
+                />
+                 <input
+                  style={{ width: '20%', padding: '10px', border: 'none', borderRadius: '4px', fontSize: '16px', color: '#fff', backgroundColor: '#007aff', cursor: 'pointer' }}
+                  type="submit"
+                  value="Submit"
+                />
+              </div>
       </div>
     </section>
   );
