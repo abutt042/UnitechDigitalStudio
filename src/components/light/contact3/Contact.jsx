@@ -12,7 +12,7 @@ function Contact() {
               </div>
               <div className="morinfo mt-50 pb-30 bord-thin-bottom">
                 <h6 className="mb-15">Address</h6>
-                <p>Besòs 1, 08174 Sant Cugat del Vallès, Barcelona</p>
+                <p>Hashim Center,Aa Block Sector D Bahria Town, Lahore, Punjab</p>
               </div>
               <div className="morinfo mt-30 pb-30 bord-thin-bottom">
                 <h6 className="mb-15">Email</h6>
