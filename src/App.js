@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes, useLocation  } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
 
 import LBlogClassic from './pages/light/blog-classic';
@@ -30,26 +30,36 @@ import LShowcaseHalfSlider from './pages/light/showcase-half-slider';
 import LShowcaseInteractiveCenter from './pages/light/showcase-interactive-center';
 import LShowcaseInteractiveFull from './pages/light/showcase-interactive-full';
 import LShowcaseInteractiveVertical from './pages/light/showcase-interactive-vertical';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import EmpowerCare from './pages/light/empowercare';
 import WeStack from './pages/light/westack';
 import UnitedEstates from './pages/light/unitedestates';
 import BareBeauty from './pages/light/BareBeauty';
+import LoadingSpinner from './components/light/LoadingSpinner/LoadingSpinner';
 
 
 function App() {
+  const [loading, setLoading] = useState(true);
+ 
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 5000); // Set to 5 seconds
+
+    return () => clearTimeout(timer);
+  }, []);
   function ScrollToTop() {
     const { pathname } = useLocation();
-  
+
     useEffect(() => {
       window.scrollTo(0, 0);
     }, [pathname]);
-  
+
     return null;
   }
   return (
+    <>
+    {loading ? <LoadingSpinner/> :
     <Router>
-            <ScrollToTop />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<LHomeStartupOnePage />} />
         <Route path="/light/blog-classic" element={<LBlogClassic />} />
@@ -57,14 +67,14 @@ function App() {
         <Route path="/light/blog-list" element={<LBlogList />} />
         <Route path="/light/blog-list2" element={<LBlogList2 />} />
 
-      
+
         <Route
           path="/light/home-startup-onepage"
           element={<LHomeStartupOnePage />}
         />
         <Route path="/light/page-about" element={<LPageAbout />} />
-     
-    
+
+
         <Route path="/light/page-contact3" element={<LPageContact3 />} />
         <Route path="/light/page-error404" element={<LPageError404 />} />
         <Route path="/light/page-FAQS" element={<LPageFAQS />} />
@@ -73,13 +83,13 @@ function App() {
           path="/light/page-services-details"
           element={<LPageServicesDetails />}
         />
-     
+
         <Route path="/light/page-team" element={<LPageTeam />} />
-       
-       
-       
+
+
+
         <Route path="/light/portfolio-sticky" element={<LPortfolioSticky />} />
-        <Route path="/light/portfolio-sticky/empowercare" element={<EmpowerCare/>} />
+        <Route path="/light/portfolio-sticky/empowercare" element={<EmpowerCare />} />
         <Route path="/light/portfolio-sticky/westack" element={<WeStack />} />
         <Route path="/light/portfolio-sticky/unitedestates" element={<UnitedEstates />} />
         <Route path="/light/portfolio-sticky/barebeauty" element={<BareBeauty />} />
@@ -111,6 +121,8 @@ function App() {
         />
       </Routes>
     </Router>
+     }
+    </>
   );
 }
 
