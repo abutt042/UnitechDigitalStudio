@@ -28,7 +28,7 @@ function Header() {
           color: 'white',
         }}
       >
-        <div className="container pt-40" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+        <div className="container pt-40 co" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <div className="caption">
             <div className="lg-text fw-600" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', height: '100%' }}>
               <div className="text" style={{ marginBottom: '20px' }}>
@@ -85,11 +85,7 @@ function Header() {
                 </select>
               </div>
               <div>
-                <input
-                  style={{ width: '50%', padding: '10px', border: 'none', borderRadius: '4px', fontSize: '16px', color: '#fff', backgroundColor: '#007aff', cursor: 'pointer' }}
-                  type="submit"
-                  value="Submit"
-                />
+                <button className='btn-form'> Submit </button>
               </div>
             </form>
           </div>
