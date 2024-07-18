@@ -1,11 +1,17 @@
 'use client';
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide} from 'swiper/react';
+import { Navigation } from 'swiper/modules';
+
 
 function Clients() {
   const swiperOptions = {
     speed: 500,
     loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
     breakpoints: {
       // when window width is >= 640px
       500: {
@@ -24,8 +30,8 @@ function Clients() {
       // when window width is >= 1200px
       1000: {
         loop: true,
-        slidesPerView: 5,
-        spaceBetween: 30,
+        slidesPerView: 3,
+        spaceBetween: 25,
         centeredSlides: true,
       },
     },
@@ -33,12 +39,12 @@ function Clients() {
   return (
     <section className="clients-carso section-padding pt-0">
       <div className="container">
-        <div className="sec-bottom mb-100">
+        <div className="sec-bottom mb-70" style={{marginTop:'4%'}}>
+          
           <div className="main-bg d-flex align-items-center">
-            <h6 className="fz-14 fw-400">
-              More than <span className="fw-600">200+ companies</span>
-              trusted us worldwide
-            </h6>
+            <h2 style={{fontSize:'40px'}} >
+            Technologies We Use
+            </h2>
           </div>
         </div>
         <div
@@ -53,43 +59,46 @@ function Clients() {
             className="swiper-container"
             data-swiper="container"
             loop={true}
+            modules={[Navigation]}
             {...swiperOptions}
           >
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img src="/light/assets/imgs/brands/b1.png" alt="" />
+                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/b1.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img src="/light/assets/imgs/brands/b2.png" alt="" />
+                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/b2.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img src="/light/assets/imgs/brands/b3.png" alt="" />
+                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/b3.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img src="/light/assets/imgs/brands/b4.png" alt="" />
+                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/b4.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img src="/light/assets/imgs/brands/b6.png" alt="" />
+                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/b6.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>
+            <div className="swiper-button-next"></div>
+            <div className="swiper-button-prev"></div>
           </Swiper>
         </div>
       </div>

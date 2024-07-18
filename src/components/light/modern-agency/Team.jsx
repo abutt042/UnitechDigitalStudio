@@ -1,5 +1,6 @@
 import React from 'react';
 import data from '../../../l-data/team.json';
+import { Link } from 'react-router-dom';
 
 function Team() {
   return (
@@ -12,10 +13,10 @@ function Team() {
               Meet our <span className="fw-200">legends</span>
             </h2>
             <div className="ml-auto">
-              <a href="/light/page-team" className="go-more">
+              <Link to="/light/page-team" className="go-more">
                 <span className="text">Join to us</span>
                 <span className="icon ti-arrow-top-right"></span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -36,6 +36,7 @@ import WeStack from './pages/light/westack';
 import UnitedEstates from './pages/light/unitedestates';
 import BareBeauty from './pages/light/BareBeauty';
 import LoadingSpinner from './components/light/LoadingSpinner/LoadingSpinner';
+import Portfolio from './components/light/modern-startup/Portfolio';
 
 
 function App() {
@@ -66,6 +67,8 @@ function App() {
         <Route path="/light/blog-details" element={<LBlogDetails />} />
         <Route path="/light/blog-list" element={<LBlogList />} />
         <Route path="/light/blog-list2" element={<LBlogList2 />} />
+        <Route path="/light/portfolio2" element={<Portfolio/>} />
+
 
 
         <Route

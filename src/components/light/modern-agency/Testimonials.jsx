@@ -20,11 +20,14 @@ function Testimonials() {
   return (
     <section
       className="testimonials-crev section-padding pb-0 bg-img"
-      data-background="/light/assets/imgs/background/2.jpg"
-      data-overlay-dark="5"
+      style={{
+        backgroundImage: 'url(/light/assets/imgs/background/2.jpg)',
+       
+      }}
     >
       <div className="container">
         <div className="row justify-content-end">
+
           <div className="col-lg-10">
             <div className="sec-head mb-80">
               <h2 className="fw-600 fz-70">
@@ -76,7 +79,7 @@ function Testimonials() {
                               opacity="0.322"
                             ></path>
                           </svg>
-                          <h4>{item.desc}</h4>
+                          <h4 style={{color:'#464646',fontSize:"25px"}}>{item.desc}</h4>
                         </div>
                         <div className="info d-flex align-items-center pt-40 mt-40 bord-thin-top">
                           <div>
@@ -87,7 +90,7 @@ function Testimonials() {
                           </div>
                           <div className="ml-auto">
                             <div className="rate-stars fz-14">
-                              <span className="rate main-color">
+                              <span style={{color:'#ffb944'}}>
                                 <i className="fas fa-star"></i>
                                 <i className="fas fa-star"></i>
                                 <i className="fas fa-star"></i>

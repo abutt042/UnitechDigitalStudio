@@ -11,21 +11,23 @@ import Marquee from '../../components/light/modern-startup/Marquee';
 import Portfolio from '../../components/light/modern-startup/Portfolio';
 import ImageScale from '../../components/light/modern-startup/ImageScale';
 import Skills from '../../components/light/modern-startup/Skills';
-import Testimonials from '../../components/light/modern-startup/Testimonials';
+import Testimonials from '../../components/light/modern-agency/Testimonials';
 import Clients from '../../components/light/modern-startup/Clients';
 import Blog from '../../components/light/modern-startup/Blog';
-import Contact from '../../components/light/contact/Contact';
+import Contact from '../../components/light/contact3/Contact';
 import Footer from '../../components/light/modern-agency/Footer';
 import logo from '../../favicon.ico';
+import Team from '../../components/light/modern-agency/Team';
+import ContactForm from '../../components/light/contact-form/ContactForm';
 export default function LHomeStartupOnePage() {
   return (
     <>
-       <link rel="icon" href={logo} />
-       <link rel="shortcut icon" href={logo} />
+      <link rel="icon" href={logo} />
+      <link rel="shortcut icon" href={logo} />
       <Helmet>
         <title>Unitech Digital Studio</title>
-     <link rel="icon" href={logo} />
-       <link rel="shortcut icon" href={logo} />
+        <link rel="icon" href={logo} />
+        <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"
@@ -56,7 +58,7 @@ export default function LHomeStartupOnePage() {
         <script src="/light/assets/js/smoother-script.js"></script>
       </Helmet>
       <body>
-         <LoadingScreen/>
+        <LoadingScreen />
         <Cursor />
         <ProgressScroll />
         <Lines />
@@ -66,15 +68,15 @@ export default function LHomeStartupOnePage() {
             <main className="main-bg o-hidden">
               <Header />
               <Services />
+              <Clients />
               <About />
               <Marquee />
               <Portfolio />
-              <ImageScale />
               <Skills />
               <Testimonials />
-              <Clients />
-              <Blog />
-            </main>
+              {/* <Blog /> */}
+              <Contact />         
+                 </main>
             <Footer />
           </div>
         </div>

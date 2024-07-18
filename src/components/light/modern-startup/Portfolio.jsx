@@ -5,25 +5,26 @@ import $ from 'jquery';
 function Portfolio() {
   useEffect(() => {
     const handleTabHover = (event) => {
-      const tabId = $(event.target).attr('data-tab');
-      if ($(event.target).hasClass('current')) {
+      const tabId = $(event.currentTarget).attr('data-tab');
+      if ($(event.currentTarget).hasClass('current')) {
         return false;
       }
 
       $('.portfolio-tab .cluom').removeClass('current');
-      $(event.target).addClass('current');
+      $(event.currentTarget).addClass('current');
 
       $('.portfolio-tab .glry-img .tab-img').removeClass('current');
       $('#' + tabId).addClass('current');
     };
 
-    $('.portfolio-tab .cluom').on('mouseenter', handleTabHover);
+    $('.portfolio-tab').on('mouseenter', '.cluom', handleTabHover);
 
     // Cleanup event listeners on component unmount
     return () => {
-      $('.portfolio-tab .cluom').off('mouseenter', handleTabHover);
+      $('.portfolio-tab').off('mouseenter', '.cluom', handleTabHover);
     };
   }, []);
+
   useEffect(() => {
     // Set the background images after component mounts
     $('.portfolio-tab .tab-img').each(function () {
@@ -31,22 +32,28 @@ function Portfolio() {
       $(this).css('background-image', `url(${bg})`);
     });
   }, []);
+
   return (
-    <section className="portfolio-tab crev section-padding" data-scroll-index="3">
+    <section className="portfolio-tab crev section-padding pb-0" 
+    
+     style={{backgroundColor:'rgb(248, 248, 248)',     backgroundImage: 'url(/light/assets/imgs/background/liningbg.png)',
+      backgroundRepeat:'no-repeat',
+              backgroundPosition: 'bottom left',}}>
       <div className="container">
         <div className="sec-head mb-80">
           <h6 className="sub-title main-color mb-25">Our Portfolio</h6>
-          <div className="bord pt-25 bord-thin-top d-flex align-items-center">
-            <h2 className="fw-600 text-u ls1">
-              Featured <span className="fw-200">projects</span>
+          <div className="bord pt-25 bord-thin-top d-flex align-items-center justify-content-center">
+            <h2 className="fw-600 text-u ls1" style={{color:'black'}}>
+              Proud projects <span style={{color : "rgb(45, 103, 181)"}}>  make us excel</span>
             </h2>
-            <div className="ml-auto">
+          
+          </div>
+          <div className="ml-auto" style={{textAlign:'right', marginTop:'4%'}}>
               <Link to="/light/portfolio-sticky" className="go-more">
                 <span className="text">View all Works</span>
                 <span className="icon ti-arrow-top-right"></span>
               </Link>
             </div>
-          </div>
         </div>
         <div className="row">
           <div className="col-lg-5 d-flex align-items-center justify-content-center">
@@ -54,22 +61,22 @@ function Portfolio() {
               <div
                 id="tab-1"
                 className="bg-img tab-img current"
-                data-background="/light/assets/imgs/works/1/EmpowerCare.png"
+                data-background="/light/assets/imgs/works/1/EmpowerCare.jpg"
               ></div>
               <div
                 id="tab-2"
                 className="bg-img tab-img"
-                data-background="/light/assets/imgs/works/1/WeStack.png"
+                data-background="/light/assets/imgs/works/1/WeStack.jpg"
               ></div>
               <div
                 id="tab-3"
                 className="bg-img tab-img"
-                data-background="/light/assets/imgs/works/1/UnitedEstates.png"
+                data-background="/light/assets/imgs/works/1/UnitedEstates.jpg"
               ></div>
               <div
                 id="tab-4"
                 className="bg-img tab-img"
-                data-background="/light/assets/imgs/works/1/BareBeauty.png"
+                data-background="/light/assets/imgs/works/1/BareBeauty.jpg"
               ></div>
             </div>
           </div>
@@ -80,7 +87,7 @@ function Portfolio() {
                 <h4>Empower Care</h4>
               </div>
               <div className="img">
-                <img src="/light/assets/imgs/works/1/EmpowerCare.png" alt="" />
+                <img src="/light/assets/imgs/works/1/EmpowerCare.jpg" alt="Empower Care" />
               </div>
               <div className="more text-u ls1 fz-12">
                 <a href="/light/project6">
@@ -94,7 +101,7 @@ function Portfolio() {
                 <h4>We Stack</h4>
               </div>
               <div className="img">
-                <img src="/light/assets/imgs/works/1/WeStack.png" alt="" />
+                <img src="/light/assets/imgs/works/1/WeStack.jpg" alt="We Stack" />
               </div>
               <div className="more text-u ls1 fz-12">
                 <a href="/light/project5">
@@ -108,7 +115,7 @@ function Portfolio() {
                 <h4>United Estates</h4>
               </div>
               <div className="img">
-                <img src="/light/assets/imgs/works/1/UnitedEstates.png" alt="" />
+                <img src="/light/assets/imgs/works/1/UnitedEstates.jpg" alt="United Estates" />
               </div>
               <div className="more text-u ls1 fz-12">
                 <a href="/light/project4">
@@ -122,7 +129,7 @@ function Portfolio() {
                 <h4>Bare Beauty</h4>
               </div>
               <div className="img">
-                <img src="/light/assets/imgs/works/1/BareBeauty.png" alt="" />
+                <img src="/light/assets/imgs/works/1/BareBeauty.jpg" alt="Bare Beauty" />
               </div>
               <div className="more text-u ls1 fz-12">
                 <a href="/light/project3">
@@ -130,7 +137,6 @@ function Portfolio() {
                 </a>
               </div>
             </div>
-         
           </div>
         </div>
       </div>

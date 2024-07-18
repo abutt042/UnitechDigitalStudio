@@ -9,9 +9,11 @@ import Navbar from '../../components/light/modern-startup/Navbar';
 import Intro from '../../components/light/about/Intro';
 import Marquee from '../../components/light/about/Marquee';
 import Intro2 from '../../components/light/about/Intro2';
-import Testimonials from '../../components/light/about/Testimonials';
+import Testimonials from '../../components/light/modern-agency/Testimonials';
 import Team from '../../components/light/about/Team';
 import Blog from '../../components/light/about/Blog';
+import Skills from '../../components/light/modern-startup/Skills';
+
 import logo from '../../favicon.ico';
 
 export default function LPageAbout() {
@@ -61,10 +63,11 @@ export default function LPageAbout() {
             <main className="main-bg">
               <Header />
               <Intro />
-              <Marquee />
+              {/* <Marquee /> */}
               <Intro2 />
+              <Skills/>
               <Testimonials />
-              <Team />
+             
               {/* <Blog /> */}
             </main>
             <Footer />
