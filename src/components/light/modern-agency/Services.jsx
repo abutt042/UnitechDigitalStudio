@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 function Services() {
   return (
 
-    <section className="services section-padding pb-0">
+    <section className="services section-padding pb-0"
+    >
       <div className="container">
         <div className="sec-head mb-50">
           <h6 className="sub-title main-color mb-25">Our Specialize</h6>
@@ -71,17 +72,21 @@ function Services() {
             </div>
           ))}
         </div>
-        <div style={{display:'flex',justifyContent:'space-evenly'}}>
+        <div style={{display:'flex',justifyContent:'space-evenly',marginBottom:'3%'}}>
+                <div>
                 <input
-                  style={{ width: '20%', padding: '10px', border: 'none', borderRadius: '4px', fontSize: '16px', color: '#fff', backgroundColor: '#007aff', cursor: 'pointer' }}
+                  style={{  padding: '10px', border: 'none', borderRadius: '4px', fontSize: '16px', color: '#fff', backgroundColor: '#007aff', cursor: 'pointer' }}
                   type="submit"
-                  value="Submit"
+                  value="Talk to Consultant"
                 />
+                </div>
+                <div>
                  <input
-                  style={{ width: '20%', padding: '10px', border: 'none', borderRadius: '4px', fontSize: '16px', color: '#fff', backgroundColor: '#007aff', cursor: 'pointer' }}
+                  style={{  padding: '10px', border: 'none', borderRadius: '4px', fontSize: '16px', color: '#fff', backgroundColor: '#007aff', cursor: 'pointer' }}
                   type="submit"
-                  value="Submit"
+                  value="Contact Us Now"
                 />
+                </div>
               </div>
       </div>
     </section>

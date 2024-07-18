@@ -49,7 +49,7 @@ export default function BareBeauty() {
         <script src="/light/assets/js/smoother-script.js"></script>
       </Helmet>
       <body>
-         
+         <LoadingScreen/>
         <Cursor />
         <ProgressScroll />
         <Lines />

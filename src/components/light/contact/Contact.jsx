@@ -2,7 +2,12 @@ import React from 'react';
 
 function Contact() {
   return (
-    <section className="contact section-padding sub-bg">
+    <section className="contact section-padding sub-bg"  style={{
+      backgroundImage: 'url(/light/assets/imgs/background/contactbg.png)',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+    
+    }}>
       <div className="container">
         <div className="row">
           <div className="col-lg-5 valign">

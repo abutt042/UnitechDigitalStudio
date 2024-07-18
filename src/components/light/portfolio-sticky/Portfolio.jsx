@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom';
 
 function Portfolio() {
   return (
-    <section className="work-sticky section-padding pt-60 sub-bg">
+    <section className="work-sticky section-padding pt-60 sub-bg"
+    >
       <div className="container">
         <div className="row">
           <div className="col-lg-8 items">
             <div className="img">
-              <img src="/light/assets/imgs/works/1/EmpowerCare.png" alt="" />
+              <img style={{width:'100%'}} src="/light/assets/imgs/works/1/EmpowerCare.png" alt="" />
             </div>
           </div>
           <div className="col-lg-4 items">
@@ -22,7 +23,7 @@ function Portfolio() {
                 </p>
                 <Link to="/light/portfolio-sticky/empowercare" className="rmore mt-30">
                   <span className="sub-title">View Project</span>
-                  <img
+                  <img 
                     src="/light/assets/imgs/arrow-right.png"
                     alt=""
                     className="icon-img-20 ml-5"
@@ -52,12 +53,12 @@ function Portfolio() {
           </div>
           <div className="col-lg-8 items">
             <div className="img">
-              <img src="/light/assets/imgs/works/1/WeStack.png" alt="" />
+              <img style={{width:'100%'}} src="/light/assets/imgs/works/1/WeStack.png" alt="" />
             </div>
           </div>
           <div className="col-lg-8 items">
             <div className="img">
-              <img src="/light/assets/imgs/works/1/UnitedEstates.png" alt="" />
+              <img style={{width:'100%'}} src="/light/assets/imgs/works/1/UnitedEstates.png" alt="" />
             </div>
           </div>
           <div className="col-lg-4 items">
@@ -100,7 +101,7 @@ function Portfolio() {
           </div>
           <div className="col-lg-8 items">
             <div className="img">
-              <img src="/light/assets/imgs/works/1/BareBeauty.png" alt="" />
+              <img style={{width:'100%'}} src="/light/assets/imgs/works/1/BareBeauty.png" alt="" />
             </div>
           </div>
         </div>

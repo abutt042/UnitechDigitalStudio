@@ -47,11 +47,11 @@ function Header() {
 
             </div>
           </div>
-          <div className="contact-form" style={{ backgroundColor: '#fff',textAlign:'center', padding: '42px 30px 51px', borderRadius: '8px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',width:'100%' }}>
+          <div className="contact-form" style={{ backgroundColor: 'transparent',textAlign:'center', padding: '42px 30px 51px', borderRadius: '8px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.4)',width:'100%' }}>
             <h4 style={{ color: '#333', marginBottom: '10px' }}>Book appointment</h4>
             <p style={{ color: '#666', marginBottom: '20px' }}>It's our pleasure to have a chance to cooperate.</p>
             <form action="/homepage/it-agency/#wpcf7-f406-p152-o1" method="post" aria-label="Contact form" noValidate>
-              <div style={{ marginBottom: '15px' }}>
+              <div style={{ marginBottom: '25px' }}>
                 <input
                   size="40"
                   style={{ width: '100%', padding: '10px', border: '1px solid #ddd', borderRadius: '4px', fontSize: '16px', color: '#333',backgroundColor :'#f5f5f5' }}
@@ -61,7 +61,7 @@ function Header() {
                   required
                 />
               </div>
-              <div style={{ marginBottom: '15px' }}>
+              <div style={{ marginBottom: '25px' }}>
                 <input
                   size="40"
                   style={{ width: '100%', padding: '10px', border: '1px solid #ddd', borderRadius: '4px', fontSize: '16px', color: '#333',backgroundColor :'#f5f5f5' }}
@@ -71,7 +71,7 @@ function Header() {
                   required
                 />
               </div>
-              <div style={{ marginBottom: '15px' }}>
+              <div style={{ marginBottom: '25px' }}>
                 <select
                   style={{ width: '100%', padding: '10px', border: '1px solid #ddd', borderRadius: '4px', fontSize: '16px', color: '#333',backgroundColor :'#f5f5f5' }}
                   name="inquiry"
