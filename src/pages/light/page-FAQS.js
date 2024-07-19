@@ -4,7 +4,7 @@ import Lines from '../../components/light/common/Lines';
 import ProgressScroll from '../../components/light/common/ProgressScroll';
 import Cursor from '../../components/light/common/cusor';
 import LoadingScreen from '../../components/light/common/loader';
-import Navbar from '../../components/light/creative-agency/Navbar';
+import Navbar from '../../components/light/modern-startup/Navbar';
 import Header from '../../components/light/FAQS/Header';
 import FAQS from '../../components/light/FAQS/FAQS';
 import Testimonials from '../../components/light/FAQS/Testimonials';
@@ -17,6 +17,7 @@ export default function LPageFAQS() {
       <Helmet>
         <title>Unitech Digital Studio</title>
      <link rel="icon" href={logo} />
+
        <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
@@ -48,7 +49,7 @@ export default function LPageFAQS() {
         <script src="/light/assets/js/smoother-script.js"></script>
       </Helmet>
       <body>
-         
+         <LoadingScreen/>
         <Cursor />
         <ProgressScroll />
         <Lines />

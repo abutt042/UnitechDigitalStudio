@@ -28,26 +28,27 @@ function Header() {
           color: 'white',
         }}
       >
-        <div className="container pt-40" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <div className="caption">
+        <div className="container pt-40" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap:'80px', flexWrap:'wrap' }}>
+          <div className="caption col-lg-6">
             <div className="lg-text fw-600" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', height: '100%' }}>
               <div className="text" style={{ marginBottom: '20px' }}>
+                <div>
                 <span style={{ color: 'black', fontSize: '50px' }}>
                   We are a <br />
                   Web Design <span style={{ color: '#007aff' }}>Agency</span>
                 </span>
-                <span>
+                </div>
+                <div>
+                
                 <p>Elevate your brand with our customized solutions. From dynamic websites to effective marketing strategies, we bring your vision to life. Contact us today to start your digital journey!</p>
 
-                </span>
+                
+                </div>
               </div>
             </div>
-            <br/>
-            <div>
-
-            </div>
+            
           </div>
-          <div className="contact-form" style={{ backgroundColor: 'transparent',textAlign:'center', padding: '42px 30px 51px', borderRadius: '8px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.4)',width:'100%' }}>
+          <div className="contact-form col-lg-5" style={{ backgroundColor: 'white',textAlign:'center', padding: '42px 30px 51px', borderRadius: '8px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.4)', }}>
             <h4 style={{ color: '#333', marginBottom: '10px' }}>Book appointment</h4>
             <p style={{ color: '#666', marginBottom: '20px' }}>It's our pleasure to have a chance to cooperate.</p>
             <form action="/homepage/it-agency/#wpcf7-f406-p152-o1" method="post" aria-label="Contact form" noValidate>

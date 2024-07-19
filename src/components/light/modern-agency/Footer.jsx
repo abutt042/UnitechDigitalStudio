@@ -57,7 +57,7 @@ function Footer() {
                 <div className="info mt-80 d-flex align-items-center">
                   <div>
                     <Link
-                      to="#0"
+                     
                       className="butn butn-md butn-bord-thin radius-30"
                     >
                       <span className="text">info@unitechdigitalstudio.com</span>
@@ -65,10 +65,10 @@ function Footer() {
                   </div>
                   <div>
                     <Link
-                      to="#0"
+                     
                       className="butn butn-md butn-bord-thin radius-30 ml-30"
                     >
-                      <span className="text">+44-7506-239325</span>
+                      <span className="text">+(201) 502-4027</span>
                     </Link>
                   </div>
                 </div>
@@ -100,26 +100,17 @@ function Footer() {
                         <Link to="/light/page-FAQS">FAQS</Link>
                       </li>
                       <li className="mb-15">
-                        <Link to="/light/page-about2">Term & Conditions</Link>
+                        <Link>Term & Conditions</Link>
                       </li>
                       <li className="mb-15">
-                        <Link to="/light/page-about2">Privacy policy</Link>
+                        <Link >Privacy policy</Link>
                       </li>
                     
                     </ul>
                   </div>
                 </div>
               </div>
-              <div className="subscribe-minimal mt-50">
-                <form action="contact.php">
-                  <div className="form-group rest">
-                    <input type="email" placeholder="Type Your Email" />
-                    <button type="submit">
-                      <i className="ti-arrow-top-right"></i>
-                    </button>
-                  </div>
-                </form>
-              </div>
+             
             </div>
           </div>
           <div className="text-center pt-30 pb-30 sub-bg mt-80">
