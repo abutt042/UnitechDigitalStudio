@@ -1,28 +1,33 @@
-import React from 'react';
-import data from '../../../l-data/services.json';
-import { Link } from 'react-router-dom';
+import React from "react";
+import data from "../../../l-data/services.json";
+import { Link } from "react-router-dom";
 
 function Services() {
   return (
-
-    <section className="services section-padding pb-0"
-    >
+    <section className="services section-padding pb-0">
       <div className="container">
         <div className="sec-head mb-50">
           <h6 className="sub-title main-color mb-25">Our Specialize</h6>
           <div className="bord pt-25 bord-thin-top d-flex align-items-center">
-            <h2 className="fw-600 text-u ls1" style={{color:'black',textAlign:"center"}}>
-            Preparing for your success,<span className="fw-600" style={{color:'#2d67b5'}}>we provide truly prominent IT solutions.</span>
+            <h2
+              className="fw-600 text-u ls1"
+              style={{ color: "black", textAlign: "center" }}
+            >
+              Preparing for your success,
+              <span className="fw-600" style={{ color: "#2d67b5" }}>
+                we provide truly prominent IT solutions.
+              </span>
             </h2>
-           
-          
           </div>
-          <div className="ml-auto" style={{textAlign:'end',marginTop:'4%'}}>
-              <Link to="/light/page-services" className="go-more">
-                <span className="text">View all services</span>
-                <span className="icon ti-arrow-top-right"></span>
-              </Link>
-            </div>
+          <div
+            className="ml-auto"
+            style={{ textAlign: "end", marginTop: "4%" }}
+          >
+            <Link to="/light/page-services" className="go-more">
+              <span className="text">View all services</span>
+              <span className="icon ti-arrow-top-right"></span>
+            </Link>
+          </div>
         </div>
         <div className="row">
           {data.map((item, i) => (
@@ -72,22 +77,27 @@ function Services() {
             </div>
           ))}
         </div>
-        <div style={{display:'flex',justifyContent:'space-evenly',marginBottom:'3%'}}>
-                <div>
-                <input
-                  style={{  padding: '10px', border: 'none', borderRadius: '4px', fontSize: '16px', color: '#fff', backgroundColor: '#007aff', cursor: 'pointer' }}
-                  type="submit"
-                  value="Talk to Consultant"
-                />
-                </div>
-                <div>
-                 <input
-                  style={{  padding: '10px', border: 'none', borderRadius: '4px', fontSize: '16px', color: '#fff', backgroundColor: '#007aff', cursor: 'pointer' }}
-                  type="submit"
-                  value="Contact Us Now"
-                />
-                </div>
-              </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            marginBottom: "3%",
+            gap: "30px",
+            flexWrap: "wrap",
+          }}
+        >
+          <div>
+            <button className=" btn-1">
+             
+              Talk to Consultant
+            </button>
+          </div>
+          <div>
+            <button className=" btn-2">
+              Contact Us Now
+            </button>
+          </div>
+        </div>
       </div>
     </section>
   );
