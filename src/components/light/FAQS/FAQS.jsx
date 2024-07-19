@@ -1,6 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import $ from 'jquery'; // Import jQuery
 
 function FAQS() {
+  useEffect(() => {
+    // jQuery code inside useEffect
+    $('.accordion').on('click', '.title', function() {
+      $(this).next().slideDown();
+      $('.accordion-info').not($(this).next()).slideUp();
+    });
+
+    $('.accordion').on('click', '.item', function() {
+      $(this).addClass('active').siblings().removeClass('active');
+    });
+  }, []); // Empty dependency array ensures this effect runs only once
+
   return (
     <section className="faqs section-padding position-re">
       <div className="container">

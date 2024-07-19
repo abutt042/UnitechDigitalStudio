@@ -530,7 +530,7 @@ figure {
 }
 
 .butn.butn-bord-thin:hover {
-  background: #1a1a1a;
+  background: #1277fc;
   color: #fff;
 }
 
@@ -5428,9 +5428,8 @@ body.loaded {
 }
 
 .contact .info-box {
-  padding: 80px 40px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 30px;
+
+
   position: relative;
   overflow: hidden;
 }
@@ -5451,8 +5450,8 @@ body.loaded {
 .contact .form2 input,
 .contact .form2 textarea {
   padding: 15px 30px;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  border-radius: 30px;
+  border-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
 .contact-modern .social-box {
