@@ -96,10 +96,10 @@ function Footer() {
                         <Link to="/light/page-FAQS">FAQS</Link>
                       </li>
                       <li className="mb-15">
-                        <Link>Term & Conditions</Link>
+                        <Link to="/light/Terms">Term & Conditions</Link>
                       </li>
                       <li className="mb-15">
-                        <Link >Privacy policy</Link>
+                        <Link to="/light/privacy-policy">Privacy policy</Link>
                       </li>
                     
                     </ul>
