@@ -86,11 +86,7 @@ function Header() {
                 </select>
               </div>
               <div>
-                <input
-                  style={{ width: '50%', padding: '10px', border: 'none', borderRadius: '4px', fontSize: '16px', color: '#fff', backgroundColor: '#007aff', cursor: 'pointer' }}
-                  type="submit"
-                  value="Submit"
-                />
+                <button className='btn-form'> Submit </button>
               </div>
             </form>
           </div>

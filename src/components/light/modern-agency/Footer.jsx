@@ -20,11 +20,7 @@ function Footer() {
                       <i className="fab fa-facebook-f mr-10"></i> Facebook
                     </Link>
                   </li>
-                  <li className="cursor-pointer  ml-50 social-icons">
-                    <Link to="#">
-                      <i className="fab fa-dribbble mr-10"></i> Dribbble
-                    </Link>
-                  </li>
+                 
                   <li className="cursor-pointer ml-50 social-icons">
                     <Link to="https://www.linkedin.com/company/unitech-digital-studios/" >
                       <i className="fab fa-linkedin-in mr-10"></i> LinkedIn
