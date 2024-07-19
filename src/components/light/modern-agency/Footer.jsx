@@ -85,8 +85,14 @@ function Footer() {
                       <li className="mb-15">
                         <Link to="/light/blog-list2">Blog</Link>
                       </li>
-                      <li>
+                      <li className="mb-15">
                         <Link to="/light/page-contact3">Contact</Link>
+                      </li>
+                      <li className="mb-15">
+                        <Link to="/light/portfolio-sticky">Portfolio</Link>
+                      </li>
+                      <li>
+                        <Link to="/light/page-team">Team</Link>
                       </li>
                     </ul>
                   </div>
@@ -101,12 +107,10 @@ function Footer() {
                       <li className="mb-15">
                         <Link >Privacy policy</Link>
                       </li>
-                    
                     </ul>
                   </div>
                 </div>
               </div>
-             
             </div>
           </div>
           <div className="text-center pt-30 pb-30 sub-bg mt-80">

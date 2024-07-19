@@ -727,9 +727,8 @@ figure {
   pointer-events: none;
   position: fixed;
   padding: 0.3rem;
-  background-color: #fff;
+  background-color:#4299f0;
   border-radius: 50%;
-  mix-blend-mode: difference;
   -webkit-transition: opacity 0.4s ease, -webkit-transform 0.3s ease;
   transition: opacity 0.4s ease, -webkit-transform 0.3s ease;
   -o-transition: transform 0.3s ease, opacity 0.4s ease;
@@ -2765,7 +2764,7 @@ img.left {
 }
 
 .pt-80 {
-  padding-top: 30px !important;
+  padding-top: 80px !important;
 }
 
 .pt-85 {
@@ -5725,12 +5724,13 @@ footer.clean-footer.crev:before {
 }
 
 .modern-footer {
-  background: linear-gradient(125deg, #2175bd, #4299f0);
+  background-color:  #4299f0;
   color: #fff;
+
 }
 
 .modern-footer .sub-bg {
-  background: linear-gradient(125deg, #4299f0, #2175bd) !important;
+  background-color:  #4299f0;
   color: #fff;
 }
 
@@ -7707,6 +7707,10 @@ footer.clean-footer.crev:before {
   position: relative;
   overflow: hidden;
 }
+.services .item-box2 {
+  transition: transform 0.3s ease-out, background-color 0.3s ease-out, box-shadow 0.3s ease-out; /* Add transition properties */
+}
+
 .services .item-box2:hover {
   transform: translateY(-5px);
   background: #fff;
