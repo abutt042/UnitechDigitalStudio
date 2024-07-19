@@ -37,6 +37,8 @@ import UnitedEstates from './pages/light/unitedestates';
 import BareBeauty from './pages/light/BareBeauty';
 import LoadingSpinner from './components/light/LoadingSpinner/LoadingSpinner';
 import Portfolio from './components/light/modern-startup/Portfolio';
+import LPrivacyPolicy from './pages/light/privacy-policy';
+import LTerms from './pages/light/Terms';
 
 
 function App() {
@@ -122,6 +124,12 @@ function App() {
           path="/light/showcase-interactive-vertical"
           element={<LShowcaseInteractiveVertical />}
         />
+   <Route 
+   path="/light/privacy-policy" 
+   element={<LPrivacyPolicy/>} />
+ <Route 
+   path="/light/Terms" 
+   element={<LTerms/>} />
       </Routes>
     </Router>
      }

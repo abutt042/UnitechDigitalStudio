@@ -43,11 +43,11 @@ function Header() {
       >
       <div className="container pt-100 ontop">
         <div className="text-center">
-          <h1 className="fz-100 text-u">FAQS.</h1>
+          <h1 className="fz-100 text-u">Terms & Conditions.</h1>
           <div className="mt-15">
             <a href="/">Home</a>
             <span className="padding-rl-20">|</span>
-            <span className="main-color">FAQS</span>
+            <span className="main-color">Terms & Conditions</span>
           </div>
         </div>
       </div>
