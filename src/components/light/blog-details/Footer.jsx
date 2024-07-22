@@ -63,7 +63,7 @@ function Footer() {
                   <a href="/light/page-services">Services</a>
                 </li>
                 <li className="mb-15">
-                  <a href="/light/blog-list2">Blog</a>
+                  <a href="/blog">Blog</a>
                 </li>
                 <li>
                   <a href="/light/page-contact">Contact</a>

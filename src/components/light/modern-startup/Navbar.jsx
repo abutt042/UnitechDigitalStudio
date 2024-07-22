@@ -61,32 +61,32 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/light/page-services">
+                <Link className="nav-link" to="/services">
                   <span className="rolling-text">Services</span>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/light/page-about">
+                <Link className="nav-link" to="about">
                   <span className="rolling-text">About</span>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/light/portfolio-sticky">
+                <Link className="nav-link" to="/portfolio">
                   <span className="rolling-text">Portfolio</span>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/light/page-team">
+                <Link className="nav-link" to="/team">
                   <span className="rolling-text">Team</span>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/light/blog-list2">
+                <Link className="nav-link" to="/blog">
                   <span className="rolling-text">Blog</span>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/light/page-contact3">
+                <Link className="nav-link" to="/contact">
                   <span className="rolling-text">Contact</span>
                 </Link>
               </li>
@@ -130,7 +130,7 @@ function Navbar() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/light/page-services">
+                    <Link to="/services">
                       <div className="o-hidden">
                         <div className="link cursor-pointer dmenu">
                           <span className="fill-text" data-text="Services">
@@ -141,7 +141,7 @@ function Navbar() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/light/page-about">
+                    <Link to="/about">
                       <div className="o-hidden">
                         <div className="link cursor-pointer dmenu">
                           <span className="fill-text" data-text="About">
@@ -152,7 +152,7 @@ function Navbar() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/light/portfolio-sticky">
+                    <Link to="/portfolio">
                       <div className="o-hidden">
                         <div className="link cursor-pointer dmenu">
                           <span className="fill-text" data-text="Portfolio">
@@ -163,7 +163,7 @@ function Navbar() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/light/page-team">
+                    <Link to="/team">
                       <div className="o-hidden">
                         <div className="link cursor-pointer dmenu">
                           <span className="fill-text" data-text="Team">
@@ -174,7 +174,7 @@ function Navbar() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/light/blog-list2">
+                    <Link to="/blog">
                       <div className="o-hidden">
                         <div className="link cursor-pointer dmenu">
                           <span className="fill-text" data-text="Team">
@@ -185,7 +185,7 @@ function Navbar() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/light/page-contact3">
+                    <Link to="/contact">
                       <div className="o-hidden">
                         <div className="link cursor-pointer dmenu">
                           <span className="fill-text" data-text="Contact">

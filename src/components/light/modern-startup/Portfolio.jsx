@@ -49,7 +49,7 @@ function Portfolio() {
           
           </div>
           <div className="ml-auto" style={{textAlign:'right', marginTop:'4%'}}>
-              <Link to="/light/portfolio-sticky" className="go-more">
+              <Link to="/portfolio"className="go-more">
                 <span className="text">View all Works</span>
                 <span className="icon ti-arrow-top-right"></span>
               </Link>
@@ -90,9 +90,9 @@ function Portfolio() {
                 <img src="/light/assets/imgs/works/1/EmpowerCare.jpg" alt="Empower Care" />
               </div>
               <div className="more text-u ls1 fz-12">
-                <a href="/light/project6">
+                <Link to="/portfolio/empowercare">
                   View Project <i className="ml-15 ti-arrow-top-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="cluom mb-30" data-tab="tab-2">
@@ -104,9 +104,9 @@ function Portfolio() {
                 <img src="/light/assets/imgs/works/1/WeStack.jpg" alt="We Stack" />
               </div>
               <div className="more text-u ls1 fz-12">
-                <a href="/light/project5">
+                <Link to="/portfolio/westack">
                   View Project <i className="ml-15 ti-arrow-top-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="cluom mb-30" data-tab="tab-3">
@@ -118,9 +118,9 @@ function Portfolio() {
                 <img src="/light/assets/imgs/works/1/UnitedEstates.jpg" alt="United Estates" />
               </div>
               <div className="more text-u ls1 fz-12">
-                <a href="/light/project4">
+                <Link to="/portfolio/unitedestates">
                   View Project <i className="ml-15 ti-arrow-top-right"></i>
-                </a>
+                </Link>  
               </div>
             </div>
             <div className="cluom mb-30" data-tab="tab-4">
@@ -132,9 +132,9 @@ function Portfolio() {
                 <img src="/light/assets/imgs/works/1/BareBeauty.jpg" alt="Bare Beauty" />
               </div>
               <div className="more text-u ls1 fz-12">
-                <a href="/light/project3">
+                <Link to="/portfolio/barebeuty">
                   View Project <i className="ml-15 ti-arrow-top-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

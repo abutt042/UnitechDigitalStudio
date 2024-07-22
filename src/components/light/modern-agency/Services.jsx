@@ -2,7 +2,8 @@ import React from "react";
 import data from "../../../l-data/services.json";
 import { Link } from "react-router-dom";
 
-function Services() {
+function Services(scrollToContact) {
+
   return (
     <section className="services section-padding pb-0">
       <div className="container">
@@ -23,7 +24,7 @@ function Services() {
             className="ml-auto"
             style={{ textAlign: "end", marginTop: "4%" }}
           >
-            <Link to="/light/page-services" className="go-more">
+            <Link to="/services" className="go-more">
               <span className="text">View all services</span>
               <span className="icon ti-arrow-top-right"></span>
             </Link>
@@ -87,15 +88,17 @@ function Services() {
           }}
         >
           <div>
-            <button className=" btn-1">
-             
+            
+          <button className="btn-1">             
               Talk to Consultant
             </button>
           </div>
           <div>
+            <Link to="/contact">
             <button className=" btn-2">
               Contact Us Now
             </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -34,7 +34,11 @@ style={{
           <div className="mt-15">
             <Link to="/">Home</Link>
             <span className="padding-rl-20">|</span>
+<<<<<<< HEAD
             <Link to="/light/page-services">Services</Link>
+=======
+            <a href="/services">Services</a>
+>>>>>>> 8d92359 (links updated)
             <span className="padding-rl-20">|</span>
             <span className="main-color">{props.subheading}</span>
           </div>

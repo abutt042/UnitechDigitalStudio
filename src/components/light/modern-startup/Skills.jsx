@@ -21,7 +21,7 @@ function Skills() {
               <h1>Meet Our Team</h1>
             </div>
             <div className="ml-auto" style={{textAlign:'right', marginTop:'4%'}}>
-              <Link to="/light/page-team" className="go-more">
+              <Link to="/team" className="go-more">
                 <span className="text">View all team</span>
                 <span className="icon ti-arrow-top-right"></span>
               </Link>

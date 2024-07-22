@@ -21,7 +21,7 @@ function Portfolio() {
                 Empowering You to Find Fulfilling Contract  and Per Diem Opportunities​.
 
                 </p>
-                <Link to="/light/portfolio-sticky/empowercare" className="rmore mt-30">
+                <Link to="/portfolio/empowercare" className="rmore mt-30">
                   <span className="sub-title">View Project</span>
                   <img 
                     src="/light/assets/imgs/arrow-right.png"
@@ -40,7 +40,7 @@ function Portfolio() {
                 <p>
                 Enhancing your Business. Simplifying your Focus.
                 </p>
-                <Link to="/light/portfolio-sticky/westack" className="rmore mt-30">
+                <Link to="/portfolio/westack"className="rmore mt-30">
                   <span className="sub-title">View Project</span>
                   <img
                     src="/light/assets/imgs/arrow-right.png"
@@ -69,7 +69,7 @@ function Portfolio() {
                 <p>
                 We have made out quality development an hallmark by incorporating the latest in contemporary architecture to suit your tastes and budget.
                 </p>
-                <Link to="/light/portfolio-sticky/unitedestates" className="rmore mt-30">
+                <Link to="/portfolio/unitedestates" className="rmore mt-30">
                   <span className="sub-title">View Project</span>
                   <img
                     src="/light/assets/imgs/arrow-right.png"
@@ -88,7 +88,7 @@ function Portfolio() {
                 <p>
                 Embrace Your Natural Glow with Bare Beauty.
                 </p>
-                <Link to="/light/portfolio-sticky/barebeauty" className="rmore mt-30">
+                <Link to="/portfolio/barebeauty"className="rmore mt-30">
                   <span className="sub-title">View Project</span>
                   <img
                     src="/light/assets/imgs/arrow-right.png"

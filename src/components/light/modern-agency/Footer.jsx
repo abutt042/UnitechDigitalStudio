@@ -83,7 +83,7 @@ function Footer() {
                         <Link to="/light/page-services">Services</Link>
                       </li>
                       <li className="mb-15">
-                        <Link to="/light/blog-list2">Blog</Link>
+                        <Link to="/blog">Blog</Link>
                       </li>
                       <li className="mb-15">
                         <Link to="/light/page-contact3">Contact</Link>

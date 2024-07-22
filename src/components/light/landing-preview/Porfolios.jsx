@@ -42,7 +42,7 @@ function Porfolios() {
                   </a>
                 </div>
                 <div className="item">
-                  <a href="/light/portfolio-sticky" target="_blank">
+                  <a href="/portfolio"target="_blank">
                     <img src="/landing-preview/img/works/l4.png" alt="" />
                     <span className="fz-14">Sticky</span>
                   </a>

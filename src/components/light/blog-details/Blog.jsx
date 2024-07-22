@@ -123,8 +123,8 @@ function Blog() {
                       <span>Tags :</span>
                     </div>
                     <div>
-                      <a href="/light/blog-classic">Tech</a>
-                      <a href="/light/blog-classic">UiCamp</a>
+                      <a href="/blog">Tech</a>
+                      <a href="/blog">UiCamp</a>
                     </div>
                   </div>
                 </div>

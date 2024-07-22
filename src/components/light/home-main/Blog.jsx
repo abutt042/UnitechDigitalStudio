@@ -13,7 +13,7 @@ function Blog() {
               </span>
             </h2>
             <div className="ml-auto">
-              <a href="/light/blog-list2" className="go-more">
+              <a href="/blog" className="go-more">
                 <span className="text">View all posts</span>
                 <span className="icon ti-arrow-top-right"></span>
               </a>

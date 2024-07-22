@@ -50,7 +50,7 @@ import LTerms from './pages/light/Terms';
 
 function App() {
   const [loading, setLoading] = useState(true);
- 
+
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 5000); // Set to 5 seconds
 
@@ -67,118 +67,89 @@ function App() {
   }
   return (
     <>
-    {loading ? <LoadingSpinner/> :
-    <Router>
-      <ScrollToTop />
-      <Routes>
-        <Route path="/" element={<LHomeStartupOnePage />} />
-        <Route path="/light/blog-classic" element={<LBlogClassic />} />
-        <Route path="/light/blog-details" element={<LBlogDetails />} />
-        <Route path="/light/blog-list" element={<LBlogList />} />
-        <Route path="/light/blog-list2" element={<LBlogList2 />} />
-        <Route path="/light/portfolio2" element={<Portfolio/>} />
+      {loading ? <LoadingSpinner /> :
+        <Router>
+          <ScrollToTop />
+          <Routes>
+            <Route path="/" element={<LHomeStartupOnePage />} />
+            <Route path="/light/blog-details" element={<LBlogDetails />} />
+            <Route path="/light/blog-list" element={<LBlogList />} />
+            <Route path="/blog" element={<LBlogList2 />} />
+            <Route
+              path="/light/home-startup-onepage"
+              element={<LHomeStartupOnePage />}
+            />
+            <Route path="about" element={<LPageAbout />} />
+            <Route path="/contact" element={<LPageContact3 />} />
+            <Route path="/light/page-error404" element={<LPageError404 />} />
+            <Route path="/FAQS" element={<LPageFAQS />} />
+            <Route path="/services" element={<LPageServices />} />
+            <Route
+              path="/services/web-services-details"
+              element={<LWebServicesDetails />}
+            />
+            <Route
+              path="/services/Digital-marketing-details"
+              element={<LMarketingDetails />}
+            />
+            <Route
+              path="/services/app-development-details"
+              element={<LAppServicesDetails />}
+            />
+
+            <Route
+              path="/services/seo-details"
+              element={<LAppServicesDetails />}
+            />
+
+
+            <Route
+              path="/services/ui-ux-details"
+              element={<LSeoServicesDetails />}
+            />
+
+            <Route
+              path="/services/email-marketing-details"
+              element={<LEmailServicesDetails />}
+            />
+
+            <Route
+              path="/services/lead-generation-details"
+              element={<LLeadServicesDetails />}
+            />
+
+            <Route
+              path="/services/graphic-design-details"
+              element={<LGraphicServicesDetails />}
+            />
+
+            <Route path="/team" element={<LPageTeam />} />
 
 
 
-        <Route
-          path="/light/home-startup-onepage"
-          element={<LHomeStartupOnePage />}
-        />
-        <Route path="/light/page-about" element={<LPageAbout />} />
 
-
-        <Route path="/light/page-contact3" element={<LPageContact3 />} />
-        <Route path="/light/page-error404" element={<LPageError404 />} />
-        <Route path="/light/page-FAQS" element={<LPageFAQS />} />
-        <Route path="/light/page-services" element={<LPageServices />} />
-        <Route
-          path="/light/web-services-details"
-          element={<LWebServicesDetails />}
-        />
-          <Route
-          path="/light/Digital-marketing-details"
-          element={<LMarketingDetails/>}
-        />
- <Route
-          path="/light/app-development-details"
-          element={<LAppServicesDetails/>}
-        />
-
-<Route
-          path="/light/seo-details"
-          element={<LAppServicesDetails/>}
-        />
-  
-
- <Route
-          path="/light/ui-ux-details"
-          element={<LUiServicesDetails/>}
-        />
-
-        <Route
-          path="/light/email-marketing-details"
-          element={<LEmailServicesDetails/>}
-        />
-
-<Route
-          path="/light/lead-generation-details"
-          element={<LLeadServicesDetails/>}
-        />
-
-        <Route
-          path="/light/graphic-design-details"
-          element={<LGraphicServicesDetails/>}
-        />
-
-        <Route path="/light/page-team" element={<LPageTeam />} />
+            <Route path="/portfolio" element={<LPortfolioSticky />} />
+            <Route path="/portfolio/empowercare" element={<EmpowerCare />} />
+            <Route path="/portfolio/westack" element={<WeStack />} />
+            <Route path="/portfolio/unitedestates" element={<UnitedEstates />} />
+            <Route path="/portfolio/barebeauty" element={<BareBeauty />} />
+            <Route path="/light/project3" element={<LProject3 />} />
+            <Route path="/light/project6" element={<LProject6 />} />
 
 
 
-        <Route path="/light/portfolio-sticky" element={<LPortfolioSticky />} />
-        <Route path="/light/portfolio-sticky/empowercare" element={<EmpowerCare />} />
-        <Route path="/light/portfolio-sticky/westack" element={<WeStack />} />
-        <Route path="/light/portfolio-sticky/unitedestates" element={<UnitedEstates />} />
-        <Route path="/light/portfolio-sticky/barebeauty" element={<BareBeauty />} />
-        <Route path="/light/project3" element={<LProject3 />} />
-        <Route path="/light/project6" element={<LProject6 />} />
-        <Route
-          path="/light/showcase-carousel"
-          element={<LShowcaseCarousel />}
-        />
-        <Route
-          path="/light/showcase-fullscreen"
-          element={<LShowcaseFullScreen />}
-        />
-        <Route
-          path="/light/showcase-half-slider"
-          element={<LShowcaseHalfSlider />}
-        />
-        <Route
-          path="/light/showcase-interactive-center"
-          element={<LShowcaseInteractiveCenter />}
-        />
-        <Route
-          path="/light/showcase-interactive-full"
-          element={<LShowcaseInteractiveFull />}
-        />
-        <Route
-          path="/light/showcase-interactive-vertical"
-          element={<LShowcaseInteractiveVertical />}
-        />
-   <Route 
-   path="/light/privacy-policy" 
-   element={<LPrivacyPolicy/>} />
- <Route 
-   path="/light/Terms" 
-   element={<LTerms/>} />
 
-<Route
-  path='/*'
-  element={<LPageError404/>}
-/>
-      </Routes>
-    </Router>
-     }
+
+            <Route
+              path="/privacy-policy"
+              element={<LPrivacyPolicy />} />
+            <Route
+              path="/Terms"
+              element={<LTerms />} />
+          </Routes>
+        </Router>
+      }
+
     </>
   );
 }

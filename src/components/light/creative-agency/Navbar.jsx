@@ -396,13 +396,13 @@ function Navbar() {
                   <span className="rolling-text">Blogs</span>
                 </a>
                 <div className="dropdown-menu">
-                  <a className="dropdown-item" href="/light/blog-classic">
+                  <a className="dropdown-item" href="/blog">
                     Blog Standerd
                   </a>
                   <a className="dropdown-item" href="/light/blog-list">
                     Blog List
                   </a>
-                  <a className="dropdown-item" href="/light/blog-list2">
+                  <a className="dropdown-item" href="/blog">
                     Blog List 2
                   </a>
                   <a className="dropdown-item" href="/light/blog-details">
@@ -935,7 +935,7 @@ function Navbar() {
                     <div className="sub-menu">
                       <ul>
                         <li>
-                          <a className="sub-link" href="/light/blog-classic">
+                          <a className="sub-link" href="/blog">
                             Standard
                           </a>
                         </li>
@@ -945,7 +945,7 @@ function Navbar() {
                           </a>
                         </li>
                         <li>
-                          <a className="sub-link" href="/light/blog-list2">
+                          <a className="sub-link" href="/blog">
                             Blog List 2
                           </a>
                         </li>

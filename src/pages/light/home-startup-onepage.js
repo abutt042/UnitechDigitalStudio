@@ -20,6 +20,7 @@ import logo from '../../favicon.ico';
 import Team from '../../components/light/modern-agency/Team';
 import ContactForm from '../../components/light/contact-form/ContactForm';
 export default function LHomeStartupOnePage() {
+  
   return (
     <>
       <link rel="icon" href={logo} />
