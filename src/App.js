@@ -112,7 +112,7 @@ function App() {
 
  <Route
           path="/light/ui-ux-details"
-          element={<LSeoServicesDetails/>}
+          element={<LUiServicesDetails/>}
         />
 
         <Route
