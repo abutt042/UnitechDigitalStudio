@@ -8,9 +8,7 @@ function Services() {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div>
-                <h6 className="sub-title main-color mb-15">
-                  Web and Mobile Development
-                </h6>
+               
                 <h4>
                   Even the all-powerful Pointing has no control about the blind
                   texts it is an almost unorthographic life One day however a

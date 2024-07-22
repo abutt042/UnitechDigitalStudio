@@ -1,6 +1,7 @@
 'use client';
 import React, { useLayoutEffect } from 'react';
 import { gsap } from 'gsap';
+import { Link } from 'react-router-dom';
 
 function Error() {
   useLayoutEffect(() => {
@@ -28,12 +29,12 @@ function Error() {
               <div className="text mt-40">
                 <h2 className="mb-10">Page not found</h2>
                 <p>Sorry, but the page you are looking for does not exist.</p>
-                <a
-                  href="/light/home-main"
+                <Link
+                  to="/"
                   className="butn butn-md butn-bg main-colorbg text-dark radius-30 mt-30"
                 >
                   <span className="text">Back to Home</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

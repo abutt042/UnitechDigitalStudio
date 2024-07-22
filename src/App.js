@@ -171,6 +171,11 @@ function App() {
  <Route 
    path="/light/Terms" 
    element={<LTerms/>} />
+
+<Route
+  path='/*'
+  element={<LPageError404/>}
+/>
       </Routes>
     </Router>
      }
