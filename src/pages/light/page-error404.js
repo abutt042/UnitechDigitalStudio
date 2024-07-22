@@ -4,7 +4,7 @@ import Lines from '../../components/light/common/Lines';
 import ProgressScroll from '../../components/light/common/ProgressScroll';
 import Cursor from '../../components/light/common/cusor';
 import LoadingScreen from '../../components/light/common/loader';
-import Navbar from '../../components/light/creative-agency/Navbar';
+import Navbar from '../../components/light/modern-startup/Navbar';
 import Error from '../../components/light/error404/Error';
 import logo from '../../favicon.ico';
 
