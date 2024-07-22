@@ -5,7 +5,7 @@ import ProgressScroll from '../../components/light/common/ProgressScroll';
 import Cursor from '../../components/light/common/cusor';
 import LoadingScreen from '../../components/light/common/loader';
 import Navbar from '../../components/light/modern-startup/Navbar';
-import Testimonials from '../../components/light/FAQS/Testimonials';
+import Testimonials from '../../components/light/modern-agency/Testimonials';
 import Header from '../../components/light/services-details/Header';
 import Services from '../../components/light/services-details/Services';
 import Process from '../../components/light/services-details/Process';
