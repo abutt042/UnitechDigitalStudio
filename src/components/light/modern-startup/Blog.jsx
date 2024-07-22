@@ -15,7 +15,7 @@ function Blog() {
               Read Latest <span className="fw-200">News</span>
             </h2>
             <div className="ml-auto">
-              <Link to="/light/blog-list2" className="go-more">
+              <Link to="/blog" className="go-more">
                 <span className="text">View all posts</span>
                 <span className="icon ti-arrow-top-right"></span>
               </Link>

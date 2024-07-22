@@ -44,7 +44,7 @@ function Footer() {
                   </span>
                   <span className="sideup-text">
                     <span className="up-text underline">
-                      <Link to="/light/page-contact3" className="main-color">
+                      <Link to="/contact" className="main-color">
                         Let’s get to work.
                       </Link>
                     </span>
@@ -77,35 +77,35 @@ function Footer() {
                   <div className="col-6">
                     <ul className="rest fz-14">
                       <li className="mb-15">
-                        <Link to="/light/page-about">About</Link>
+                        <Link to="/about">About</Link>
                       </li>
                       <li className="mb-15">
-                        <Link to="/light/page-services">Services</Link>
+                        <Link to="/services">Services</Link>
                       </li>
                       <li className="mb-15">
-                        <Link to="/light/blog-list2">Blog</Link>
+                        <Link to="/blog">Blog</Link>
                       </li>
                       <li className="mb-15">
-                        <Link to="/light/page-contact3">Contact</Link>
+                        <Link to="/contact">Contact</Link>
                       </li>
                       <li className="mb-15">
-                        <Link to="/light/portfolio-sticky">Portfolio</Link>
+                        <Link to="/portfolio">Portfolio</Link>
                       </li>
                       <li>
-                        <Link to="/light/page-team">Team</Link>
+                        <Link to="/team">Team</Link>
                       </li>
                     </ul>
                   </div>
                   <div className="col-6">
                     <ul className="rest fz-14">
                       <li className="mb-15">
-                        <Link to="/light/page-FAQS">FAQS</Link>
+                        <Link to="/FAQS">FAQS</Link>
                       </li>
                       <li className="mb-15">
-                        <Link to="/light/Terms">Term & Conditions</Link>
+                        <Link to="/Terms">Term & Conditions</Link>
                       </li>
                       <li className="mb-15">
-                        <Link to="/light/privacy-policy">Privacy policy</Link>
+                        <Link to="/privacy-policy">Privacy policy</Link>
                       </li>
                     </ul>
                   </div>

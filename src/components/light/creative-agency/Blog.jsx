@@ -43,8 +43,8 @@ function Blog() {
                   </a>
                 </h5>
                 <div className="tags">
-                  <a href="/light/blog-classic">Design</a>
-                  <a href="/light/blog-classic">Marketing</a>
+                  <a href="/blog">Design</a>
+                  <a href="/blog">Marketing</a>
                 </div>
               </div>
             </div>
@@ -96,8 +96,8 @@ function Blog() {
                   </a>
                 </h5>
                 <div className="tags">
-                  <a href="/light/blog-classic">Design</a>
-                  <a href="/light/blog-classic">Marketing</a>
+                  <a href="/blog">Design</a>
+                  <a href="/blog">Marketing</a>
                 </div>
               </div>
             </div>
@@ -149,8 +149,8 @@ function Blog() {
                   </a>
                 </h5>
                 <div className="tags">
-                  <a href="/light/blog-classic">Design</a>
-                  <a href="/light/blog-classic">Marketing</a>
+                  <a href="/blog">Design</a>
+                  <a href="/blog">Marketing</a>
                 </div>
               </div>
             </div>

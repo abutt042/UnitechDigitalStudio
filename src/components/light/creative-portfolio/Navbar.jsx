@@ -514,7 +514,7 @@ function Navbar() {
                     <div className="sub-menu">
                       <ul>
                         <li>
-                          <a className="sub-link" href="/light/blog-classic">
+                          <a className="sub-link" href="/blog">
                             Standard
                           </a>
                         </li>
@@ -524,7 +524,7 @@ function Navbar() {
                           </a>
                         </li>
                         <li>
-                          <a className="sub-link" href="/light/blog-list2">
+                          <a className="sub-link" href="/blog">
                             Blog List 2
                           </a>
                         </li>

@@ -32,7 +32,7 @@ function Header() {
           <div className="mt-15">
           <Link to="/">Home</Link>
           <span className="padding-rl-20">|</span>
-          <Link to="/light/blog-list2">Blogs</Link>
+          <Link to="/blog">Blogs</Link>
     
           
           </div>
