@@ -130,7 +130,7 @@ setLoading(true)
                       <button type="submit" className="butn butn-full butn-bord" disabled={loading}>
                             {loading ? 'Loading...' : 'Submit'}
                         </button>
-                        <Toaster position="bottom-right" duration={7000} />
+                        <Toaster position="bottom-center" duration={7000} reverseOrder ={false} />
                     </div>
                   </div>
                 </div>
