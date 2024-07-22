@@ -3,24 +3,24 @@
     "title": "Digital Marketing",
     "img": "/light/assets/imgs/serv-icons/3.png",
     "desc": "Enhance your online presence with comprehensive digital marketing strategies.",
-    "link": "/light/page-services-details"
+    "link": "/light/digital-marketing-details"
   },
   {
     "title": "Web Developments",
     "img": "/light/assets/imgs/serv-icons/4.png",
     "desc": "Create custom websites that meet your specific needs. Enhance user experience with tailored web solutions.",
-    "link": "/light/page-services-details"
+    "link": "/light/web-services-details"
   },
   {
     "title": "App Development",
     "img": "/light/assets/imgs/serv-icons/5.png",
     "desc": "Develop innovative mobile applications that engage users. Provide seamless functionality to enhance user satisfaction.",
-    "link": "/light/page-services-details"
+    "link": "/light/app-development-details"
   },
   {
     "title": "UI-UX Design",
     "img": "/light/assets/imgs/serv-icons/5.png",
     "desc": "Design intuitive and engaging digital interfaces. Focus on user-centered approaches for optimal user experience.",
-    "link": "/light/page-services-details"
+    "link": "/light/ui-ux-details"
   }]
   

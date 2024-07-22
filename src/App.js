@@ -14,7 +14,14 @@ import LPageContact3 from './pages/light/page-contact3';
 import LPageError404 from './pages/light/page-error404';
 import LPageFAQS from './pages/light/page-FAQS';
 import LPageServices from './pages/light/page-services';
-import LPageServicesDetails from './pages/light/page-services-details';
+import LWebServicesDetails from './pages/light/web-services-details';
+import LMarketingDetails from './pages/light/Digital-marketing-details';
+import LAppServicesDetails from './pages/light/app-development-details';
+import LUiServicesDetails from './pages/light/ui-ux-details';
+import LSeoServicesDetails from './pages/light/seo-details';
+import LEmailServicesDetails from './pages/light/email-marketing-details';
+import LLeadServicesDetails from './pages/light/lead-generation-details';
+import LGraphicServicesDetails from './pages/light/graphic-design-details';
 import LPageTeam from './pages/light/page-team';
 
 import LPortfolioSticky from './pages/light/portfolio-sticky';
@@ -85,8 +92,42 @@ function App() {
         <Route path="/light/page-FAQS" element={<LPageFAQS />} />
         <Route path="/light/page-services" element={<LPageServices />} />
         <Route
-          path="/light/page-services-details"
-          element={<LPageServicesDetails />}
+          path="/light/web-services-details"
+          element={<LWebServicesDetails />}
+        />
+          <Route
+          path="/light/Digital-marketing-details"
+          element={<LMarketingDetails/>}
+        />
+ <Route
+          path="/light/app-development-details"
+          element={<LAppServicesDetails/>}
+        />
+
+<Route
+          path="/light/seo-details"
+          element={<LAppServicesDetails/>}
+        />
+  
+
+ <Route
+          path="/light/ui-ux-details"
+          element={<LSeoServicesDetails/>}
+        />
+
+        <Route
+          path="/light/email-marketing-details"
+          element={<LEmailServicesDetails/>}
+        />
+
+<Route
+          path="/light/lead-generation-details"
+          element={<LLeadServicesDetails/>}
+        />
+
+        <Route
+          path="/light/graphic-design-details"
+          element={<LGraphicServicesDetails/>}
         />
 
         <Route path="/light/page-team" element={<LPageTeam />} />
