@@ -52,7 +52,6 @@ function Navbar() {
           </Link>
           <div
             className="collapse navbar-collapse justify-content-center"
-            id="navbarSupportedContent"
           >
             <ul className="navbar-nav">
               <li className="nav-item">
