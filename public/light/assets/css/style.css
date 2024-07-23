@@ -3469,7 +3469,7 @@ body.loaded {
 }
 
 .navbar .dropdown {
-  position: static;
+  display: none;
 }
 
 .navbar .mega-menu {
