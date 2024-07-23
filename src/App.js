@@ -104,12 +104,12 @@ function App() {
 
             <Route
               path="/services/seo-details"
-              element={<LAppServicesDetails />}
+              element={<LSeoServicesDetails />}
             />
 
             <Route
               path="/services/ui-ux-details"
-              element={<LSeoServicesDetails />}
+              element={<LUiServicesDetails />}
             />
 
             <Route
