@@ -487,7 +487,57 @@ figure {
   background: #888;
   border-radius: 40px;
 }
+/* Detail of services Css
+-----------------------------------------------------------------*/
+.choose-content {
+  position: relative;
+  padding: 20px 40px 20px 120px;
+  background-color: #f5f9fd;
+  border-radius: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 1;
+}
+.choose-content::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 0%;
+  height: 100%;
+  background: #086AD8;
+  border-radius: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 50px;
+}
+.choose-content h3{
 
+  color: #000;
+  font-size:20px ;
+}
+
+.choose-content .icon {
+  position: absolute;
+  left: 30px;
+  top: 26px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.choose-content .icon i {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  background-color: #086AD8;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 35px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
 /* Buttons
 -----------------------------------------------------------------*/
 .butn {
@@ -1533,7 +1583,7 @@ img.left {
 }
 
 .section-padding {
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 80px;
 }
 
@@ -6410,6 +6460,18 @@ footer.clean-footer.crev:before {
 
 /* Interactive
 -----------------------------------------------------------------*/
+/* Heading
+-----------------------------------------------------------------*/
+.heading-4 h4{
+
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    text-align: justify;
+
+}
+/* 
+-----------------------------------------------------------------*/
 .interactive-inline {
   min-height: 100vh;
   padding: 380px 0 60px;
@@ -10066,7 +10128,7 @@ footer.clean-footer.crev:before {
     font-size: 20px;
   }
   .section-padding {
-    padding-top: 80px;
+    padding-top: 60px;
     padding-bottom: 80px;
   }
   .sec-head .bord {

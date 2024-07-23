@@ -62,7 +62,9 @@ export default function LPageServicesDetails() {
                  heading={"App Development"}
                  subheading={" App development details "}
               />
-              <Services />
+              <Services 
+               description={"If you need to develop an app with custom functions, visit our company, Unitech Digital Studio is a top software house in Pakistan we will study your case personally. Your mobile application in the Google Play and AppStore markets. Tell us your idea. We design and develop native mobile apps for iOS and Android platforms, custom programming of apps for companies available in the official app stores: App Store and Google Play. We manage all phases of development from the initial design and architecture phase, followed by the development and testing phases, ensuring the quality of the software through rigorous and strict control processes."}
+               />
               <Process />
               <Testimonials />
               <Services2 />

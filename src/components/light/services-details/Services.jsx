@@ -1,37 +1,39 @@
-import React from 'react';
+import React from "react";
 
-function Services() {
+function Services(props) {
   return (
     <section className="services-details section-padding">
       <div className="container">
         <div className="sec-head text-center mb-80">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
+            <div className="col-lg-12 heading-4">
               <div>
-               
-                <h4>
-                  Even the all-powerful Pointing has no control about the blind
-                  texts it is an almost unorthographic life One day however a
-                  small line of blind text.
-                </h4>
+                <h4>{props.description}</h4>
               </div>
             </div>
           </div>
         </div>
-        <div className="row serv-imgs mt-80">
-          <div className="col-lg-4">
+        <div className="row serv-imgs mt-80 align-items-center">
+          <div className="col-lg-6">
             <div className="img o-hidden radius-15 fit-img md-mb30">
-              <img src="/light/assets/imgs/intro/01.jpg" alt="" />
+              <img src="/light/assets/imgs/intro/app.png" alt="" />
             </div>
           </div>
-          <div className="col-lg-8">
-            <div className="img o-hidden radius-15">
-              <img
-                src="/light/assets/imgs/background/3.jpg"
-                alt=""
-                data-speed="auto"
-                data-lag="0"
-              />
+          <div className="col-lg-6">
+            <div className="choose-content">
+              <div className="icon">
+                <i className="fa fa-address-book"></i>
+              </div>
+              <h3>Android application development</h3>
+              <p>
+                The number of Android users increases day by day and so is the
+                need for mobile application development. Our team of highly
+                passionate professionals is committed to delivering the best
+                quality Android apps for smartphones and tablets. We funnel your
+                ideas into a digitized custom Android app that your end-users
+                will enjoy using. Get your app developed today to help take your
+                business to the next level or bring your ideas to life.
+              </p>
             </div>
           </div>
         </div>
