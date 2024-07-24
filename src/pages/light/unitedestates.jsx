@@ -67,7 +67,7 @@ export default function UnitedEstates() {
               <Challenge />
               <Wroks id = {'3'} />
               <Solution />
-              <Next />
+              <Next prvlink ={'/portfolio/barebeauty'} fwdlink = {'/portfolio/empowercare'} fwdname = {'Empower Care'} prvname = {'Bare Beauty'} />
             </main>
             <Footer />
           </div>

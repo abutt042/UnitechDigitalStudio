@@ -9,7 +9,7 @@ import Testimonials from '../../components/light/modern-agency/Testimonials';
 import Header from '../../components/light/services-details/Header';
 import Services from '../../components/light/services-details/Services';
 import Process from '../../components/light/services-details/Process';
-import Services2 from '../../components/light/services-details/Services2';
+import Services2 from '../../components/light/modern-agency/Services';
 import FAQS from '../../components/light/services-details/FAQS';
 import logo from '../../favicon.ico';
 
@@ -67,7 +67,7 @@ export default function LPageServicesDetails() {
                />
               <Process />
               <Testimonials />
-              <Services2 />
+             ß {/* <Services2 /> */}
               <FAQS />
             </main>
             <Footer />

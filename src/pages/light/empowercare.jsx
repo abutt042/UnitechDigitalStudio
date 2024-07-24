@@ -68,7 +68,7 @@ export default function EmpowerCare() {
               <Challenge />
               <Wroks id = {'1'}/>
               <Solution />
-              <Next />
+              <Next prvlink ={'/portfolio/unitedestates'} fwdlink = {'/portfolio/westack'} prvname = {'United Estates'} fwdname = {'We Stack'} />
             </main>
             <Footer />
           </div>

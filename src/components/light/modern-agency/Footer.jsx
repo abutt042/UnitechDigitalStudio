@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <footer className="modern-footer pt-80">
+    <footer className="modern-footer pt-15">
       <div className="footer-container">
         <div className="container ontop">
-          <div className="row pb-30 bord-thin-bottom" style={{alignItems:"center"}}>
+          <div className="row pb-15 bord-thin-bottom" style={{alignItems:"center"}}>
             <div className="col-lg-5">
               <div className="logo icon-img-120">
                 <img src="/light/assets/imgs/logo.png" alt="" />
@@ -35,10 +35,10 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="row pt-80">
+          <div className="row pt-40">
             <div className="col-lg-7">
               <div className="call-action">
-                <h2 className="d-slideup wow fz-60 fw-600">
+                <h2 className="d-slideup wow fz-50 fw-600">
                   <span className="sideup-text">
                     <span className="up-text">Have a project in mind?</span>
                   </span>
@@ -50,7 +50,7 @@ function Footer() {
                     </span>
                   </span>
                 </h2>
-                <div className="info mt-80 d-flex align-items-center">
+                <div className="info mt-50 d-flex align-items-center">
                   <div>
                     <Link
                      
@@ -113,7 +113,7 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="text-center pt-30 pb-30 sub-bg mt-80">
+          <div className="text-center pt-30 pb-30 sub-bg mt-10">
             <p style={{color:'white'}} className="fz-14">
             © 2024 Unitech Digital Studio. All rights reserved.
             </p>

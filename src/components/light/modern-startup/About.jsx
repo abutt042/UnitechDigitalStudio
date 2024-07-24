@@ -65,7 +65,7 @@ function About() {
         </div>
         <div style={{display:'flex', justifyContent:'end',marginTop:'3%'}}>
                   <Link
-                    to="about"
+                    to="/about"
                     className="d-flex align-items-end"
                   >
                     <span className="sub-title nowrap">About Us</span>

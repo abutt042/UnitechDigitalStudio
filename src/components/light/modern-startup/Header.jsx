@@ -84,14 +84,10 @@ setLoading(true)
                   </span>
                 </div>
                 <div>
-
                   <p>Elevate your brand with our customized solutions. From dynamic websites to effective marketing strategies, we bring your vision to life. Contact us today to start your digital journey!</p>
-
-
                 </div>
               </div>
             </div>
-
           </div>
           <div className="contact-form col-lg-5" style={{ backgroundColor: 'white', textAlign: 'center', padding: '42px 30px 51px', borderRadius: '8px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.4)' }}>
             <h4 style={{ color: '#333', marginBottom: '10px' }}>Book appointment</h4>

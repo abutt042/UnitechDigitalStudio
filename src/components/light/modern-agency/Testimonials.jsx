@@ -84,9 +84,7 @@ function Testimonials() {
                         <div className="info d-flex align-items-center pt-40 mt-40 bord-thin-top">
                           <div>
                             <h5>{item.name}</h5>
-                            <span className="sub-title main-color">
-                              {item.name}
-                            </span>
+                           
                           </div>
                           <div className="ml-auto">
                             <div className="rate-stars fz-14">
