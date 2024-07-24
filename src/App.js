@@ -22,6 +22,7 @@ import LSeoServicesDetails from "./pages/light/seo-details";
 import LEmailServicesDetails from "./pages/light/email-marketing-details";
 import LLeadServicesDetails from "./pages/light/lead-generation-details";
 import LGraphicServicesDetails from "./pages/light/graphic-design-details";
+import LUiServicesDetails from "./pages/light/ui-ux-details";
 import LPageTeam from "./pages/light/page-team";
 import LPortfolioSticky from "./pages/light/portfolio-sticky";
 import { useEffect, useState } from "react";

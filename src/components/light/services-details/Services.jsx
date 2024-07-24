@@ -37,6 +37,31 @@ function Services(props) {
             </div>
           </div>
         </div>
+        <div className="row serv-imgs mt-20 align-items-center">
+          <div className="col-lg-6">
+            <div className="choose-content">
+              <div className="icon">
+                <i className="fa fa-address-book"></i>
+              </div>
+              <h3>IPhone Application Development</h3>
+              <p>
+                We develop mobile applications for iPhones that meet the needs
+                of end-users, in addition to meeting the requirements of their
+                business. The sleek and slim ios offer a unique platform for its
+                users. Our iOS application developers use the latest tools and
+                technology to create superior quality, easy-to-use iPhone
+                applications. Contact us with Exytex today to create the best
+                iPhone mobile app development experience for your users.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-6">
+            <div className="img o-hidden radius-15 fit-img md-mb30">
+              <img src="/light/assets/imgs/intro/mobile.png" alt="" />
+            </div>
+          </div>
+        </div>
+
         <div className="row mt-80">
           <div className="col-lg-4">
             <div className="text md-mb50">
