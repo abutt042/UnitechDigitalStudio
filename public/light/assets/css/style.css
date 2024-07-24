@@ -7346,10 +7346,27 @@ margin-top: 3%;
   padding: 40px 0;
 }
 
-.work-sticky .items .img {
+.work-sticky .items .img-container {
   border-radius: 10px;
   overflow: hidden;
+  height: 300px; /* Adjust the height as needed */
+  position: relative;
 }
+
+.work-sticky .items .scroll-img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 8s ease-in-out;
+}
+
+.work-sticky .items .img-container:hover .scroll-img {
+  transform: translateY(calc(-100% + 300px)); /* Ensuring the image scrolls to the bottom */
+}
+
+
 
 .portfolio-fixed .left {
   position: relative;
