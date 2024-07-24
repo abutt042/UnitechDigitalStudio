@@ -67,7 +67,7 @@ export default function BareBeauty() {
               <Challenge />
               <Wroks id = {'4'}/>
               <Solution />
-              <Next />
+              <Next prvlink ={'/portfolio/westack'} fwdlink = {'/portfolio/unitedestates'} prvname = {'We Stack'} fwdname = {'United Estates'} />
             </main>
             <Footer />
           </div>

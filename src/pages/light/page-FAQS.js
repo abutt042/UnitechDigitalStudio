@@ -7,7 +7,7 @@ import LoadingScreen from '../../components/light/common/loader';
 import Navbar from '../../components/light/modern-startup/Navbar';
 import Header from '../../components/light/FAQS/Header';
 import FAQS from '../../components/light/FAQS/FAQS';
-import Testimonials from '../../components/light/FAQS/Testimonials';
+import Testimonials from '../../components/light/modern-agency/Testimonials';
 import Blog from '../../components/light/FAQS/Blog';
 import logo from '../../favicon.ico';
 
@@ -60,7 +60,7 @@ export default function LPageFAQS() {
               <Header />
               <FAQS />
               <Testimonials />
-              <Blog />
+              {/* <Blog /> */}
             </main>
             <Footer />
           </div>

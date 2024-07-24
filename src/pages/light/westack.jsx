@@ -68,7 +68,8 @@ export default function WeStack() {
               <Challenge />
               <Wroks id = {'2'} />
               <Solution />
-              <Next />
+              <Next prvlink ={'/portfolio/empowercare'} fwdlink = {'/portfolio/barebeauty'} prvname = {'Empower Care'} fwdname = {'Bare Beauty'} />
+
             </main>
             <Footer />
           </div>

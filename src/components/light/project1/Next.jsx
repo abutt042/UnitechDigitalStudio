@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Next() {
+function Next(props) {
   return (
     <section className="next-project sub-bg">
       <div className="container-fluid rest">
@@ -8,7 +9,6 @@ function Next() {
           <div className="col-md-6 rest">
             <div
               className="text-left box bg-img"
-              data-background="/light/assets/imgs/works/projects/2/1.jpg"
             >
               <div className="cont d-flex align-items-center">
                 <div>
@@ -16,9 +16,9 @@ function Next() {
                 </div>
                 <div>
                   <h6 className="sub-title fz-16 mb-5">Prev Project</h6>
-                  <a href="/light/project2" className="fz-40 fw-600 stroke">
-                    OPT Media Agency
-                  </a>
+                  <Link to={props.prvlink} className="fz-40 fw-600 stroke">
+                    {props.prvname}
+                  </Link>
                 </div>
               </div>
             </div>
@@ -26,15 +26,14 @@ function Next() {
           <div className="col-md-6 rest">
             <div
               className="text-right d-flex box bg-img"
-              data-background="/light/assets/imgs/works/projects/4/1.jpg"
             >
               <div className="ml-auto">
                 <div className="cont d-flex align-items-center">
                   <div>
                     <h6 className="sub-title fz-16 mb-5">Next Project</h6>
-                    <a href="/light/project3" className="fz-40 fw-600 stroke">
-                      TH3 Web Design
-                    </a>
+                    <Link to={props.fwdlink} className="fz-40 fw-600 stroke">
+                      {props.fwdname}
+                    </Link>
                   </div>
                   <div>
                     <span className="ml-30 fz-30 ti-arrow-right"></span>
@@ -46,10 +45,10 @@ function Next() {
         </div>
       </div>
       <div>
-        <a href="#0" className="all-works-butn text-center">
+        <Link to="/portfolio" className="all-works-butn text-center">
           <span className="ti-view-grid fz-24 mb-10"></span>
           <span className="d-block fz-12 text-u ls1">all Projects</span>
-        </a>
+        </Link>
       </div>
     </section>
   );

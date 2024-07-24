@@ -67,7 +67,7 @@ function App() {
               path="/light/home-startup-onepage"
               element={<LHomeStartupOnePage />}
             />
-            <Route path="about" element={<LPageAbout />} />
+            <Route path="/about" element={<LPageAbout />} />
             <Route path="/contact" element={<LPageContact3 />} />
             <Route path="/light/page-error404" element={<LPageError404 />} />
             <Route path="/FAQS" element={<LPageFAQS />} />

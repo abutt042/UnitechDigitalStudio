@@ -26,7 +26,7 @@ function Header(props) {
           color:'white'
         }}
       >
-      <div className="container pt-100">
+      <div className="container ">
         <div className="row align-items-end">
           <div className="col-lg-8 md-mb50">
             <div>

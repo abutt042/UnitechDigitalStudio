@@ -17,16 +17,16 @@ function FAQS() {
   return (
     <section className="faqs section-padding position-re">
       <div className="container">
-        <div className="row justify-content-between">
-          <div className="col-lg-4">
+        <div className="column justify-content-center">
+          <div className="col-lg-12">
             <div className="sec-head md-mb80">
-              <h6 className="sub-title main-color mb-15">FAQS</h6>
-              <h2>
-                Frequently <br /> asked questions
+              <h6 className="sub-title main-color mb-15" style={{textAlign:'center'}}>FAQS</h6>
+              <h2 className='mb-20' style={{textAlign:'center',}}>
+                Frequently asked questions
               </h2>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-12">
             <div className="list-serv">
               <div className="accordion bord">
                 <div className="item mb-15 wow fadeInUp" data-wow-delay=".1s">
