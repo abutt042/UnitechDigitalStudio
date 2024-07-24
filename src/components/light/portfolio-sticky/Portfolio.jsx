@@ -9,7 +9,7 @@ function Portfolio() {
         <div className="row">
           <div className="col-lg-8 items">
             <div className="img">
-              <img style={{width:'100%'}} src="/light/assets/imgs/works/1/EmpowerCare.png" alt="" />
+              <img style={{width:'100%'}} src="/light/assets/imgs/works/1/EmpowerCare.jpg" alt="" />
             </div>
           </div>
           <div className="col-lg-4 items">
@@ -53,12 +53,12 @@ function Portfolio() {
           </div>
           <div className="col-lg-8 items">
             <div className="img">
-              <img style={{width:'100%'}} src="/light/assets/imgs/works/1/WeStack.png" alt="" />
+              <img style={{width:'100%'}} src="/light/assets/imgs/works/1/WeStack.jpg" alt="" />
             </div>
           </div>
           <div className="col-lg-8 items">
             <div className="img">
-              <img style={{width:'100%'}} src="/light/assets/imgs/works/1/UnitedEstates.png" alt="" />
+              <img style={{width:'100%'}} src="/light/assets/imgs/works/1/UnitedEstates.jpg" alt="" />
             </div>
           </div>
           <div className="col-lg-4 items">
@@ -77,7 +77,7 @@ function Portfolio() {
                     className="icon-img-20 ml-5"
                   />
                 </Link>
-              </div>
+              </div>   
             </div>
           </div>
           <div className="col-lg-4 items">
@@ -88,7 +88,7 @@ function Portfolio() {
                 <p>
                 Embrace Your Natural Glow with Bare Beauty.
                 </p>
-                <Link to="/portfolio/barebeauty"className="rmore mt-30">
+                <Link to="/portfolio/barebeauty" className="rmore mt-30">
                   <span className="sub-title">View Project</span>
                   <img
                     src="/light/assets/imgs/arrow-right.png"
@@ -101,7 +101,7 @@ function Portfolio() {
           </div>
           <div className="col-lg-8 items">
             <div className="img">
-              <img style={{width:'100%'}} src="/light/assets/imgs/works/1/BareBeauty.png" alt="" />
+              <img style={{width:'100%'}} src="/light/assets/imgs/works/1/BareBeauty.jpg" alt="" />
             </div>
           </div>
         </div>
