@@ -12,7 +12,6 @@ import Process from '../../components/light/services-details/Process';
 import Services2 from '../../components/light/modern-agency/Services';
 import FAQS from '../../components/light/services-details/FAQS';
 import logo from '../../favicon.ico';
-import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 
 export default function LPageServicesDetails() {
   return (
@@ -76,7 +75,7 @@ export default function LPageServicesDetails() {
              />
               <Process />
               <Testimonials />
-             ß {/* <Services2 /> */}
+             {/* <Services2 /> */}
               <FAQS />
             </main>
             <Footer />

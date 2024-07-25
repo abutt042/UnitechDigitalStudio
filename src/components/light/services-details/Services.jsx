@@ -30,7 +30,7 @@ function Services(props) {
           <div key={index} className="row serv-imgs mt-20 mb-90 align-items-center">
             <div style={{textAlign:'center'}} className={`col-lg-6 ${index % 2 === 0 ? 'order-lg-2' : ''}`}>
               <div className="img o-hidden radius-15 fit-img md-mb30">
-                <img src={service.image} alt="" />
+                <img style={{width:'65%'}} src={service.image} alt="" />
               </div>
             </div>
             <div className={`col-lg-6 ${index % 2 === 0 ? 'order-lg-1' : ''}`}>

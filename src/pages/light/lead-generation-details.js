@@ -18,8 +18,8 @@ export default function LPageServicesDetails() {
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-     <link rel="icon" href={logo} />
-       <link rel="shortcut icon" href={logo} />
+        <link rel="icon" href={logo} />
+        <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"
@@ -50,7 +50,7 @@ export default function LPageServicesDetails() {
         <script src="/light/assets/js/smoother-script.js"></script>
       </Helmet>
       <body>
-         
+
         <Cursor />
         <ProgressScroll />
         <Lines />
@@ -58,14 +58,28 @@ export default function LPageServicesDetails() {
           <Navbar />
           <div id="smooth-content">
             <main className="main-bg">
-              <Header 
-                 heading={"Lead Generation"}
-                 subheading={" Lead generation details "}
+              <Header
+                heading={"Lead Generation"}
+                subheading={" Lead generation details "}
               />
-              <Services/>
-              <Process />
+              <Services
+                description={"Lead generation marketing is the strategic process of attracting and converting prospective customers into leads. By deploying targeted strategies such as content marketing, SEO optimization, social media engagement, email campaigns, and paid advertising, businesses can effectively capture and nurture potential customers. This approach not only increases brand visibility and customer engagement but also drives sustainable growth by generating qualified leads that are more likely to convert into loyal customers."}
+                icon1={'fa fa-mobile'}
+                subheading1={'Content Marketing'}
+                subdescription1={"Engage your audience with valuable content that educates, informs, and inspires. Through blogs, eBooks, and informative videos, we help you attract and convert prospects into leads."}
+                image1={"/light/assets/imgs/intro/mern.png"}
+                icon2={'fa fa-mobile'}
+                subheading2={'SEO Optimization'}
+                subdescription2={"Enhance your online visibility and attract organic traffic through strategic SEO practices. By optimizing your website and content, we ensure your business ranks higher in search engine results, driving qualified leads."}
+                image2={"/light/assets/imgs/intro/mean.png"}
+                icon3={'fa fa-mobile'}
+                subheading3={'Paid Advertising (PPC)'}
+                subdescription3={'Reach your ideal customers instantly through paid advertising campaigns. With strategic ad placements on Google, Bing, and social media channels, we drive targeted traffic to your website and capture high-quality leads.'}
+                image3={'/light/assets/imgs/intro/shopify.png'}
+
+              />                 <Process />
               <Testimonials />
-              <Services2 />
+              {/* <Services2 /> */}
               <FAQS />
             </main>
             <Footer />
