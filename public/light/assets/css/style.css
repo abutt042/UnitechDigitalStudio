@@ -1633,8 +1633,7 @@ img.left {
 }
 
 .fit-img img {
-  width: 100%;
-  height: 100%;
+width :65%;
   -o-object-fit: cover;
   object-fit: cover;
   -o-object-position: center;
@@ -8143,9 +8142,6 @@ margin-top: 3%;
   opacity: 0.1;
 }
 
-.services-details .serv-imgs .img {
-  height: 400px;
-}
 
 /* Sliders
 -----------------------------------------------------------------*/

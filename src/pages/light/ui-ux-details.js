@@ -62,7 +62,30 @@ export default function LPageServicesDetails() {
                heading={"UI-UX Design"}
                subheading={" UI-UX details "}
                />
-              <Services />
+                 <Services 
+              description={"we believe in transforming ideas into digital realities. As a premier web development company, we specialize in creating robust, scalable, and visually stunning websites that drive success for businesses of all sizes."}
+              icon1= {'fa fa-mobile'}
+              subheading1= {'Interaction Design'}
+              subdescription1 = {"Our Interaction Design services prioritize creating engaging and intuitive user interfaces. We meticulously design user flows and interactive elements to ensure a seamless and enjoyable user experience. By focusing on usability and aesthetic appeal, we aim to transform digital products into tools that users love to interact with."}
+              image1 = {"/light/assets/imgs/intro/mern.png"}
+              icon2= {'fa fa-mobile'}
+              subheading2 = {'Visual Design'}
+              subdescription2 = {"Our Visual Design services are all about transforming your digital landscape with innovative and compelling aesthetics. We harness the power of color, typography, and imagery to create visually stunning interfaces that reflect your brand's unique identity. Our mission is to craft designs that not only look beautiful but also deliver an unforgettable user experience."}
+              image2 = {"/light/assets/imgs/intro/mean.png" }
+              icon3= {'fa fa-mobile'}
+              subheading3 = {'Usability Design'}
+              subdescription3 = {'Our Usability Design services focus on making your digital products intuitive and effortless to use. We prioritize creating seamless user experiences by simplifying interactions and enhancing functionality. Our approach ensures that every element is designed for maximum ease and efficiency, turning complex tasks into smooth and enjoyable journeys for your users.'}
+             image3 ={'/light/assets/imgs/intro/shopify.png'}
+             icon4= {'fa fa-mobile'}
+             subheading4 = {'Wireframming'}
+              subdescription4 = {'Involves creating skeletal structures of the interface, laying out essential elements without detailed design. Wireframes are crucial in planning the layout and functionality of a product, providing a blueprint for development.'}
+             image4 ={'/light/assets/imgs/intro/wordpress.png'}
+             icon5= {'fa fa-mobile'}
+             subheading5 = {'Prototyping'}
+              subdescription5 = {"Prototyping involves creating interactive models of a product to simulate user interactions and test functionality before development begins. These prototypes can vary from low-fidelity sketches to high-fidelity designs, allowing for iterative refinement of the user experience."}
+             image5={'/light/assets/imgs/intro/php.png'}
+
+             />
               <Process />
               <Testimonials />
               <Services2 />

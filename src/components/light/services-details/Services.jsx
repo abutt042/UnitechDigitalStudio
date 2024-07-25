@@ -1,6 +1,19 @@
 import React from "react";
 
 function Services(props) {
+  const { description, subheading1, subdescription1, image1,
+    subheading2, subdescription2, image2,
+    subheading3, subdescription3, image3,
+    subheading4, subdescription4, image4,
+    subheading5, subdescription5, image5,icon1,icon2,icon3,icon4,icon5 } = props;
+    const services = [
+      { icon:icon1, subheading: subheading1, subdescription: subdescription1, image: image1 },
+      { icon:icon2,subheading: subheading2, subdescription: subdescription2, image: image2 },
+      { icon:icon3, subheading: subheading3, subdescription: subdescription3, image: image3 },
+      { icon:icon4, subheading: subheading4, subdescription: subdescription4, image: image4 },
+      { icon:icon5, subheading: subheading5, subdescription: subdescription5, image: image5 }
+    ];
+    const filteredServices = services.filter(service => service.subheading);
   return (
     <section className="services-details section-padding">
       <div className="container">
@@ -13,54 +26,26 @@ function Services(props) {
             </div>
           </div>
         </div>
-        <div className="row serv-imgs mt-80 align-items-center">
-          <div className="col-lg-6">
-            <div className="img o-hidden radius-15 fit-img md-mb30">
-              <img src="/light/assets/imgs/intro/app.png" alt="" />
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <div className="choose-content">
-              <div className="icon">
-                <i className="fa fa-address-book"></i>
+        {filteredServices.map((service, index) => (
+          <div key={index} className="row serv-imgs mt-20 mb-90 align-items-center">
+            <div style={{textAlign:'center'}} className={`col-lg-6 ${index % 2 === 0 ? 'order-lg-2' : ''}`}>
+              <div className="img o-hidden radius-15 fit-img md-mb30">
+                <img src={service.image} alt="" />
               </div>
-              <h3>Android application development</h3>
-              <p>
-                The number of Android users increases day by day and so is the
-                need for mobile application development. Our team of highly
-                passionate professionals is committed to delivering the best
-                quality Android apps for smartphones and tablets. We funnel your
-                ideas into a digitized custom Android app that your end-users
-                will enjoy using. Get your app developed today to help take your
-                business to the next level or bring your ideas to life.
-              </p>
             </div>
-          </div>
-        </div>
-        <div className="row serv-imgs mt-20 align-items-center">
-          <div className="col-lg-6">
-            <div className="choose-content">
-              <div className="icon">
-                <i className="fa fa-address-book"></i>
+            <div className={`col-lg-6 ${index % 2 === 0 ? 'order-lg-1' : ''}`}>
+              <div className="choose-content">
+                <div className="icon">
+                  <i className={service.icon}></i>
+                </div>
+                <h3>{service.subheading}</h3>
+                <p>
+                  {service.subdescription}
+                </p>
               </div>
-              <h3>IPhone Application Development</h3>
-              <p>
-                We develop mobile applications for iPhones that meet the needs
-                of end-users, in addition to meeting the requirements of their
-                business. The sleek and slim ios offer a unique platform for its
-                users. Our iOS application developers use the latest tools and
-                technology to create superior quality, easy-to-use iPhone
-                applications. Contact us with Exytex today to create the best
-                iPhone mobile app development experience for your users.
-              </p>
             </div>
           </div>
-          <div className="col-lg-6">
-            <div className="img o-hidden radius-15 fit-img md-mb30">
-              <img src="/light/assets/imgs/intro/mobile.png" alt="" />
-            </div>
-          </div>
-        </div>
+        ))}
 
         <div className="row mt-80">
           <div className="col-lg-4">
