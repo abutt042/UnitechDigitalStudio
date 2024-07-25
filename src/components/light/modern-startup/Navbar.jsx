@@ -176,7 +176,7 @@ function Navbar() {
                     <Link to="/blog">
                       <div className="o-hidden">
                         <div className="link cursor-pointer dmenu">
-                          <span className="fill-text" data-text="Team">
+                          <span className="fill-text" data-text="Blog">
                             Blog
                           </span>
                         </div>
@@ -219,12 +219,12 @@ function Navbar() {
                     </li>
                    
                     <li className="mb-10">
-                      <Link to="#0" className="hover-this">
+                      <Link to="https://www.linkedin.com/company/unitech-digital-studios/" className="hover-this">
                         <span className="hover-anim">LinkedIn</span>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#0" className="hover-this">
+                      <Link to="https://www.instagram.com/unitechdigitalstudio/?hl=en" className="hover-this">
                         <span className="hover-anim">Instagram</span>
                       </Link>
                     </li>
@@ -233,10 +233,10 @@ function Navbar() {
                 <div className="item mb-40">
                   <h6 className="sub-title mb-15 opacity-7">Contact Us</h6>
                   <h5>
-                    <Link to="#0">Hello@email.com</Link>
+                    <Link >info@unitechdigitalstudio.com</Link>
                   </h5>
                   <h5 className="underline mt-10">
-                    <Link to="#0">+1 840 841 25 69</Link>
+                    <Link >(+201) 502-4027</Link>
                   </h5>
                 </div>
               </div>

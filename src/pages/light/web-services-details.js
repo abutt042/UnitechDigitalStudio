@@ -88,7 +88,7 @@ export default function LPageServicesDetails() {
              />
               <Process />
               <Testimonials />
-              <Services2 />
+              {/* <Services2 /> */}
               <FAQS />
             </main>
             <Footer />

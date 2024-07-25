@@ -63,7 +63,7 @@ export default function LPageServicesDetails() {
                subheading={" UI-UX details "}
                />
                  <Services 
-              description={"we believe in transforming ideas into digital realities. As a premier web development company, we specialize in creating robust, scalable, and visually stunning websites that drive success for businesses of all sizes."}
+              description={"UI/UX (User Interface/User Experience) design is the art of crafting digital experiences that are intuitive, functional, and delightful for users. UI design focuses on the look and feel of a product, ensuring interfaces are visually appealing and easy to navigate. UX design, on the other hand, centers around enhancing user satisfaction by improving usability, accessibility, and overall interaction experience. Together, UI/UX design harmonizes aesthetics with functionality, creating seamless digital journeys that engage users and drive meaningful interactions."}
               icon1= {'fa fa-mobile'}
               subheading1= {'Interaction Design'}
               subdescription1 = {"Our Interaction Design services prioritize creating engaging and intuitive user interfaces. We meticulously design user flows and interactive elements to ensure a seamless and enjoyable user experience. By focusing on usability and aesthetic appeal, we aim to transform digital products into tools that users love to interact with."}
@@ -88,7 +88,7 @@ export default function LPageServicesDetails() {
              />
               <Process />
               <Testimonials />
-              <Services2 />
+              {/* <Services2 /> */}
               <FAQS />
             </main>
             <Footer />

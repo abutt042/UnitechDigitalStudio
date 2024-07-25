@@ -62,10 +62,27 @@ export default function LPageServicesDetails() {
                  heading={"Graphic Design"}
                  subheading={" Graphic Design details "}
               />
-              <Services/>
-              <Process />
+ <Services
+                description={"Graphic design is the art and practice of planning and projecting ideas and experiences with visual and textual content. It involves creativity and technical skills to communicate messages through imagery, typography, color, and layout. From branding and marketing materials to digital interfaces and print publications, graphic design plays a crucial role in shaping how audiences perceive and interact with visual information. At its core, graphic design aims to captivate, inform, and inspire, ensuring that every design element serves a purpose in conveying a compelling visual narrative."}
+                icon1={'fa fa-mobile'}
+                subheading1={'Branding Design'}
+                subdescription1={"Branding design focuses on creating visual identities that represent a company's values, mission, and personality. It includes designing logos, color schemes, typography, and brand guidelines to ensure consistency across all communication channels."}
+                image1={"/light/assets/imgs/intro/mern.png"}
+                icon2={'fa fa-mobile'}
+                subheading2={'Web Design'}
+                subdescription2={"Web design encompasses designing interfaces and user experiences (UI/UX) for websites and web applications. It involves creating layouts, navigation elements, graphics, and interactive features that enhance user engagement and functionality."}
+                image2={"/light/assets/imgs/intro/mean.png"}
+                icon3={'fa fa-mobile'}
+                subheading3={'Advertising Design'}
+                subdescription3={'Advertising design focuses on creating visually appealing and persuasive advertisements across various media channels, including print, digital, outdoor, and broadcast. It involves understanding target audiences and effectively communicating messages through compelling visuals.'}
+                image3={'/light/assets/imgs/intro/shopify.png'}
+                icon4={'fa fa-mobile'}
+                subheading4={'Illustration and Infographic Design:'}
+                subdescription4={'Illustration and infographic design involve creating visual representations of concepts, data, or stories through illustrations, icons, charts, and diagrams. It aims to simplify complex information and make it more understandable and engaging for the audience.'}
+                image4={'/light/assets/imgs/intro/shopify.png'}
+              />                <Process />
               <Testimonials />
-              <Services2 />
+              {/* <Services2 /> */}
               <FAQS />
             </main>
             <Footer />
