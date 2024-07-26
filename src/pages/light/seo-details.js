@@ -67,11 +67,11 @@ export default function LPageServicesDetails() {
               icon1= {'fa fa-mobile'}
               subheading1= {'On-Page Seo'}
               subdescription1 = {"At Unitech Digital Studio, our On-Page SEO services focus on optimizing individual web pages to enhance search engine rankings and attract targeted traffic. We improve elements such as keywords, content quality, title tags, meta descriptions, and internal linking to ensure your site is both search engine and user-friendly. Our goal is to boost your online visibility and drive meaningful engagement with your audience."}
-              image1 = {"/light/assets/imgs/intro/mern.png"}
+              image1 = {"/light/assets/imgs/intro/seo1.png"}
               icon2= {'fa fa-mobile'}
               subheading2 = {'Off-Page Seo'}
               subdescription2 = {"At Unitech Digital Studio, our Off-Page SEO services are designed to enhance your website's authority and reputation through strategic external efforts. We focus on acquiring high-quality backlinks, promoting your content across social media, and engaging in guest blogging to increase your site’s visibility and trustworthiness. Our goal is to drive more organic traffic and elevate your brand’s online presence."}
-              image2 = {"/light/assets/imgs/intro/mean.png" }
+              image2 = {"/light/assets/imgs/intro/seo2.png" }
               
 
              />
