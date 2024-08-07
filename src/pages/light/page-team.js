@@ -43,7 +43,7 @@ export default function LPageTeam() {
           href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght..200;300;400;500;600;700&display=swap"
         />
         <script src="/light/assets/js/scripts.js"></script>
-        <script src="/light/assets/js/smoother-script.js"></script>
+        
       </Helmet>
       <body>
          <LoadingScreen/>

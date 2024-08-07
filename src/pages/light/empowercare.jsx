@@ -46,7 +46,7 @@ export default function EmpowerCare() {
           href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght..200;300;400;500;600;700&display=swap"
         />
         <script src="/light/assets/js/scripts.js"></script>
-        <script src="/light/assets/js/smoother-script.js"></script>
+        
       </Helmet>
       <body>
          <LoadingScreen/>
@@ -68,7 +68,6 @@ export default function EmpowerCare() {
               <Challenge />
               <Wroks id = {'1'}/>
               <Solution />
-              <Next prvlink ={'/portfolio/unitedestates'} fwdlink = {'/portfolio/westack'} prvname = {'United Estates'} fwdname = {'We Stack'} />
             </main>
             <Footer />
           </div>

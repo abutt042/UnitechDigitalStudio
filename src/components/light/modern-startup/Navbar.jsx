@@ -90,15 +90,21 @@ function Navbar() {
                 </Link>
               </li>
             </ul>
+            <button type="submit" className="btn-nav">
+              GET QUOTATION
+            </button>
           </div>
 
           <div className="topnav">
             <div className="menu-icon cursor-pointer">
-              <span  style={{color:'#000'}} className="icon ti-align-right"></span>
+              <span style={{ color: '#000' }} className="icon ti-align-right"></span>
             </div>
           </div>
         </div>
       </nav>
+
+      <div>
+      </div>
 
       <div className="hamenu one-scroll">
         <div className="logo icon-img-100">
@@ -204,11 +210,11 @@ function Navbar() {
                   <h5>
                     Hashim Center, Aa Block <br /> Sector D Bahria Town, Lahore, Punjab
                   </h5>
-                  <br/>
+                  <br />
                   <h5>
-                  9 Thorold Road, Ilford London IG1 4HG - Sandra Davidson United Kingdom                  </h5>
+                    9 Thorold Road, Ilford London IG1 4HG - Sandra Davidson United Kingdom                  </h5>
                 </div>
-                
+
                 <div className="item mb-50">
                   <h6 className="sub-title mb-15 opacity-7">Social Media</h6>
                   <ul className="rest social-text">
@@ -217,7 +223,7 @@ function Navbar() {
                         <span className="hover-anim">Facebook</span>
                       </Link>
                     </li>
-                   
+
                     <li className="mb-10">
                       <Link to="https://www.linkedin.com/company/unitech-digital-studios/" className="hover-this">
                         <span className="hover-anim">LinkedIn</span>

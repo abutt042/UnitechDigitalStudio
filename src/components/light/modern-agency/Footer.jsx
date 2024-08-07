@@ -45,8 +45,8 @@ function Footer() {
                     <span className="up-text">Have a project in mind?</span>
                   </span>
                   <span className="sideup-text">
-                    <span className="up-text underline">
-                      <Link to="/contact" className="main-color">
+                    <span className="up-text underline" style={{color:'#252525'}}>
+                      <Link to="/contact" >
                         Let’s get to work.
                       </Link>
                     </span>

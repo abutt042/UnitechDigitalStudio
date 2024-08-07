@@ -46,7 +46,7 @@ export default function UnitedEstates() {
           href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght..200;300;400;500;600;700&display=swap"
         />
         <script src="/light/assets/js/scripts.js"></script>
-        <script src="/light/assets/js/smoother-script.js"></script>
+        
       </Helmet>
       <body>
          <LoadingScreen/>
@@ -67,7 +67,6 @@ export default function UnitedEstates() {
               <Challenge />
               <Wroks id = {'3'} />
               <Solution />
-              <Next prvlink ={'/portfolio/barebeauty'} fwdlink = {'/portfolio/empowercare'} fwdname = {'Empower Care'} prvname = {'Bare Beauty'} />
             </main>
             <Footer />
           </div>
