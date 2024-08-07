@@ -8,11 +8,13 @@ import Navbar from '../../components/light/modern-startup/Navbar';
 import Testimonials from '../../components/light/FAQS/Testimonials';
 import Header from '../../components/light/services/Header';
 import Services from '../../components/light/services/Services';
-import Marquee from '../../components/light/services/Marquee';
 import Price from '../../components/light/services/Price';
 import Process from '../../components/light/services/Process';
 import Blog from '../../components/light/services/Blog';
 import logo from '../../favicon.ico';
+import Marquee from '../../components/light/modern-startup/Marquee';
+import Contact from '../../components/light/contact3/Contact';
+
 
 export default function LPageServices() {
   return (
@@ -61,8 +63,9 @@ export default function LPageServices() {
             <main className="main-bg">
               <Header />
               <Services />
+              <Marquee />
+              <Contact />         
               {/* <Marquee /> */}
-              <Price />
               {/* <Blog /> */}
             </main>
             <Footer />
