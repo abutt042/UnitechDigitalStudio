@@ -33,8 +33,8 @@ function Skills() {
                 <div className="img">
                   <img src="/light/assets/imgs/team/1.jpg" alt="" />
                   <div className="info">
-                    <span className="fz-12">Web Designer</span>
-                    <h6 className="fz-18">Robert De Niro</h6>
+                    <span className="fz-12">CTO</span>
+                    <h6 className="fz-18">Ameer Mavia</h6>
                   </div>
                 </div>
                 <div className="social">
@@ -57,8 +57,8 @@ function Skills() {
                 <div className="img">
                   <img src="/light/assets/imgs/team/2.jpg" alt="" />
                   <div className="info">
-                    <span className="fz-12">Web Designer</span>
-                    <h6 className="fz-18">Brendan Fraser</h6>
+                    <span className="fz-12">Web Developer</span>
+                    <h6 className="fz-18">Abdullah Bin Tariq</h6>
                   </div>
                 </div>
                 <div className="social">
@@ -81,8 +81,8 @@ function Skills() {
                 <div className="img">
                   <img src="/light/assets/imgs/team/3.jpg" alt="" />
                   <div className="info">
-                    <span className="fz-12">Web Designer</span>
-                    <h6 className="fz-18">Brendan Fraser</h6>
+                    <span className="fz-12">Business Developer</span>
+                    <h6 className="fz-18">Fahad</h6>
                   </div>
                 </div>
                 <div className="social">
