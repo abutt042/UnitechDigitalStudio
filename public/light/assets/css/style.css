@@ -1655,6 +1655,7 @@ img.left {
   object-fit: cover;
   -o-object-position: center;
   object-position: center;
+
 }
 
 .rounded {
@@ -5805,13 +5806,14 @@ footer.clean-footer.crev:before {
 }
 
 .modern-footer {
-  color: black;
+  color: white;
+  background-color:'#145A93',
 
 }
 
 .modern-footer .sub-bg {
 
-  color: black;
+  color: white
 }
 
 .modern-footer.sub-bg {
@@ -5831,7 +5833,7 @@ footer.clean-footer.crev:before {
 }
 
 .modern-footer .butn.butn-bord-thin {
-  border-color: rgba(0, 0, 0, 0.1);
+  border-color: rgba(255, 255, 255, 0.1);
   color: black;
 }
 
