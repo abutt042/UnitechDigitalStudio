@@ -30,9 +30,9 @@ function Clients() {
         centeredSlides: false,
       },
       1000: {
-        slidesPerView: 5,
+        slidesPerView: 4,
         spaceBetween: 15,
-        centeredSlides: true,
+        centeredSlides: false,
       },
     },
   };
