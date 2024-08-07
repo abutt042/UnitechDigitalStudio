@@ -1,9 +1,11 @@
 'use client';
 import React from 'react';
-import { Swiper, SwiperSlide} from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import { Navigation } from 'swiper/modules';
-
-
+import { Pagination } from 'swiper/modules';
 function Clients() {
   const swiperOptions = {
     speed: 500,
@@ -12,102 +14,91 @@ function Clients() {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
     breakpoints: {
-      // when window width is >= 640px
       500: {
-        loop: true,
         slidesPerView: 2,
         spaceBetween: 20,
         centeredSlides: false,
       },
-      // when window width is >= 768px
       700: {
-        loop: true,
         slidesPerView: 3,
         spaceBetween: 20,
         centeredSlides: false,
       },
-      // when window width is >= 1200px
       1000: {
-        loop: true,
-        slidesPerView: 3,
-        spaceBetween: 25,
-        centeredSlides: true,
+        slidesPerView: 4,
+        spaceBetween: 15,
+        centeredSlides: false,
       },
     },
   };
+
   return (
     <section className="clients-carso section-padding pt-0">
       <div className="container">
-        <div className="sec-bottom mb-70" style={{marginTop:'4%'}}>
-          
+        <div className="sec-bottom mb-70" style={{ marginTop: '4%' }}>
           <div className="main-bg d-flex align-items-center">
-            <h2 style={{fontSize:'40px'}} >
-            Technologies We Use
+            <h2 style={{ fontSize: '40px' }}>
+              Technologies We Use
             </h2>
           </div>
         </div>
-        <div
-          className="swiper5"
-          data-carousel="swiper"
-          data-items="5"
-          data-loop="true"
-          data-space="40"
-        >
+        <div className="swiper5" >
           <Swiper
-            id="content-carousel-container-unq-clients"
             className="swiper-container"
-            data-swiper="container"
-            loop={true}
-            modules={[Navigation]}
+            modules={[Navigation, Pagination]} // Use modules prop
             {...swiperOptions}
           >
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/wordpress.png" alt="" />
+                  <img style={{ width: '100%' }} src="/light/assets/imgs/brands/wordpress.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/odoo.png" alt="" />
+                  <img style={{ width: '100%' }} src="/light/assets/imgs/brands/odoo.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/laraval.png" alt="" />
+                  <img style={{ width: '100%' }} src="/light/assets/imgs/brands/laraval.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/angular.png" alt="" />
+                  <img style={{ width: '100%' }} src="/light/assets/imgs/brands/angular.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/ios.png" alt="" />
+                  <img style={{ width: '100%' }} src="/light/assets/imgs/brands/ios.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/react.png" alt="" />
+                  <img style={{ width: '100%' }} src="/light/assets/imgs/brands/react.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/sparrow.png" alt="" />
+                  <img style={{ width: '100%' }} src="/light/assets/imgs/brands/sparrow.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
