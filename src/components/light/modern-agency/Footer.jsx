@@ -4,12 +4,8 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <footer className="modern-footer pt-15 valign bg-img"
- 
-    style={{
-      backgroundImage: 'url(/light/assets/imgs/background/footer.jpg)',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-    }}>
+ style={{backgroundColor:'#145A93'}}
+  >
       <div className="footer-container" style={{width:'100%'}}>
         <div className="container ontop">
           <div className="row pb-15 bord-thin-bottom" style={{alignItems:"center"}}>
@@ -120,7 +116,7 @@ function Footer() {
             </div>
           </div>
           <div className="text-center pt-30 pb-30 sub-bg mt-10">
-            <p  className="fz-14">
+            <p style={{color:'white'}} className="fz-14">
             © 2024 Unitech Digital Studio. All rights reserved.
             </p>
           </div>

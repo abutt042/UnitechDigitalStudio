@@ -2,12 +2,12 @@ import React from 'react';
 
 function Intro() {
   return (
-    <section className="page-intro position-re">
+    <section className=" position-re">
       <div className="container-fluid rest">
         <div className="row justify-content-center">
           <div className="col-sm-9">
-            <div className="img to-up fit-img">
-              <img src="/light/assets/imgs/background/4.jpg" alt="" />
+            <div style={{textAlign:'center',marginTop:'3%'}} className="img to-up fit-img">
+              <img style={{width:'25%',mixBlendMode:'multiply'}} src="/light/assets/imgs/background/UNITECH-1.png" alt="" />
             </div>
           </div>
         </div>

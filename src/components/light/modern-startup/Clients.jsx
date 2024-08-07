@@ -24,7 +24,7 @@ function Clients() {
       700: {
         loop: true,
         slidesPerView: 3,
-        spaceBetween: 30,
+        spaceBetween: 20,
         centeredSlides: false,
       },
       // when window width is >= 1200px
@@ -65,35 +65,49 @@ function Clients() {
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/b1.jpg" alt="" />
+                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/wordpress.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/b2.jpg" alt="" />
+                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/odoo.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/b3.jpg" alt="" />
+                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/laraval.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/b4.jpg" alt="" />
+                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/angular.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/b6.jpg" alt="" />
+                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/ios.png" alt="" />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="item">
+                <div className="img icon-img-100">
+                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/react.png" alt="" />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="item">
+                <div className="img icon-img-100">
+                  <img style={{width:'100%'}} src="/light/assets/imgs/brands/sparrow.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
