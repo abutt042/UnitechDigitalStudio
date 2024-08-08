@@ -27,45 +27,15 @@ function Header(props) {
         }}
       >
       <div className="container ">
-        <div className="row align-items-end">
-          <div className="col-lg-8 md-mb50">
-            <div>
+          <div className="col-lg-12 md-mb50">
+            <div style={{textAlign:'center', paddingTop:'80px'}}>
               <h1 className="fz-100">
                {props.name}
               </h1>
             </div>
           </div>
-          <div className="col-lg-4">
-            <div className="info">
-              <div className="row">
-                <div className="col-md-6">
-                  <div className="item mb-30">
-                    <span className="opacity-8 mb-5">Category :</span>
-                    <h6>{props.category}</h6>
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className="item mb-30">
-                    <span className="opacity-8 mb-5">Client :</span>
-                    <h6>{props.client}</h6>
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className="item mb-30">
-                    <span className="opacity-8 mb-5">Start Date :</span>
-                    <h6>{props.date}</h6>
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className="item">
-                    <span className="opacity-8 mb-5">Designer :</span>
-                    <h6>{props.designer}</h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+         
+       
       </div>
       <div
         className="bg-img mt-100"

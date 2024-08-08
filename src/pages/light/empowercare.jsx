@@ -58,14 +58,16 @@ export default function EmpowerCare() {
           <div id="smooth-content">
             <main className="main-bg">
               <Header 
-               name={"EmpowerCare"}
-               category={"Development"}
-               client={"Envato"}
-               date={"7 August 2021"}          
-               designer={"UiCamp"}  
+               name={"Empower Care"}
               
                />
-              <Challenge />
+              <Challenge 
+
+              heading={"EmpowerCare"}
+              description={"This is short description of Empowercare"}
+              casestudy={"The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable."}
+              
+               />
               <Wroks id = {'1'}/>
               <Solution />
             </main>

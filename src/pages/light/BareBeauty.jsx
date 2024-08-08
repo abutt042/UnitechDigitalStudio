@@ -59,12 +59,12 @@ export default function BareBeauty() {
             <main className="main-bg">
               <Header
                 name={"Bare Beauty"}
-               category={"Development"}
-               client={"Envato"}
-               date={"7 August 2021"}          
-               designer={"UiCamp"}  
                />
-              <Challenge />
+              <Challenge
+               heading={"Bare Beauty"}
+              description={"This is short description of BareBaeauty"}
+              casestudy={"The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable."}
+               />
               <Wroks id = {'4'}/>
               <Solution />
             </main>
