@@ -59,12 +59,12 @@ export default function UnitedEstates() {
             <main className="main-bg">
               <Header
                name={"United Estates"}
-               category={"Development"}
-               client={"Envato"}
-               date={"7 August 2021"}          
-               designer={"UiCamp"}  
                />
-              <Challenge />
+              <Challenge
+               heading={"EmpowerCare"}
+              description={"This is short description of United Estates"}
+              casestudy={"The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable."}
+               />
               <Wroks id = {'3'} />
               <Solution />
             </main>

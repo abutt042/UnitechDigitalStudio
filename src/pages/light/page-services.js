@@ -63,7 +63,6 @@ export default function LPageServices() {
             <main className="main-bg">
               <Header />
               <Services />
-              <Marquee />
               <Contact />         
               {/* <Marquee /> */}
               {/* <Blog /> */}

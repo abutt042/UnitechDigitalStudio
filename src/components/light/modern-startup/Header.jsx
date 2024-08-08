@@ -118,19 +118,18 @@ setLoading(true)
                 />
               </div>
               <div style={{ marginBottom: '25px' }}>
-                <select
-                  style={{ width: '100%', padding: '10px', border: '1px solid #ddd', borderRadius: '4px', fontSize: '16px', color: '#333', backgroundColor: '#f5f5f5' }}
-                  name="inquiry"
-                  value={formData.inquiry}
-                  onChange={handleChange}
-                  required
-                >
-                  <option value="Your inquiry about">Your inquiry about</option>
-                  <option value="General Information Request">General Information Request</option>
-                  <option value="Partner Relations">Partner Relations</option>
-                  <option value="Careers">Careers</option>
-                  <option value="Software Licencing">Software Licencing</option>
-                </select>
+          
+                      <textarea
+                       style={{ width: '100%', padding: '10px', border: '1px solid #ddd', borderRadius: '4px', fontSize: '16px', color: '#333', backgroundColor: '#f5f5f5' }}
+                        id="form_message" 
+                        name="message" 
+                        placeholder="Message" 
+                        rows="4" 
+                        required="required" 
+                        value={formData.message} 
+                        onChange={handleChange} 
+                      ></textarea>
+                   
               </div>
               <div>
               <button type="submit" className="btn-form" disabled={loading}>
