@@ -67,15 +67,15 @@ export default function LPageServicesDetails() {
                 icon1={'fa fa-mobile'}
                 subheading1={'Transactional Emails'}
                 subdescription1={"Transactional emails are automated messages sent to individual recipients based on specific actions they've taken on your website or app. Examples include order confirmations, password resets, and shipping notifications. These emails are essential for providing timely and relevant information to users."}
-                image1={"/light/assets/imgs/intro/mern.png"}
+                image1={"/light/assets/imgs/intro/email.png"}
                 icon2={'fa fa-mobile'}
                 subheading2={'Promotional Emails'}
                 subdescription2={"Promotional emails are designed to promote a product, service, or special offer to a targeted audience. They often include discounts, new product announcements, or seasonal promotions. Effective promotional emails focus on engaging content and compelling calls-to-action to drive conversions."}
-                image2={"/light/assets/imgs/intro/mean.png"}
+                image2={"/light/assets/imgs/intro/promotional.png"}
                 icon3={'fa fa-mobile'}
                 subheading3={'Newsletter Emails'}
                 subdescription3={'Newsletter emails provide subscribers with regular updates, news, and valuable content related to your industry or brand. They aim to build long-term relationships with subscribers by offering insights, tips, and exclusive content that keeps them informed and engaged.'}
-                image3={'/light/assets/imgs/intro/shopify.png'}
+                image3={'/light/assets/imgs/intro/newsletter.png'}
 
               />              <Process />
               <Testimonials />

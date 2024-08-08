@@ -67,15 +67,15 @@ export default function LPageServicesDetails() {
                 icon1={'fa fa-mobile'}
                 subheading1={'Content Marketing'}
                 subdescription1={"Engage your audience with valuable content that educates, informs, and inspires. Through blogs, eBooks, and informative videos, we help you attract and convert prospects into leads."}
-                image1={"/light/assets/imgs/intro/mern.png"}
+                image1={"/light/assets/imgs/intro/contentmarketing.png"}
                 icon2={'fa fa-mobile'}
                 subheading2={'SEO Optimization'}
                 subdescription2={"Enhance your online visibility and attract organic traffic through strategic SEO practices. By optimizing your website and content, we ensure your business ranks higher in search engine results, driving qualified leads."}
-                image2={"/light/assets/imgs/intro/mean.png"}
+                image2={"/light/assets/imgs/intro/seooptimization.png"}
                 icon3={'fa fa-mobile'}
                 subheading3={'Paid Advertising (PPC)'}
                 subdescription3={'Reach your ideal customers instantly through paid advertising campaigns. With strategic ad placements on Google, Bing, and social media channels, we drive targeted traffic to your website and capture high-quality leads.'}
-                image3={'/light/assets/imgs/intro/shopify.png'}
+                image3={'/light/assets/imgs/intro/paidadvertizing.png'}
 
               />                 <Process />
               <Testimonials />

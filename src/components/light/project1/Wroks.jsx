@@ -10,10 +10,11 @@ import data3 from '../../../l-data/portfolios/works03.json';
 
 import { Helmet } from 'react-helmet';
 function Wroks(props) {
+  
   return (
     <>
       <Helmet>
-        <script src="/dark/assets/js/hscroll.js"></script>
+        <script src="/dark/assets/js/hscroll2.js"></script>
       </Helmet>
       {props.id === '1' &&
       <div className="works thecontainer ontop">
