@@ -62,7 +62,7 @@ export default function BareBeauty() {
                />
               <Challenge
                heading={"Bare Beauty"}
-              description={"This is short description of BareBaeauty"}
+              description={"Bare Beauty project, an elegant e-commerce website for skincare products built on Shopify. This project demonstrates our capability in creating visually appealing and highly functional online stores, featuring user-friendly navigation, secure payment options, and optimized performance to enhance the shopping experience and drive sales for the brand."}
               casestudy={"The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable."}
                />
               <Wroks id = {'4'}/>

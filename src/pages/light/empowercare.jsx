@@ -64,7 +64,7 @@ export default function EmpowerCare() {
               <Challenge 
 
               heading={"EmpowerCare"}
-              description={"This is short description of Empowercare"}
+              description={"Empower Care is a cutting-edge headless CMS project that combines the power of a React frontend with the flexibility of a WordPress backend. This innovative solution allows for seamless content management and dynamic user experiences, leveraging the strengths of both technologies to deliver a high-performance, scalable platform tailored to meet the unique needs of our client."}
               casestudy={"The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable."}
               
                />

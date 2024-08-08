@@ -90,9 +90,14 @@ function Navbar() {
                 </Link>
               </li>
             </ul>
-            <button type="submit" className="btn-nav">
+            <div>
+  <Link to="https://calendly.com/unitechdigitalstudio" target='_blank'>
+            <button  className="btn-nav">
               GET QUOTATION
             </button>
+            </Link>
+            </div>
+          
           </div>
 
           <div className="topnav">
