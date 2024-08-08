@@ -62,7 +62,7 @@ export default function WeStack() {
               />
               <Challenge 
               heading={"Westack"}
-              description={"This is short description of We Stack"}
+              description={"We Stack Private Limited project, a comprehensive website designed for an IT sales force and IT forces company. This project showcases our ability to create tailored digital solutions that meet the specific needs of the IT industry, featuring robust functionality, intuitive design, and seamless user experience to support the company’s operations and growth."}
               casestudy={"The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable."}
               />
               <Wroks id = {'2'} />

@@ -9,15 +9,15 @@ function Challenge(props) {
             <h2 className="mb-50">
             {props.heading}
             </h2>
-            <p className="fz-18">
+            <p className="fz-15">
                 {props.description}
               </p>
           </div>
           <div className="col-lg-7">
             <div className="text">
-              <h5 className="mb-30 fw-400 line-height-40">
+              <h2 className="mb-50 fw-400">
                 Case Study
-              </h5>
+              </h2>
               <p className="fz-18">
                 {props.casestudy}
               </p>

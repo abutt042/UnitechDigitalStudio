@@ -62,7 +62,7 @@ export default function UnitedEstates() {
                />
               <Challenge
                heading={"EmpowerCare"}
-              description={"This is short description of United Estates"}
+              description={"United Estates project a sophisticated website designed for a real estate and builders company. This project highlights our expertise in creating dynamic and user-friendly digital platforms tailored to the real estate industry, featuring seamless navigation, comprehensive property listings, and interactive tools to enhance user engagement and support the company’s growth"}
               casestudy={"The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable."}
                />
               <Wroks id = {'3'} />
