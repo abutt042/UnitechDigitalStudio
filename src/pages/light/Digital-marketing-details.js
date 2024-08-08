@@ -62,7 +62,19 @@ export default function LPageServicesDetails() {
                  heading={"Digital Marketing"}
                  subheading={" Digital marketing details "}
               />
-              <Services />
+                    <Services 
+              description={"Digital marketing encompasses a wide range of online strategies and tactics used to promote products or services through digital channels. It includes activities such as search engine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, content marketing, and email campaigns. By leveraging these tools, businesses can effectively reach their target audience, increase brand awareness, drive traffic to their websites, and generate leads. Digital marketing enables precise targeting, measurable results, and real-time engagement, making it an essential component of any modern business strategy."}
+              icon1= {'fa fa-mobile'}
+              subheading1= {'Social Media Marketing'}
+              subdescription1 = {"SMM involves creating and sharing content on social media platforms like Facebook, Instagram, and Twitter to engage with your audience and build brand awareness. Effective social media strategies can drive traffic, foster community engagement, and promote brand loyalty."}
+              image1 = {"/light/assets/imgs/intro/DigitalMarketing.png"}
+              icon2= {'fa fa-mobile'}
+              subheading2 = {'Content Marketing'}
+              subdescription2 = {"Content marketing focuses on creating and distributing valuable, relevant content to attract and engage your target audience. This includes blog posts, infographics, videos, and eBooks, designed to inform and provide solutions to your audience’s needs."}
+              image2 = {"/light/assets/imgs/intro/DigitalMarketing2.png" }
+             
+
+             />
               <Process />
               <Testimonials />
               {/* <Services2 /> */}
