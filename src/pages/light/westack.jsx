@@ -8,7 +8,7 @@ import Navbar from '../../components/light/modern-startup/Navbar';
 import Challenge from '../../components/light/project1/Challenge';
 import Header from '../../components/light/project1/Header';
 import Next from '../../components/light/project1/Next';
-import Solution from '../../components/light/project1/Solution';
+import Solution from '../../components/light/project2/Solution';
 import Wroks from '../../components/light/project1/Wroks';
 import logo from '../../favicon.ico';
 
@@ -63,10 +63,9 @@ export default function WeStack() {
               <Challenge 
               heading={"Westack"}
               description={"We Stack Private Limited project, a comprehensive website designed for an IT sales force and IT forces company. This project showcases our ability to create tailored digital solutions that meet the specific needs of the IT industry, featuring robust functionality, intuitive design, and seamless user experience to support the company’s operations and growth."}
-              casestudy={"The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable."}
               />
               <Wroks id = {'2'} />
-              <Solution />
+              <Solution  />
 
             </main>
             <Footer />

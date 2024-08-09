@@ -141,7 +141,6 @@ setLoading(true)
             <div className="sec-head info-box full-width md-mb80">
               <div className="phone fz-30 fw-600 underline main-color">
                 <a href="tel:+2015024027">+(201) 502-4027</a>
-                <a href="tel:+447506239325">+44-7506-239325</a>
               </div>
               <div className="morinfo mt-50 pb-30 bord-thin-bottom">
                 <h6 className="mb-15">Address</h6>
