@@ -1,6 +1,11 @@
 [
   {
     "img": "/light/assets/imgs/team/1.jpg",
+    "name": "Muhammad Faizan Malik",
+    "subName": "CEO"
+  },
+  {
+    "img": "/light/assets/imgs/team/1.jpg",
     "name": "Ameer Mavia",
     "subName": "CTO"
   },
@@ -13,21 +18,15 @@
     "img": "/light/assets/imgs/team/3.jpg",
     "name": "Haris Waseem",
     "subName": "Front-end Developer"
-  }
-  ,
+  },
   {
     "img": "/light/assets/imgs/team/3.jpg",
-    "name": "Fahad",
+    "name": "Syed Fahad Hashmi",
     "subName": "Business Developer"
   },
   {
     "img": "/light/assets/imgs/team/3.jpg",
-    "name": "Fahad",
-    "subName": "Business Developer"
-  },
-  {
-    "img": "/light/assets/imgs/team/3.jpg",
-    "name": "Fahad",
+    "name": "Fahad Zeeshan",
     "subName": "Business Developer"
   }
 ]

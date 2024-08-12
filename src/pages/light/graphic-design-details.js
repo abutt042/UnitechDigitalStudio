@@ -80,7 +80,8 @@ export default function LPageServicesDetails() {
                 subheading4={'Illustration and Infographic Design:'}
                 subdescription4={'Illustration and infographic design involve creating visual representations of concepts, data, or stories through illustrations, icons, charts, and diagrams. It aims to simplify complex information and make it more understandable and engaging for the audience.'}
                 image4={'/light/assets/imgs/intro/uiux4.png'}
-              />                <Process />
+              />     
+                         {/* <Process /> */}
               <Testimonials />
               {/* <Services2 /> */}
               <FAQS />

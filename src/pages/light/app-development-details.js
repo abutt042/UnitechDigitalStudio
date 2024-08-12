@@ -73,7 +73,7 @@ export default function LPageServicesDetails() {
               subdescription2 = {"We develop mobile applications for iPhones that meet the needs of end-users, in addition to meeting the requirements of their business. The sleek and slim ios offer a unique platform for its users. Our iOS application developers use the latest tools and technology to create superior quality, easy-to-use iPhone applications.Contact us with Exytex today to create the best iPhone mobile app development experience for your users."}
              image2 = {"/light/assets/imgs/intro/ios.png" }
              />
-              <Process />
+              {/* <Process /> */}
               <Testimonials />
              {/* <Services2 /> */}
               <FAQS />
