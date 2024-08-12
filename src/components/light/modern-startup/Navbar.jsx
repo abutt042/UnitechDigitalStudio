@@ -74,11 +74,11 @@ function Navbar() {
                   <span className="rolling-text">Portfolio</span>
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link" to="/team">
                   <span className="rolling-text">Team</span>
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link" to="/blog">
                   <span className="rolling-text">Blog</span>

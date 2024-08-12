@@ -73,7 +73,7 @@ export default function LHomeStartupOnePage() {
               <About />
               <Marquee />
               <Portfolio />
-              <Skills />
+              {/* <Skills /> */}
               <Testimonials />
               {/* <Blog /> */}
               <Contact />         
