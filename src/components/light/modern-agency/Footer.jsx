@@ -24,12 +24,12 @@ function Footer() {
                   </li>
                  
                   <li className="cursor-pointer ml-50 social-icons">
-                    <Link to="https://www.linkedin.com/company/unitech-digital-studios/" >
+                    <Link target='_blank' to="https://www.linkedin.com/company/unitech-digital-studios/" >
                       <i className="fab fa-linkedin-in mr-10"></i> LinkedIn
                     </Link>
                   </li>
                   <li className="cursor-pointer ml-50 social-icons">
-                    <Link to="https://www.instagram.com/unitechdigitalstudio/?hl=en" >
+                    <Link target='_blank' to="https://www.instagram.com/unitechdigitalstudio/?hl=en" >
                       <i className="fab fa-instagram mr-10"></i> Instagram
                     </Link>
                   </li>

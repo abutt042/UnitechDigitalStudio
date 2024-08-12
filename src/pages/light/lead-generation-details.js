@@ -77,7 +77,8 @@ export default function LPageServicesDetails() {
                 subdescription3={'Reach your ideal customers instantly through paid advertising campaigns. With strategic ad placements on Google, Bing, and social media channels, we drive targeted traffic to your website and capture high-quality leads.'}
                 image3={'/light/assets/imgs/intro/paidadvertizing.png'}
 
-              />                 <Process />
+              />           
+                    {/* <Process /> */}
               <Testimonials />
               {/* <Services2 /> */}
               <FAQS />
