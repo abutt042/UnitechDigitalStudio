@@ -64,7 +64,7 @@ export default function Coretal() {
               heading={"Coretal"}
               description={"Our team of experienced recruiters and software engineers collaborated to develop a solution that optim zes the hiring process from start to finish. With a commitment to efficiency, Coretal saves time and enhances the quality of hires, reflecting our dedication to innovative and effective digital solutions."}
               />
-              <Wroks id = {'2'} />
+              <Wroks id = {'5'} />
               <Solution  />
 
             </main>
