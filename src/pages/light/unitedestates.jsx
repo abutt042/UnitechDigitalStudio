@@ -8,7 +8,7 @@ import Navbar from '../../components/light/modern-startup/Navbar';
 import Challenge from '../../components/light/project1/Challenge';
 import Header from '../../components/light/project1/Header';
 import Next from '../../components/light/project1/Next';
-import Solution from '../../components/light/project1/Solution';
+import Solution from '../../components/light/project3/Solution';
 import Wroks from '../../components/light/project1/Wroks';
 import logo from '../../favicon.ico';
 
@@ -61,9 +61,8 @@ export default function UnitedEstates() {
                name={"United Estates"}
                />
               <Challenge
-               heading={"EmpowerCare"}
+               heading={"United Estates"}
               description={"United Estates project a sophisticated website designed for a real estate and builders company. This project highlights our expertise in creating dynamic and user-friendly digital platforms tailored to the real estate industry, featuring seamless navigation, comprehensive property listings, and interactive tools to enhance user engagement and support the company’s growth"}
-              casestudy={"The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable."}
                />
               <Wroks id = {'3'} />
               <Solution />

@@ -33,6 +33,9 @@ import BareBeauty from "./pages/light/BareBeauty";
 import LoadingSpinner from "./components/light/LoadingSpinner/LoadingSpinner";
 import LPrivacyPolicy from "./pages/light/privacy-policy";
 import LTerms from "./pages/light/Terms";
+import Itgenics from "./pages/light/Itgenics";
+import Coretal from "./pages/light/coretal";
+import Beastmodesoccer from "./pages/light/beastmodesoccer";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -120,6 +123,12 @@ function App() {
               element={<UnitedEstates />}
             />
             <Route path="/portfolio/barebeauty" element={<BareBeauty />} />
+            <Route path="/portfolio/itgenics" element={<Itgenics/>} />
+
+            <Route path="/portfolio/coretal" element={<Coretal />} />
+
+            <Route path="/portfolio/beastmodesoccer" element={<Beastmodesoccer/>} />
+
           
 
             <Route path="/privacy-policy" element={<LPrivacyPolicy />} />

@@ -33,7 +33,7 @@ function Wroks(props) {
       {props.id === '2' &&
       <div className="works thecontainer ontop">
         {data1.map((item, i) => (
-          <div key={i} className="panel">
+          <div key={i} style={{margin:'0'}} className="panel">
             <div className="item">
               <div className="img">
                 <img src={item} alt="" />

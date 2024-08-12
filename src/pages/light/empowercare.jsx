@@ -65,11 +65,10 @@ export default function EmpowerCare() {
 
               heading={"EmpowerCare"}
               description={"Empower Care is a cutting-edge headless CMS project that combines the power of a React frontend with the flexibility of a WordPress backend. This innovative solution allows for seamless content management and dynamic user experiences, leveraging the strengths of both technologies to deliver a high-performance, scalable platform tailored to meet the unique needs of our client."}
-              casestudy={"The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable."}
               
                />
               <Wroks id = {'1'}/>
-              <Solution />
+              <Solution casestudy = {"Empower Care is an innovative headless CMS project designed for seamless job posting and application management, combining the dynamic capabilities of a React frontend with the robust content management of a WordPress backend. The platform facilitates easy job creation, management, and publication through a user-friendly admin dashboard while providing job seekers with an intuitive interface to browse and apply for jobs. By integrating RESTful APIs, Empower Care ensures smooth data flow between the frontend and backend, allowing for a high-performance, scalable solution that delivers a responsive and consistent user experience across all devices. The project addresses challenges such as API integration, content consistency, and security by implementing optimized RESTful APIs, caching mechanisms, and secure authentication methods. Empower Care exemplifies the power of headless CMS architecture in delivering tailored, scalable, and efficient solutions for modern businesses."} />
             </main>
             <Footer />
           </div>

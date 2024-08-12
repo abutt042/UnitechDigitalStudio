@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import portfolio from "./Unitech Digital Studio Portfolio.pdf"
 
 function Portfolio() {
   const projects = [
@@ -40,7 +41,7 @@ function Portfolio() {
       title: "Coretal",
       description: "Our expert team developed a solution that streamlines the entire hiring process.",
       image: "/light/assets/imgs/works/1/coretal.png",
-      link: "/portfolio/unitedestates",
+      link: "/portfolio/coretal",
       category: "Development"
     },
     {
@@ -48,7 +49,7 @@ function Portfolio() {
       title: "ITGenics",
       description: "This project demonstrates our skill in creating custom digital solutions that highlight our clients' offerings.",
       image: "/light/assets/imgs/works/1/itgenics.png",
-      link: "/portfolio/unitedestates",
+      link: "/portfolio/itgenics",
       category: "Development"
     },
     {
@@ -56,7 +57,7 @@ function Portfolio() {
       title: "Beast Mode Soccer",
       description: "This platform boosts player connectivity and offers training resources accessible anytime.",
       image: "/light/assets/imgs/works/1/beastmodesoccer.png",
-      link: "/portfolio/unitedestates",
+      link: "/portfolio/beastmodesoccer",
       category: "Development"
     }
   ];
@@ -69,13 +70,30 @@ function Portfolio() {
     setTimeout(() => {
       setVisibleProjects(prevVisibleProjects => prevVisibleProjects + 3);
       setLoading(false);
-    }, 2000);
+    }, 1000);
   };
 
   return (
     <section className="work-sticky section-padding pt-60 sub-bg">
       <div className="container">
+     
         <div className="row">
+        <div  className = 'col-lg-12' style={{textAlign:"center"}}>
+      <a href={portfolio} download='unitechportfolio.pdf' target='_blank' >
+        <button style={{ 
+          display: 'flex', 
+          alignItems: 'center', 
+          width: 'fit-content', 
+          padding: '6%', 
+          whiteSpace: 'nowrap' ,
+
+          cursor: 'pointer' 
+        }} className="btn-form">
+          Download Our Portfolio
+          <i className="fas fa-download" style={{ marginLeft: '8px' }}></i>
+        </button>
+      </a>
+    </div>
           {projects.slice(0, visibleProjects).map((project, index) => (
             <React.Fragment key={project.id}>
               {index % 2 === 0 ? (
@@ -135,7 +153,9 @@ function Portfolio() {
             </div>
           </div>
         )}
+
       </div>
+
     </section>
   );
 }
