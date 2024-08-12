@@ -64,7 +64,7 @@ export default function Beastmodesoccer() {
               heading={"Beast Mode Soccer"}
               description={"This platform enhances player connectivity and facilitates comprehensive development through accessible, anytime, anywhere training resources.Beast Mode Soccer+ harnesses technology and innovative design to unite soccer players, empowering them to excel and 'Own Your Development' at their convenience."}
               />
-              <Wroks id = {'2'} />
+              <Wroks id = {'7'} />
               <Solution  />
 
             </main>

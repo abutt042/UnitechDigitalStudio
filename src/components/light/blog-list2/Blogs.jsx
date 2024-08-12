@@ -75,16 +75,16 @@ function Blogs() {
                 <div className="col-lg-6 col-md-7 sub-bg cont valign">
                   <div className="full-width">
                     <div className="tags mb-15">
-                      <Link to="/light/blog-details">Marketing</Link>
                       <Link to="/light/blog-details">Design</Link>
+                      <Link to="/light/blog-details">Development</Link>
                     </div>
                     <h5>
                       <Link to="/light/blog-details">
-                        Business meeting 2023 in San Francisco.
+                      WordPress Theme Customization
                       </Link>
                     </h5>
                     <span className="date fz-12 ls1 text-u opacity-7 mt-80">
-                      August 6, 2022
+                      August 8, 2024
                     </span>
                   </div>
                 </div>

@@ -64,7 +64,7 @@ export default function Itgenics() {
               heading={"IT Genics"}
               description={"This project highlights our ability to design and develop tailored digital solutions that effectively showcase our clients' offerings. The IT Genics website features a user-friendly interface, detailed service descriptions, and streamlined contact options, all aimed at enhancing client engagement and supporting their sales efforts."}
               />
-              <Wroks id = {'2'} />
+              <Wroks id = {'6'} />
               <Solution  />
 
             </main>
