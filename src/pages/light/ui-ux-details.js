@@ -86,7 +86,7 @@ export default function LPageServicesDetails() {
              image5={'/light/assets/imgs/intro/prototyping.png'}
 
              />
-              <Process />
+              {/* <Process /> */}
               <Testimonials />
               {/* <Services2 /> */}
               <FAQS />

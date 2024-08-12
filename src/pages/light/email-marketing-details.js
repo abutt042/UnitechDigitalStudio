@@ -77,7 +77,8 @@ export default function LPageServicesDetails() {
                 subdescription3={'Newsletter emails provide subscribers with regular updates, news, and valuable content related to your industry or brand. They aim to build long-term relationships with subscribers by offering insights, tips, and exclusive content that keeps them informed and engaged.'}
                 image3={'/light/assets/imgs/intro/newsletter.png'}
 
-              />              <Process />
+              />         
+                   {/* <Process /> */}
               <Testimonials />
               {/* <Services2 /> */}
               <FAQS />

@@ -31,13 +31,12 @@ function FAQS() {
               <div className="accordion bord">
                 <div className="item mb-15 wow fadeInUp" data-wow-delay=".1s">
                   <div className="title">
-                    <h6>Designing Content With AI Power</h6>
+                    <h6>What services do you offer?</h6>
                     <span className="ico ti-plus"></span>
                   </div>
                   <div className="accordion-info">
                     <p className="">
-                      Taken possession of my entire soul, like these sweet
-                      mornings of spring which i enjoy with my whole.
+                    We provide a comprehensive range of IT support services, including hardware and software troubleshooting, network setup and maintenance, cybersecurity solutions, data backup and recovery, and managed IT services.
                     </p>
                   </div>
                 </div>
@@ -47,48 +46,48 @@ function FAQS() {
                   data-wow-delay=".3s"
                 >
                   <div className="title">
-                    <h6>Talented, Professional & Expert Team</h6>
+                    <h6>How can I contact your support team?</h6>
                     <span className="ico ti-plus"></span>
                   </div>
                   <div className="accordion-info">
                     <p className="mb-30">
-                      Taken possession of my entire soul, like these sweet
-                      mornings of spring which i enjoy with my whole.
+                    You can reach our support team via phone, email. Visit our Contact Us page for more details.
                     </p>
-                    <p className="mb-10">
-                      Taken possession of my entire soul, like these sweet
-                      mornings of spring which i enjoy with my whole.
-                    </p>
-                    <p className="">
-                      Taken possession of my entire soul, like these sweet
-                      mornings of spring which i enjoy with my whole.
-                    </p>
+                   
                   </div>
                 </div>
 
                 <div className="item mb-15 wow fadeInUp" data-wow-delay=".3s">
                   <div className="title">
-                    <h6>Talented, Professional & Expert Team</h6>
+                    <h6>What are your support hours?</h6>
                     <span className="ico ti-plus"></span>
                   </div>
                   <div className="accordion-info">
                     <p className="">
-                      Taken possession of my entire soul, like these sweet
-                      mornings of spring which i enjoy with my whole.
+                    Our support team is available 24/7 to assist you with any IT-related issues.
                     </p>
                   </div>
                 </div>
 
                 <div className="item wow fadeInUp" data-wow-delay=".5s">
                   <div className="title">
-                    <h6>We Build and Activate Brands</h6>
+                    <h6>Do you offer remote support?</h6>
                     <span className="ico ti-plus"></span>
                   </div>
                   <div className="accordion-info">
                     <p className="">
-                      Taken possession of my entire soul, like these sweet
-                      mornings of spring which i enjoy with my whole.
+                    Yes, we provide remote IT support to resolve issues quickly without the need for an on-site visit.
                     </p>
+                  </div>
+                </div>
+                <div className="item wow fadeInUp" data-wow-delay=".5s">
+                  <div className="title">
+                    <h6>What is your response time for support requests?</h6>
+                    <span className="ico ti-plus"></span>
+                  </div>
+                  <div className="accordion-info">
+                    <p className="">
+                    Our average response time is within 1 hour, depending on the complexity of the issue and the support plan you have selected.                    </p>
                   </div>
                 </div>
               </div>

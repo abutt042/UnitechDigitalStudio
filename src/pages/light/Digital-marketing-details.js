@@ -75,7 +75,7 @@ export default function LPageServicesDetails() {
              
 
              />
-              <Process />
+              {/* <Process /> */}
               <Testimonials />
               {/* <Services2 /> */}
               <FAQS />
