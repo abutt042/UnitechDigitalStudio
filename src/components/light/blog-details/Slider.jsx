@@ -2,7 +2,7 @@
 import React, { useLayoutEffect } from 'react';
 import { gsap } from 'gsap';
 import LoadingScreen from '../common/loader';
-function Slider() {
+function Slider({ blogPost }) {
   useLayoutEffect(() => {
     const tl = gsap.timeline();
     tl.fromTo('.header', { y: 200 }, { y: 0 }, '+=0.2'); // Reduced delay for faster start
@@ -31,19 +31,12 @@ function Slider() {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="caption">
-              <div className="sub-title fz-12">
-                <a href="#0">
-                  <span>Design , </span>
-                </a>
-                <a href="#0">
-                  <span>Development</span>
-                </a>
-              </div>
+           
               <h1 className="fz-55 mt-30">
-                Network of wormholes colonies extraordinary claims require.
+              <h1>{blogPost.title}</h1>
               </h1>
             </div>
-            <div className="info d-flex mt-40 align-items-center">
+            {/* <div className="info d-flex mt-40 align-items-center">
               <div className="left-info">
                 <div className="d-flex align-items-center">
                   <div className="author-info">
@@ -75,7 +68,7 @@ function Slider() {
                   <span className="opacity-7">02 Comments</span>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

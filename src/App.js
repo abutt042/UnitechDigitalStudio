@@ -63,7 +63,7 @@ function App() {
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<LHomeStartupOnePage />} />
-            <Route path="/light/blog-details" element={<LBlogDetails />} />
+            <Route path="/blog-details/:id" element={<LBlogDetails />} />
             <Route path="/light/blog-list" element={<LBlogList />} />
             <Route path="/blog" element={<LBlogList2 />} />
             <Route

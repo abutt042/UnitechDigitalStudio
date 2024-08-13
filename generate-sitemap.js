@@ -5,10 +5,9 @@ const { Readable } = require('stream');
 
 const links = [
   { url: '/', changefreq: 'daily', priority: 1.0 },
-  { url: '/blog-details', changefreq: 'weekly', priority: 0.8 },
-  { url: '/blog-list', changefreq: 'weekly', priority: 0.8 },
   { url: '/blog', changefreq: 'weekly', priority: 0.8 },
-  { url: '/home-startup-onepage', changefreq: 'weekly', priority: 0.8 },
+  { url: '/light/blog-list', changefreq: 'weekly', priority: 0.8 },
+  { url: '/light/home-startup-onepage', changefreq: 'weekly', priority: 0.8 },
   { url: '/about', changefreq: 'monthly', priority: 0.7 },
   { url: '/contact', changefreq: 'monthly', priority: 0.7 },
   { url: '/light/page-error404', changefreq: 'monthly', priority: 0.5 },
@@ -32,8 +31,9 @@ const links = [
   { url: '/portfolio/coretal', changefreq: 'monthly', priority: 0.6 },
   { url: '/portfolio/beastmodesoccer', changefreq: 'monthly', priority: 0.6 },
   { url: '/privacy-policy', changefreq: 'yearly', priority: 0.5 },
-  { url: '/Terms', changefreq: 'yearly', priority: 0.5 },
+  { url: '/terms', changefreq: 'yearly', priority: 0.5 }, // Changed to lowercase
 ];
+
 
 const stream = new SitemapStream({ hostname: 'https://unitechdigitalstudio.com' });
 
