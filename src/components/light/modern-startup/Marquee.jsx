@@ -16,27 +16,27 @@ const imgStyle = {
 return (
   <div className='container' style={containerStyle}>
     <img
-      src="https://unitechdigitalstudio.com/wp-content/uploads/2024/05/clutch-3.png"
+      src="/light/assets/imgs/clients/clutch-3.png"
       alt="Image 1"
       style={imgStyle}
     />
     <img
-      src="https://unitechdigitalstudio.com/wp-content/uploads/2024/05/google.png"
+      src="/light/assets/imgs/clients/google.png"
       alt="Image 2"
       style={imgStyle}
     />
     <img
-      src="https://unitechdigitalstudio.com/wp-content/uploads/2024/05/trustpilot.png"
+      src="/light/assets/imgs/clients/trustpilot.png"
       alt="Image 3"
       style={imgStyle}
     />
     <img
-      src="https://unitechdigitalstudio.com/wp-content/uploads/2024/05/themanifest.png"
+      src="/light/assets/imgs/clients/themanifest.png"
       alt="Image 4"
       style={imgStyle}
     />
     <img
-      src="https://unitechdigitalstudio.com/wp-content/uploads/2024/05/shopify-1024x171.png"
+      src="/light/assets/imgs/clients/shopify.png"
       alt="Image 5"
       style={imgStyle}
     />

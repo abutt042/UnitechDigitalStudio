@@ -144,8 +144,7 @@ setLoading(true)
               </div>
               <div className="morinfo mt-50 pb-30 bord-thin-bottom">
                 <h6 className="mb-15">Address</h6>
-                <p>Hashim Center, Aa Block Sector D Bahria Town, Lahore, Punjab</p>
-                <br />
+               
                 <p>9 Thorold Road, Ilford London IG1 4HG - Sandra Davidson United Kingdom</p>
               </div>
               <div className="morinfo mt-30 pb-30 bord-thin-bottom">
