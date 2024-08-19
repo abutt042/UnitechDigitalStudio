@@ -212,7 +212,13 @@ function Navbar() {
               <div className="cont-info">
                 <div className="item mb-50">
                   <h6 className="sub-title mb-15 opacity-7">Address</h6>
+<<<<<<< HEAD
                
+=======
+                  <h5>
+                    Hashim Center, Aa Block <br /> Sector D Bahria Town, Lahore, Punjab
+                  </h5>
+>>>>>>> ac0d212597fb7b06f081de15ea6ff44131030444
                   <br />
                   <h5>
                     9 Thorold Road, Ilford London IG1 4HG - Sandra Davidson United Kingdom                  </h5>
