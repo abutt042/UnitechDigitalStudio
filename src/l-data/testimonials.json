@@ -1,0 +1,21 @@
+[
+  {
+    "img": "/light/assets/imgs/testim/user.png",
+    "name": "Adam Beckley",
+    "subName": "Founder & CEO",
+    "desc": "Unitech Digital Studio front-end development service exceeded my expectations. Their team transformed our design concepts into a visually stunning and interactive website."
+  },
+  {
+    "img": "/light/assets/imgs/testim/user.png",
+    "name": "John Richmond",
+    "subName": "Founder & CEO",
+    "desc": "Unitech Digital Studio delivered a website that exceeded our expectations. Their expertise in web development is evident in every aspect of the site. The design is modern and visually appealing,"
+  },
+  {
+    "img": "/light/assets/imgs/testim/user.png",
+    "name": "Bernard Blackwood",
+    "subName": "Founder & CEO",
+    "desc": "Working with Unitech Digital Studio was an absolute pleasure. Their web development service surpassed all our expectations. They meticulously translated our ideas into a beautiful and user-friendly website"
+  }
+  
+]

@@ -1,0 +1,51 @@
+[
+    {
+      "title": "Digital Marketing",
+      "img": "/light/assets/imgs/serv-icons/3.png",
+      "desc": "Enhance your online presence with comprehensive digital marketing strategies. Drive targeted traffic and increase conversions for your business.",
+      "link": "/services/Digital-marketing-details"
+    },
+    {
+      "title": "Web Developments",
+      "img": "/light/assets/imgs/serv-icons/4.png",
+      "desc": "Create custom websites that meet your specific needs. Enhance user experience with tailored web solutions.",
+      "link": "/services/web-services-details"
+    },
+    {
+      "title": "App Development",
+      "img": "/light/assets/imgs/serv-icons/5.png",
+      "desc": "Develop innovative mobile applications that engage users. Provide seamless functionality to enhance user satisfaction.",
+      "link": "/services/app-development-details"
+    },
+    {
+      "title": "UI-UX Design",
+      "img": "/light/assets/imgs/serv-icons/5.png",
+      "desc": "Design intuitive and engaging digital interfaces. Focus on user-centered approaches for optimal user experience.",
+      "link": "/services/ui-ux-details"
+    },
+    {
+        "title": "SEO",
+        "img": "/light/assets/imgs/serv-icons/5.png",
+        "desc": "Improve your website's visibility with effective SEO techniques. Achieve higher search engine rankings and attract more visitors.",
+        "link": "/services/seo-details"
+      },
+      {
+        "title": "Email Marketing",
+        "img": "/light/assets/imgs/serv-icons/5.png",
+        "desc": "Execute targeted email campaigns to nurture leads and drive conversions. Deliver personalized content to your audience.",
+        "link": "/services/email-marketing-details"
+      },
+      {
+        "title": "Lead Generation",
+        "img": "/light/assets/imgs/serv-icons/5.png",
+        "desc": "Attract and convert potential customers into loyal clients. Implement proven strategies for effective lead generation.",
+        "link": "/services/lead-generation-details"
+      },
+      {
+        "title": "Graphic Design",
+        "img": "/light/assets/imgs/serv-icons/5.png",
+        "desc": "Communicate your brand message with creative visual solutions. Captivate your audience with compelling graphic design.",
+        "link": "/services/graphic-design-details"
+      }
+  ]
+  
