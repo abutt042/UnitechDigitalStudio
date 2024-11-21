@@ -17,27 +17,27 @@ return (
   <div className='container' style={containerStyle}>
     <img
       src="/light/assets/imgs/clients/clutch-3.png"
-      alt="Image 1"
+      alt="Clucth"
       style={imgStyle}
     />
     <img
       src="/light/assets/imgs/clients/google.png"
-      alt="Image 2"
+      alt="Google"
       style={imgStyle}
     />
     <img
       src="/light/assets/imgs/clients/trustpilot.png"
-      alt="Image 3"
+      alt="TrustPilot"
       style={imgStyle}
     />
     <img
       src="/light/assets/imgs/clients/themanifest.png"
-      alt="Image 4"
+      alt="Themanifest"
       style={imgStyle}
     />
     <img
       src="/light/assets/imgs/clients/shopify.png"
-      alt="Image 5"
+      alt="Shopyfyc"
       style={imgStyle}
     />
   </div>
