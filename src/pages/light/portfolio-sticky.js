@@ -7,7 +7,7 @@ import Cursor from '../../components/light/common/cusor';
 import LoadingScreen from '../../components/light/common/loader';
 import Navbar from '../../components/light/modern-startup/Navbar';
 import Header from '../../components/light/portfolio-sticky/Header';
-import Portfolio from '../../components/light/portfolio-sticky/Portfolio';
+import Portfolio from '../../components/light/portfolio-gallery/Portfolio';
 import logo from '../../favicon.ico';
 
 export default function LPortfolioSticky() {
@@ -15,8 +15,8 @@ export default function LPortfolioSticky() {
     <>
       <Helmet>
         <title>Unitech Digital Studio</title>
-     <link rel="icon" href={logo} />
-       <link rel="shortcut icon" href={logo} />
+        <link rel="icon" href={logo} />
+        <link rel="shortcut icon" href={logo} />
         <link
           rel="stylesheet"
           type="text/css"
@@ -32,7 +32,6 @@ export default function LPortfolioSticky() {
           type="text/css"
           href="/light/assets/css/satoshi.css"
         />
-
         <link
           rel="stylesheet"
           type="text/css"
@@ -45,8 +44,8 @@ export default function LPortfolioSticky() {
         />
         <script src="/light/assets/js/scripts.js"></script>
       </Helmet>
-      <body>
-         <LoadingScreen/>
+      <div>
+        <LoadingScreen />
         <Cursor />
         <ProgressScroll />
         <Lines />
@@ -60,7 +59,7 @@ export default function LPortfolioSticky() {
             <Footer />
           </div>
         </div>
-      </body>
+      </div>
     </>
   );
 }

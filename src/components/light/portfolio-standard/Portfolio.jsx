@@ -33,9 +33,7 @@ function Portfolio() {
                     <a href={item.link}>{item.title}</a>
                   </h5>
                   <p>
-                    <a href="/light/portfolio-standard">
-                      {item.subTitle.split(' ')[0]}
-                    </a>
+                   
                   </p>
                 </div>
               </div>

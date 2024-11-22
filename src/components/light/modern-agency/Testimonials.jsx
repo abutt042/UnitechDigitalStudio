@@ -79,9 +79,9 @@ function Testimonials() {
                               opacity="0.322"
                             ></path>
                           </svg>
-                          <h4 style={{color:'#464646',fontSize:"25px"}}>{item.desc}</h4>
+                          <h4 style={{color:'#464646',fontSize:"21px"}}>{item.desc}</h4>
                         </div>
-                        <div className="info d-flex align-items-center pt-40 mt-40 bord-thin-top">
+                        <div className="info d-flex align-items-center pt-20 mt-20 bord-thin-top">
                           <div>
                             <h5>{item.name}</h5>
                            

@@ -25,6 +25,8 @@ import LGraphicServicesDetails from "./pages/light/graphic-design-details";
 import LUiServicesDetails from "./pages/light/ui-ux-details";
 import LPageTeam from "./pages/light/page-team";
 import LPortfolioSticky from "./pages/light/portfolio-sticky";
+import LShowcaseInteractiveCenter from "./pages/light/showcase-half-slider";
+
 import { useEffect, useState } from "react";
 import EmpowerCare from "./pages/light/empowercare";
 import WeStack from "./pages/light/westack";
@@ -115,7 +117,7 @@ function App() {
 
             <Route path="/team" element={<LPageTeam />} />
 
-            <Route path="/portfolio" element={<LPortfolioSticky />} />
+            <Route path="/portfolio" element={<LPortfolioSticky/>} />
             <Route path="/portfolio/empowercare" element={<EmpowerCare />} />
             <Route path="/portfolio/westack" element={<WeStack />} />
             <Route

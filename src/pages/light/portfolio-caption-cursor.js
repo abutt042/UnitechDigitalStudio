@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet';
-import Footer from '../../components/blog-details/Footer';
+// import Footer from '../../components/blog-details/Footer';
 import Lines from '../../components/light/common/Lines';
 import ProgressScroll from '../../components/light/common/ProgressScroll';
 import Cursor from '../../components/light/common/cusor';
@@ -57,7 +57,7 @@ export default function LPortfolioCaptionCursor() {
               <Header />
               <Portfolio />
             </main>
-            <Footer />
+            {/* <Footer /> */}
           </div>
         </div>
       </body>

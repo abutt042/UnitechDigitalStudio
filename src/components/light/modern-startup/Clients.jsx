@@ -6,6 +6,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation } from 'swiper/modules';
 import { Pagination } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 function Clients() {
   const swiperOptions = {
     speed: 500,
@@ -17,6 +18,10 @@ function Clients() {
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
+    },
+    autoplay: {
+      delay: 1000, // 1 seconds delay
+      disableOnInteraction: false, // Do not disable autoplay when user interacts
     },
     breakpoints: {
       500: {
@@ -50,7 +55,7 @@ function Clients() {
         <div className="swiper5" >
           <Swiper
             className="swiper-container"
-            modules={[Navigation, Pagination]} // Use modules prop
+            modules={[Navigation, Pagination,Autoplay]} // Use modules prop
             {...swiperOptions}
           >
             <SwiperSlide>
@@ -84,7 +89,28 @@ function Clients() {
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img style={{ width: '100%' }} src="/light/assets/imgs/brands/ios.png" alt="" />
+                  <img style={{ width: '100%' }} src="/light/assets/imgs/brands/shopify.png" alt="" />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="item">
+                <div className="img icon-img-100">
+                  <img style={{ width: '100%' }} src="/light/assets/imgs/brands/b5.jpg" alt="" />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="item">
+                <div className="img icon-img-100">
+                  <img style={{ width: '100%' }} src="/light/assets/imgs/brands/b4.jpg" alt="" />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="item">
+                <div className="img icon-img-100">
+                  <img style={{ width: '100%' }} src="/light/assets/imgs/brands/b1.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>

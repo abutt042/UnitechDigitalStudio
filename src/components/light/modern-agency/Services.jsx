@@ -87,19 +87,19 @@ function Services(scrollToContact) {
             flexWrap: "wrap",
           }}
         >
-          <div>
+          {/* <div>
             
           <button className="btn-1">             
               Talk to Consultant
             </button>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <Link to="/contact">
             <button className=" btn-2">
               Contact Us Now
             </button>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

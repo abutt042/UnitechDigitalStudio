@@ -1,56 +1,93 @@
 [
   {
-    "img": "/light/assets/imgs/works/stand/1.jpg",
-    "title": "Aevoe",
-    "subTitle": "Digital",
-    "link": "/light/project1"
+    "id": 1,
+    "title": "Empower Care",
+    "description": "Empowering You to Find Fulfilling Contract and Per Diem Opportunities​.",
+    "img": "/light/assets/imgs/works/1/empowercare.jpg",
+    "link": "/portfolio/empowercare",
+    "category": "Development",
+    "duration": "6 months",
+    "resources": 5,
+    "technology": ["React", "Node.js", "MongoDB"],
+    "location": "Remote",
+    "services": ["QA", "Frontend", "Backend", "Project Management"]
   },
   {
-    "img": "/light/assets/imgs/works/stand/2.jpg",
-    "title": "Digital Design",
-    "subTitle": "Branding Digital",
-    "link": "/light/project2"
+    "id": 2,
+    "title": "WeStackltd.com",
+    "description": "Enhancing your Business. Simplifying your Focus.",
+    "img": "/light/assets/imgs/works/1/westack.jpg",
+    "link": "/portfolio/westack",
+    "category": "Design & Development",
+    "duration": "4 months",
+    "resources": 4,
+    "technology": ["WordPress", "PHP", "CSS", "JavaScript"],
+    "location": "USA",
+    "services": ["Frontend", "Backend", "Project Management"]
   },
   {
-    "img": "/light/assets/imgs/works/stand/3.jpg",
-    "title": "Aevoe",
-    "subTitle": "Branding marketing",
-    "link": "/light/project3"
+    "id": 3,
+    "title": "United Estates",
+    "description": "We focus on quality development, using modern architecture that fits your style and budget.",
+    "img": "/light/assets/imgs/works/1/unitedEstates.jpg",
+    "link": "/portfolio/unitedestates",
+    "category": "Design & Development",
+    "duration": "8 months",
+    "resources": 6,
+    "technology": ["React", "Node.js", "CSS", "MongoDB"],
+    "location": "Dubai, UAE",
+    "services": ["Frontend", "Backend", "Project Management"]
   },
   {
-    "img": "/light/assets/imgs/works/stand/4.jpg",
-    "title": "Aevoe",
-    "subTitle": "Branding design",
-    "link": "/light/project4"
+    "id": 4,
+    "title": "Bare Beauty",
+    "description": "Embrace Your Natural Glow with Bare Beauty.",
+    "img": "/light/assets/imgs/works/1/bareBeauty.jpg",
+    "link": "/portfolio/barebeauty",
+    "category": "Development",
+    "duration": "5 months",
+    "resources": 3,
+    "technology": ["Shopify", "Liquid", "CSS"],
+    "location": "USA",
+    "services": ["Frontend", "Backend"]
   },
   {
-    "img": "/light/assets/imgs/works/stand/5.jpg",
-    "title": "Aevoe",
-    "subTitle": "art marketing",
-    "link": "/light/project5"
+    "id": 5,
+    "title": "Coretal",
+    "description": "Our expert team developed a solution that streamlines the entire hiring process.",
+    "img": "/light/assets/imgs/works/1/coretal1.png",
+    "link": "/portfolio/coretal",
+    "category": "Development",
+    "duration": "7 months",
+    "resources": 8,
+    "technology": ["React", "Node.js", "GraphQL", "MongoDB"],
+    "location": "Remote",
+    "services": ["QA", "Frontend", "Backend", "Project Management"]
   },
   {
-    "img": "/light/assets/imgs/works/stand/6.jpg",
-    "title": "Digital Design",
-    "subTitle": "art",
-    "link": "/light/project6"
+    "id": 6,
+    "title": "ITGenics",
+    "description": "This project demonstrates our skill in creating custom digital solutions that highlight our clients' offerings.",
+    "img": "/light/assets/imgs/works/1/itgenics1.png",
+    "link": "/portfolio/itgenics",
+    "category": "Development",
+    "duration": "9 months",
+    "resources": 7,
+    "technology": ["React", "Node.js", "AWS", "MongoDB"],
+    "location": "London, UK",
+    "services": ["QA", "Frontend", "Backend", "Project Management"]
   },
   {
-    "img": "/light/assets/imgs/works/stand/7.jpg",
-    "title": "Aevoe",
-    "subTitle": "marketing",
-    "link": "/light/project1"
-  },
-  {
-    "img": "/light/assets/imgs/works/stand/8.jpg",
-    "title": "Aevoe",
-    "subTitle": "Branding design",
-    "link": "/light/project2"
-  },
-  {
-    "img": "/light/assets/imgs/works/stand/9.jpg",
-    "title": "Aevoe",
-    "subTitle": "marketing",
-    "link": "/light/project4"
+    "id": 7,
+    "title": "Beast Mode Soccer",
+    "description": "This platform boosts player connectivity and offers training resources accessible anytime.",
+    "img": "/light/assets/imgs/works/1/beastmodesocce1.png",
+    "link": "/portfolio/beastmodesoccer",
+    "category": "Development",
+    "duration": "6 months",
+    "resources": 4,
+    "technology": ["React", "Node.js", "MongoDB", "Express.js"],
+    "location": "USA",
+    "services": ["Frontend", "Backend", "Project Management"]
   }
 ]

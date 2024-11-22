@@ -1,17 +1,18 @@
 'use client';
 import React, { useLayoutEffect } from 'react';
 import { gsap } from 'gsap';
-import data from '../../../l-data/portfolios/worksfull.json';
+import data from '../../../l-data/portfolios/workstand.json';
 
 function Header() {
+  
   useLayoutEffect(() => {
     const tl = gsap.timeline();
-    tl.fromTo('.header', { y: 200 }, { y: 0 }, '+=2.5');
+    tl.fromTo('.header', { y: 200 }, { y: 0 }, '+=0.2'); // Reduced delay for faster start
     tl.fromTo(
       '.header .container',
       { opacity: 0, translateY: 40 },
       { opacity: 1, translateY: 0 },
-      '-=0'
+      '-=1' // Synchronize with the first animation
     );
 
     // Cleanup function
@@ -19,6 +20,7 @@ function Header() {
   }, []);
   return (
     <div className="header half-slider">
+      
       <div className="gallery-img">
         <div className="swiper-container">
           <div className="swiper-wrapper">
@@ -43,13 +45,17 @@ function Header() {
               <div key={i} className="swiper-slide">
                 <div className="text cursor-pointer">
                   <h6>
-                    <span>{item.subTitle}</span>
+                    {/* <span>{item.subTitle}</span> */}
                   </h6>
                   <h4 className="f-bold">{item.title}</h4>
                 </div>
+          
               </div>
             ))}
           </div>
+          <div>
+                  <p>"description"</p>
+                </div>
         </div>
       </div>
       <div className="swiper-controls">
