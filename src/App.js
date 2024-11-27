@@ -5,10 +5,6 @@ import {
   Routes,
   useLocation,
 } from "react-router-dom";
-
-import LBlogDetails from "./pages/light/blog-details";
-import LBlogList from "./pages/light/blog-list";
-import LBlogList2 from "./pages/light/blog-list2";
 import LHomeStartupOnePage from "./pages/light/home-startup-onepage";
 import LPageAbout from "./pages/light/page-about";
 import LPageContact3 from "./pages/light/page-contact3";
@@ -25,8 +21,6 @@ import LGraphicServicesDetails from "./pages/light/graphic-design-details";
 import LUiServicesDetails from "./pages/light/ui-ux-details";
 import LPageTeam from "./pages/light/page-team";
 import LPortfolioSticky from "./pages/light/portfolio-sticky";
-import LShowcaseInteractiveCenter from "./pages/light/showcase-half-slider";
-
 import { useEffect, useState } from "react";
 import EmpowerCare from "./pages/light/empowercare";
 import WeStack from "./pages/light/westack";
@@ -65,9 +59,6 @@ function App() {
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<LHomeStartupOnePage />} />
-            {/* <Route path="/blog-details/:id" element={<LBlogDetails />} />
-            <Route path="/light/blog-list" element={<LBlogList />} />
-            <Route path="/blog" element={<LBlogList2 />} /> */}
             <Route
               path="/light/home-startup-onepage"
               element={<LHomeStartupOnePage />}
@@ -126,13 +117,8 @@ function App() {
             />
             <Route path="/portfolio/barebeauty" element={<BareBeauty />} />
             <Route path="/portfolio/itgenics" element={<Itgenics/>} />
-
             <Route path="/portfolio/coretal" element={<Coretal />} />
-
             <Route path="/portfolio/beastmodesoccer" element={<Beastmodesoccer/>} />
-
-          
-
             <Route path="/privacy-policy" element={<LPrivacyPolicy />} />
             <Route path="/Terms" element={<LTerms />} />
             <Route path="/*" element={<LPageError404 />} />

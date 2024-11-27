@@ -7,7 +7,6 @@ import LoadingScreen from '../../components/light/common/loader';
 import Navbar from '../../components/light/modern-startup/Navbar';
 import Challenge from '../../components/light/project1/Challenge';
 import Header from '../../components/light/project1/Header';
-import Next from '../../components/light/project1/Next';
 import Solution from '../../components/light/project1/Solution';
 import Wroks from '../../components/light/project1/Wroks';
 import logo from '../../favicon.ico';

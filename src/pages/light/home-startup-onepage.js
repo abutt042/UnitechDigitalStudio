@@ -9,16 +9,11 @@ import Navbar from '../../components/light/modern-startup/Navbar';
 import About from '../../components/light/modern-startup/About';
 import Marquee from '../../components/light/modern-startup/Marquee';
 import Portfolio from '../../components/light/modern-startup/Portfolio';
-import ImageScale from '../../components/light/modern-startup/ImageScale';
-import Skills from '../../components/light/modern-startup/Skills';
 import Testimonials from '../../components/light/modern-agency/Testimonials';
 import Clients from '../../components/light/modern-startup/Clients';
-import Blog from '../../components/light/modern-startup/Blog';
 import Contact from '../../components/light/contact3/Contact';
 import Footer from '../../components/light/modern-agency/Footer';
 import logo from '../../favicon.ico';
-import Team from '../../components/light/modern-agency/Team';
-import ContactForm from '../../components/light/contact-form/ContactForm';
 export default function LHomeStartupOnePage() {
   
   return (

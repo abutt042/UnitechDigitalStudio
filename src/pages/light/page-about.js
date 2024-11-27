@@ -7,12 +7,8 @@ import Cursor from '../../components/light/common/cusor';
 import LoadingScreen from '../../components/light/common/loader';
 import Navbar from '../../components/light/modern-startup/Navbar';
 import Intro from '../../components/light/about/Intro';
-import Marquee from '../../components/light/about/Marquee';
 import Intro2 from '../../components/light/about/Intro2';
 import Testimonials from '../../components/light/modern-agency/Testimonials';
-import Team from '../../components/light/about/Team';
-import Blog from '../../components/light/about/Blog';
-import Skills from '../../components/light/modern-startup/Skills';
 
 import logo from '../../favicon.ico';
 
