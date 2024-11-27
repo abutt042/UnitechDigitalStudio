@@ -120,7 +120,7 @@ function Header() {
             left: 0,
             width: '100%',
             height: '100%',
-            background: 'rgba(0, 0, 0, 0.5)', // Adjust opacity for better visibility
+            background: 'rgba(0, 0, 0, 0.3)', // Adjust opacity for better visibility
             zIndex: -1,
           }}
         ></div>

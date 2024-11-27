@@ -66,7 +66,7 @@ function Footer() {
                      
                       className="butn butn-md butn-bord-thin radius-30 ml-30"
                     >
-                      <span className="text">+(201) 502-4027</span>
+                      <span className="text">+44-7506-239325</span>
                     </Link>
                   </div>
                 </div>

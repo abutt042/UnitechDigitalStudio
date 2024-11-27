@@ -140,12 +140,14 @@ setLoading(true)
           <div className="col-lg-5">
             <div className="sec-head info-box full-width md-mb80">
               <div className="phone fz-30 fw-600 underline main-color">
-                <a href="tel:+2015024027">+(201) 502-4027</a>
+                <a href="tel:+447506239325">+44-7506-239325</a>
               </div>
               <div className="morinfo mt-50 pb-30 bord-thin-bottom">
                 <h6 className="mb-15">Address</h6>
                
                 <p>9 Thorold Road, Ilford London IG1 4HG - Sandra Davidson United Kingdom</p>
+                <p>Hashim Center ,Behria Town ,Sector (D),AA Block,Lahore</p>
+
               </div>
               <div className="morinfo mt-30 pb-30 bord-thin-bottom">
                 <h6 className="mb-15">Email</h6>

@@ -1,31 +1,31 @@
 [
   {
-    "img": "/light/assets/imgs/team/1.jpg",
+    "img": "/light/assets/imgs/team/Faizan.png",
     "name": "Muhammad Faizan Malik",
     "subName": "CEO"
   },
   {
-    "img": "/light/assets/imgs/team/1.jpg",
+    "img": "/light/assets/imgs/team/Mavia.png",
     "name": "Ameer Mavia",
-    "subName": "CTO"
+    "subName": "Team Lead Manager"
   },
   {
-    "img": "/light/assets/imgs/team/2.jpg",
-    "name": "Abdullab Bin Tariq",
-    "subName": "Front-end Developer"
-  },
-  {
-    "img": "/light/assets/imgs/team/3.jpg",
+    "img": "/light/assets/imgs/team/Haris.png",
     "name": "Haris Waseem",
     "subName": "Front-end Developer"
   },
   {
-    "img": "/light/assets/imgs/team/3.jpg",
-    "name": "Syed Fahad Hashmi",
-    "subName": "Business Developer"
+    "img": "/light/assets/imgs/team/Abdullah.png",
+    "name": "Abdullab Bin Tariq",
+    "subName": "Front-end Developer"
   },
+  
   {
-    "img": "/light/assets/imgs/team/3.jpg",
+    "img": "/light/assets/imgs/team/Mazhar.png",
+    "name": "Mazhar",
+    "subName": "Business Developer"
+  },{
+    "img": "/light/assets/imgs/team/Fahad.png",
     "name": "Fahad Zeeshan",
     "subName": "Business Developer"
   }

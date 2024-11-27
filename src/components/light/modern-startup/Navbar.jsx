@@ -74,16 +74,16 @@ function Navbar() {
                   <span className="rolling-text">Portfolio</span>
                 </Link>
               </li>
-              {/* <li className="nav-item">
+              <li className="nav-item">
                 <Link className="nav-link" to="/team">
                   <span className="rolling-text">Team</span>
                 </Link>
-              </li> */}
-              <li className="nav-item">
+              </li>
+              {/* <li className="nav-item">
                 <Link className="nav-link" to="/blog">
                   <span className="rolling-text">Blog</span>
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link" to="/contact">
                   <span className="rolling-text">Contact</span>
@@ -91,13 +91,13 @@ function Navbar() {
               </li>
             </ul>
             <div>
-  <Link to="https://calendly.com/unitechdigitalstudio" target='_blank'>
-            <button  className="btn-nav">
-              GET QUOTATION
-            </button>
-            </Link>
+              <Link to="https://calendly.com/unitechdigitalstudio" target='_blank'>
+                <button className="btn-nav">
+                  GET QUOTATION
+                </button>
+              </Link>
             </div>
-          
+
           </div>
 
           <div className="topnav">
@@ -183,7 +183,7 @@ function Navbar() {
                       </div>
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to="/blog">
                       <div className="o-hidden">
                         <div className="link cursor-pointer dmenu">
@@ -193,7 +193,7 @@ function Navbar() {
                         </div>
                       </div>
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link to="/contact">
                       <div className="o-hidden">
@@ -210,15 +210,20 @@ function Navbar() {
             </div>
             <div className="col-lg-3">
               <div className="cont-info">
-                <div className="item mb-50">
-                  <h6 className="sub-title mb-15 opacity-7">Address</h6>
-                  
+                <div className="item mb-40">
+                  <h6 className="sub-title mb-5 opacity-7">Address</h6>
+
                   <br />
                   <h5>
-                    9 Thorold Road, Ilford London IG1 4HG - Sandra Davidson United Kingdom                  </h5>
+                    9 Thorold Road, Ilford London IG1 4HG - Sandra Davidson United Kingdom    <br />
+                    <br />
+                  </h5>
+                  <h5>
+                    Hashim Center ,Behria Town ,Sector (D),AA Block,Lahore
+                  </h5>
                 </div>
 
-                <div className="item mb-50">
+                <div className="item mb-40">
                   <h6 className="sub-title mb-15 opacity-7">Social Media</h6>
                   <ul className="rest social-text">
                     <li className="mb-10">
@@ -245,7 +250,7 @@ function Navbar() {
                     <Link >info@unitechdigitalstudio.com</Link>
                   </h5>
                   <h5 className="underline mt-10">
-                    <Link >(+201) 502-4027</Link>
+                    <Link >+44-7506-239325</Link>
                   </h5>
                 </div>
               </div>
