@@ -61,22 +61,22 @@ function Portfolio() {
               <div
                 id="tab-1"
                 className="bg-img tab-img current"
-                data-background="/light/assets/imgs/works/1/EmpowerCare.jpg"
+                data-background="/light/assets/imgs/works/1/EmpowerCare.png"
               ></div>
               <div
                 id="tab-2"
                 className="bg-img tab-img"
-                data-background="/light/assets/imgs/works/1/WeStack.jpg"
+                data-background="/light/assets/imgs/works/1/WeStack.png"
               ></div>
               <div
                 id="tab-3"
                 className="bg-img tab-img"
-                data-background="/light/assets/imgs/works/1/UnitedEstates.jpg"
+                data-background="/light/assets/imgs/works/1/UnitedEstates.png"
               ></div>
               <div
                 id="tab-4"
                 className="bg-img tab-img"
-                data-background="/light/assets/imgs/works/1/BareBeauty.jpg"
+                data-background="/light/assets/imgs/works/1/BareBeauty.png"
               ></div>
             </div>
           </div>
@@ -87,7 +87,7 @@ function Portfolio() {
                 <h4>Empower Care</h4>
               </div>
               <div className="img">
-                <img src="/light/assets/imgs/works/1/EmpowerCare.jpg" alt="Empower Care" />
+                <img src="/light/assets/imgs/works/1/EmpowerCare.png" alt="Empower Care" />
               </div>
               <div className="more text-u ls1 fz-12">
                 <Link to="/portfolio/empowercare">
@@ -101,7 +101,7 @@ function Portfolio() {
                 <h4>We Stack</h4>
               </div>
               <div className="img">
-                <img src="/light/assets/imgs/works/1/WeStack.jpg" alt="We Stack" />
+                <img src="/light/assets/imgs/works/1/WeStack.png" alt="We Stack" />
               </div>
               <div className="more text-u ls1 fz-12">
                 <Link to="/portfolio/westack">
@@ -115,7 +115,7 @@ function Portfolio() {
                 <h4>United Estates</h4>
               </div>
               <div className="img">
-                <img src="/light/assets/imgs/works/1/UnitedEstates.jpg" alt="United Estates" />
+                <img src="/light/assets/imgs/works/1/UnitedEstates.png" alt="United Estates" />
               </div>
               <div className="more text-u ls1 fz-12">
                 <Link to="/portfolio/unitedestates">
@@ -129,7 +129,7 @@ function Portfolio() {
                 <h4>Bare Beauty</h4>
               </div>
               <div className="img">
-                <img src="/light/assets/imgs/works/1/BareBeauty.jpg" alt="Bare Beauty" />
+                <img src="/light/assets/imgs/works/1/BareBeauty.png" alt="Bare Beauty" />
               </div>
               <div className="more text-u ls1 fz-12">
                 <Link to="/portfolio/barebeuty">
